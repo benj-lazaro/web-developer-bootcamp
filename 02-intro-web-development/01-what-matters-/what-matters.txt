@@ -1,0 +1,15 @@
+What Matters In This Section
+----------------------------
+- Crucial
+    - Setting Up Our Developer Environment
+    - What HTML / CSS / JS do?
+
+
+- Important
+    - The Internet in 5 Minutes
+    - Intro to the Web
+    - The Request / Response Cycle
+
+
+- Nice To Have
+    - VSCode Theme
