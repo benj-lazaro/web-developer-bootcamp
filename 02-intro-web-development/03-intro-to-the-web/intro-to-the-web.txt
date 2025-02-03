@@ -1,0 +1,29 @@
+Intro to the Web
+----------------
+- The Web is an information system where
+    - Documents and other resources are available over the Internet
+
+    - Resources are identified by URLs
+        - URL = Uniform Resource Locator
+    
+    - Documents are transferred via HTTP
+        - HTTP = Hyper Text Transfer Protocol
+
+
+- HTTP is a protocol
+    - A standardized set of rules
+        
+    - It is the foundation of how the web works
+        - How resources are shared / requested via a HTTP request 
+            - Between a server and a client
+        
+        - Server or more specifically a Web Server
+            - A computer that can satisfy HTTP requests on the Web
+            
+        - Client is the machine (or application) that is making the HTTP request
+            - e.g. computer, browser, mobile device
+
+
+- The Internet is a global network of interconnected computers that
+    - Communicated via TCP/IP networks of networks
+    - TCP/IP = Transfer Control Protocol / Internet Protocol
