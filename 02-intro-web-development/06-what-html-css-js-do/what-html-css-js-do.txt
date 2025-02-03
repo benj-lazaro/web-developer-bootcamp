@@ -1,0 +1,19 @@
+What do HTML, CSS & JavaScript do?
+----------------------------------
+- HTML
+    - Stands for Hyper Text Markup Language
+    
+    - It refers to the stuff (i.e. content) on the page
+        - It functions like a noun in a sentence
+
+
+- CSS
+    - Stands for Cascading Style Sheet
+    
+    - It describes (and formats) the content on the page 
+        - It functions like an adjective to a noun
+
+
+- JavaScript
+    - It refers to the action (i.e. user-interaction) on the page
+        - It function like a verb to a noun
