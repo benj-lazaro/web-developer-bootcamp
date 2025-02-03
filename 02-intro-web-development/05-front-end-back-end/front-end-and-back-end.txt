@@ -1,0 +1,16 @@
+Front-End and Back-End
+----------------------
+- Front-End
+    - Handles the "stuff" that runs in the browser
+    
+    - Implemented (at most) using HTML, CSS & JavaScript
+
+
+- Back-End
+    - Handles the work on the side of the Web Server
+    
+    - Contructs the response & requested resources
+        - In the form of HTML, CSS & JavaScript
+
+    - Code often implemented using server-side programming languages
+        - e.g C, Java, PHP, Python, etc.
