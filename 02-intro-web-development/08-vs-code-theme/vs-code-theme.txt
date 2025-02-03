@@ -1,0 +1,22 @@
+VS Code Theme
+-------------
+- To launch VS Code's settings
+    - Keyboard shortcut: CTRL + ,
+
+
+- To change color theme
+    - Workbench -> Appearance -> Color Theme
+
+    - Alternatively
+        - Create a custom theme from scratch
+
+        - Download from the Extensions tab
+
+        - Download from the Visual Studion Marketplace website
+            - Website (https://marketplace.visualstudio.com/VSCode)
+            
+            - Filter by "Themes"
+    
+    - Author preferred theme
+        - "Material Theme"
+
