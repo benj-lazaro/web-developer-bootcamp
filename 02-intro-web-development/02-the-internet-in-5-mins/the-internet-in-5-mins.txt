@@ -1,0 +1,22 @@
+The Internet in 5 Minutes
+-------------------------
+- High-level overview on how the Internet works
+    - It is a bunch of inter-connected devices
+        - e.g. desktop, laptop, mobile devices, Internet-enabled devices
+
+    - It is a global network of networks
+        - Connected using physical devices via routing
+
+        - Specific physical devices whose job
+            - Is to exchange data with another physical devices
+            - e.g. routers, switches, servers
+
+        - These individual devices are identified through their IP addresses
+            - IP = Internet Protocol
+        
+    - It is the infrastructure that carries services like
+        - E-mail
+        - Web
+        - File sharing
+        - Online gaming
+        - Streaming services
