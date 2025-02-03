@@ -1,0 +1,14 @@
+The Request / Response Cycle
+----------------------------
+- What happens when a Web Server responsds to a request
+    - Web browser (client) sends an HTTP request to a Web Server
+    
+    - Web Server receives the HTTP request
+        - Searches for the requested resource
+
+        - Responds with instructions in the form of code
+            - Instructions in the form of HTML, CSS & JavaScript code
+        
+    - Web browser (client) receives the response from the Web Server
+        - Receives the instructions 
+            - How to render the requested resource in human-readable content
