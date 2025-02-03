@@ -1,0 +1,12 @@
+Setting Up Our Developer Environment
+------------------------------------
+- Tools to use
+    - Chrome (or FireFox)
+        - Web browser
+
+    - Micrsoft VS Code
+        - Text editor
+
+    - Spectacle (ONLY for Macs)
+        - Windows OS alternative is Snap (Snap To Windows)
+        - It re-arranges windows of Chrome and Vs Code on the desktop
