@@ -1,0 +1,18 @@
+What Matters In This Section
+----------------------------
+- Crucial
+    - Paragraph Elements
+    - HTML Headings
+    - List Elements
+    - Anchor Tags
+    - Images
+    - HTML Boilerplate
+
+
+- Important
+    - Mozilla Developer Network (MDN)
+    - Chrome Inspector
+
+
+- Nice To Have
+    - VS Code Auto Format
