@@ -1,0 +1,38 @@
+Introduction to HTML
+--------------------
+- HTML is a mark-up language
+    - It stands for Hyper Text Markup Language
+
+    - It is NOT a full-blown programming languaage
+        - It can NOT implement complex logic
+        - It is just about marking up a document
+    
+    - It is a syntax that is used
+        - To mark-up documents or specifically web pages
+
+    - It was created around in 1989 / 1990
+        - To describe the structure of academic research papers
+        - Then shared these papers accross the very early Internet
+
+    - The goal of HTML is
+        - To take text content
+        - Mark it up with some structure
+        - Indicate said structure to the web browser
+
+
+- To write HTML
+    - Requires the use of HTML Elements
+        - It is a set of standards recognized by the browser
+
+    - Common Elements include:
+        - <p>       = represents the paragraph of text
+        - <h1>      = represents the main header on a page
+        - <img>     = embeds an image
+        - <form>    = represents a form
+
+
+- HTML Elements are defined using tags
+    - Most (NOT all) consists of an opening & closing tags
+    
+    - Wrapping the content inside the pair of tags
+        - e.g. <p>I am a paragraph</P>
