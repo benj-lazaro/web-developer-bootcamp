@@ -1,0 +1,14 @@
+Mozilla Developer Network
+-------------------------
+- MDN is one of the most useful resources
+    - Website (https://developer.mozilla.org/en-US/)
+
+    - It covers the basics of web technologies
+    
+    - It is an online documentation on HTML, CSS, JavaScript & more
+        - Full of tutorials, references & guides
+
+
+- HTML element reference
+    - It shows the valid HTML elements
+    - Resource (https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
