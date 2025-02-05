@@ -1,0 +1,19 @@
+Our Very First HTML Page
+------------------------
+- Create a HTML page
+    - Name the file "chicken"
+    - Filename extension ".html"
+
+
+- Copy the content from a Wikipedia page
+    - Copy the title and 1st paragraph
+        - Website (https://en.wikipedia.org/wiki/Chicken)
+
+    - Save the changes
+
+
+- Highlight the first word "chicken" of the copied paragraph
+    - Enclose the word between the opening HTML element <b> & closing </b> tag
+    
+    - Save the changes
+        - View the results by opening the file in a web browser
