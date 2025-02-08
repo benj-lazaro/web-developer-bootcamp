@@ -1,0 +1,28 @@
+Heading Elements
+----------------
+- The <h1> to <h6> elements represents six (6) levels of section headings
+    - They exists to add structure to the HTML document
+        - To indicate the main and subsequent sub-topics
+            - <h1> is the highest
+            - <h6> is the lowest
+
+    - Do NOT use the Heading Elements for 
+        - The font size of the text they generate
+        - The sizes can be changed after the fact using CSS (Cascading Style Sheet)
+
+    - IMPORTANT: There should ONLY be ONE <h1> at most, in a HTML document
+        - It should ALWAYS represent the top-level main heading
+
+
+    - NOTE: Heading elements are block-level elements
+        - It forces everything that comes after it to start on a separate line
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
+
+
+
+Syntax:
+
+    <h1><heading_content></h1>
+    ...
+    <h6><heading_content></h6>
