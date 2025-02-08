@@ -1,0 +1,22 @@
+Paragraph Elements
+------------------
+- The <p> element represents a paragraph
+    - It is NOT necessarily a paragraph of text
+        - It is on most cases
+
+    - It can contain any sort of related content grouped together
+        - e.g. form, images, etc.
+        
+    - NOTE: Paragraphs are block-level elements
+        - It forces everything that comes after it to start on a separate line
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
+    
+
+Syntax:
+
+    <p><content_here></p>
+
+    <p>
+        <content_here>
+    </p>
