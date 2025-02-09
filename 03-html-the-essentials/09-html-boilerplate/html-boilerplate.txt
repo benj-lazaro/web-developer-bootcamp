@@ -1,0 +1,61 @@
+HTML Boilerplate
+----------------
+- Essential structure (i.e. boilerplate) that needs to be present in every HTML document
+    - <!DOCTYPE html>
+        - Informs the web browser on the version of the HTML document
+            - To use the latest features in HTML
+        
+        - Reference (https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
+
+
+    - <html>
+        - Referred as the "root element"
+            - It is the top-level element of an HTML document
+
+        - Every element in a HTML document is
+            - A descendant of the <html> element
+
+        - Permitted content inside the <html> element
+            - One (1) <head> element
+            - Followed by one (1) <body> element
+
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)
+
+
+    - <head>
+        - Referred as the "document metadata" element
+            - Contains machine-readable information about the HTML document
+                - e.g. <title>, script & stylesheets
+
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)
+
+        - The <title> element referred as "document title"
+            - Defines the title that is shown in a browser's tab
+            - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+        
+
+    - <body>
+        - Referred as the "document body" element
+        
+        - Represents the content of an HTML document
+            - There could ONLY be one (1) <body> in a HTML document
+
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
+
+
+- VS Code shortcut for generating HTML boilerplate
+    - Type "!"
+    - Followed by a tab
+    - Automatically generates the corresponding HTML boilerplate
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+            
+        </body>
+        </html>
