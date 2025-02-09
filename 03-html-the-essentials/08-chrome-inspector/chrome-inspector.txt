@@ -1,0 +1,9 @@
+Introduction to the Chrome Inspector
+------------------------------------
+- To launch Chrome Developer Tools
+    - After loading a web page in Chrome
+    - Perform a right-click 
+    - Then select menu item "Inspect"
+
+    - NOTE: Altenatively use CTRL+ SHIFT + I
+
