@@ -1,0 +1,12 @@
+VSCode Tip: Auto-Format
+-----------------------
+- To automatically formats (and indent) the HTML document when saving changes
+    - Launch settings CTRL + ,
+    - Search for "format on save"
+    - Click on checkbox "Editor: Format On Save"
+    - Close window
+
+
+- This does NOT impact the rendering of the HTML document in the browser
+    - It purely is about keeping the HTML mark-up clean & organized
+
