@@ -1,0 +1,6 @@
+Exercise 01: Pangolin Practice
+------------------------------
+- In the index.html
+    - Add in the appropriate paragraph & heading elements
+    - To re-create what is shown
+
