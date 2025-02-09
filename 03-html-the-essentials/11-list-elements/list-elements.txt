@@ -1,0 +1,21 @@
+List Elements
+-------------
+- There are two (2) types of lists
+    - Numbered list (i.e. Ordered list)
+    - Bulleted list (i.e. Unordered list)
+
+- The <ol> element represents an ordered list of items
+    - Typically rendered as a numbered list
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
+
+- The <ul> element represents an unordered list of items
+    - Typically rendered as a bulleted list
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
+
+- Both <ol> and <ul> are parent elements
+    - Both contain child <li> elements
+
+- The <li> element represent a single list item
+    - A child of the parent element <ol> or <ul>
+    - It can nest other elements inside an <li> element
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
