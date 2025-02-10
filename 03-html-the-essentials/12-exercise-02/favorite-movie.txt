@@ -1,0 +1,5 @@
+Exercise 02: Favorite Movies
+----------------------------
+- In the attached index.html file
+    - Add the mark-up to re-create the two list
+        - Featured in the image
