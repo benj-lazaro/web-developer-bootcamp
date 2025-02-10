@@ -1,0 +1,31 @@
+Anchor Element
+--------------
+- The <a> element with its attribute "href" (i.e. Hypertext Reference)
+    - Creates a hyperlink to
+        - Another HTML document
+        - A file
+        - An email address
+        - A location within the same HTML document
+        - Anything else that a URL (Uniform Resource Locator) can address
+
+    - NOTE: Anchor element is an inline element
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+
+    - Attributes (e.g. href) are little pieces of information
+        - That can be passed to an element or tag
+        - They are located INSIDE a tag
+
+    - The "href" attribute is NOT restricted to HTTP-based URL address
+        - Any URL scheme supported by browsers
+            - Telephone number "tel:"
+            - Email address "mailto:"
+            - SMS message "sms:"
+            - Executable code "javascript:"
+
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#href)
+
+
+Syntax:
+
+    <a href="<URL_address>"><content_text_image></a>
