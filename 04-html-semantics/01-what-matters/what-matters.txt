@@ -1,0 +1,18 @@
+What Matters In This Section 
+----------------------------
+- Crucial
+    - What exactly is HTML5
+    - Block vs Inline Elements
+    - <div> and <span> Elements
+    - Semantic Elements
+
+
+- Important
+
+
+- Nice To Have
+    - <br> Element
+    - <hr> Element
+    - <sub> Element
+    - <sub> Element
+    - VS Code Emmet
