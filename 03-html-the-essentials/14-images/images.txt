@@ -1,0 +1,24 @@
+Images
+------
+- The <img> element is a "self-closing tag "that embeds an image into the HTML document
+    - The attribute "src" is REQUIRED
+        - Contains the path to the image
+
+    - The attribute "alt" holds a textual replacement
+        - It is mandatory
+
+        - Incredibly useful for accessibility
+            - Screen readers reads the attribute's value
+            - The value is displayed if the image can NOT be loaded
+                - e.g. network problems, unsupported image type
+
+    - The size of the image can be changed in HTML
+        - Although this is considered BAD PRACTICE
+        - It is better to use CSS
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
+
+
+Syntax:
+
+    <img src="<path_to_image>" alt="<textual_replacement>" />
