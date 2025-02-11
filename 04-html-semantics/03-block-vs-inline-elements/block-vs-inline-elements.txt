@@ -1,0 +1,36 @@
+Block vs Inline Elements: <div> & <span>
+----------------------------------------
+- Both of these elements refers to how an HTML element
+    - Fits in with the flow of content in a HTML document
+
+    - Block elements
+        - HTML elements that take up a whole "block" of space
+        - It pushes neighboring elements to the next line
+            - e.g. <h1>...<h6>, <p>
+       
+    - Inline elements
+        - HTML elements that fit alongside (or share space) with other elements
+        - NOTE: This default behavior can be changed using CSS
+            - e.g. <a>, <img>
+
+
+- The <div> is also referred as the Content Division element
+    - It is a generic Block element container for flow content
+        - To group elements (and related content) together
+
+    - It has NO effect on the content or layout
+        - Until styled in some way using CSS
+
+    - It should ONLY be used when NO other semantic element is appropriate
+        - e.g. <article> or <nav>
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
+
+
+- The <span> is also referred as the Content Span element
+    - It is a generic Inline element container for phrasing content (i.e. to single out)
+        - To group elements for styling purposes
+    
+    - It should ONLY be used when NO other semantic element is appropriate
+    
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span)
