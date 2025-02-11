@@ -1,0 +1,10 @@
+Exercise 03: Wolf Images & Links
+--------------------------------
+- In the HTML document index.html
+    - Create a link that goes to the given URL
+        - Use whatever link text you like
+        - URL (https://en.wikipedia.org/wiki/Wolf)
+
+    - Create an image element using the given source
+        - Include an alt text on the image
+        - Source (https://upload.wikimedia.org/wikipedia/commons/5/5f/Kolm%C3%A5rden_Wolf.jpg)
