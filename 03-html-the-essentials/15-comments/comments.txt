@@ -1,0 +1,22 @@
+Comments
+--------
+- An HTML comment is used to add explanatory notes to the markup
+    - To prevent the browser from interpreting specific parts of HTML document
+
+    - The comment
+        - Starts with the string "<!--"
+        - Ends with the string "-->"
+        - Generally with the text in-between
+
+    - The browser IGNORES comments as it renders the HTML document
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Comments)
+
+
+Syntax:
+
+    <!-- comment text here -->
+
+    <!-- 
+        comment text here 
+    -->
