@@ -1,0 +1,21 @@
+What Exactly is HTML5?
+----------------------
+- HTML5 is the latest evolution of the standard that defines HTML
+    - It represents two (2) different concepts
+        - Refers to the latest version of the HTML language specifications
+            - A document that describes how HTML should work
+            - A plan on how to implement HTML in a browser
+            - NOTE: Latest specifications (https://html.spec.whatwg.org/)
+
+        - A buzzword that refers to a larger set of technologies that
+            - Allows the building of more diverse & powerful web sites & applications
+            - Which includes:
+                - The HTML Living Standard
+                - JavaScript APIs
+
+    - Using the <!DOCTYPE html> element
+        - Flags the browser that the HTML document
+            - Will use the latest specifications of HTML
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+
