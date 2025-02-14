@@ -1,0 +1,48 @@
+An Odd Assortment Of Elements:
+------------------------------
+- The <br> element is a self-closing tag that produces a line break in text
+    - Useful for content where the division of lines is significant
+    - Also referred as the "Line Break" element
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
+
+
+- The <hr> element is a self-closing tag that represents a thematic break
+    - Between paragraph-level elements
+    - Also referred as the "Horizontal Rule" element
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
+
+
+- The <sub> element specifies inline text which should be
+    - Displayed as subscript solely for typographical reasons
+    - Typically rendered with a lowered baseline using smaller text
+    - Also referred as the "Subscript" element
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
+
+
+- The <sup> element specifies inline text which should be
+    - Displayed as superscript solely for typographical reasons
+    - Typically rendered with a raised baseline using smaller text
+    - Also referred as the "Superscript" element
+    - Refrence (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup)
+
+
+Syntax:
+
+    <!-- <br> element -->
+    <content_text><br />
+    <content_text><br />
+
+    <!-- <hr> element -->
+    <p><content_paragraph></p>    
+    <hr />
+    <p><content_paragraph></p>
+
+    <!-- <sub> element -->
+    <p>
+        <content_text><sub><highlighted_content></sub><content_text>
+    </p>
+
+    <!-- <sup> element -->
+    <p>
+        <content_text><sup><highlighted_content></sup><content_text>
+    </p>
