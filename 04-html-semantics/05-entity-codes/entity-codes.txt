@@ -1,0 +1,22 @@
+Entity Codes
+------------
+- HTML entities (or entity codes) are special codes / reserved characters in HTML
+    - They are used inside a HTML document
+        - The browser then renderes the entities into correct characters
+
+    - They are used in place for difficult to type characters
+        - e.g. copyright 
+
+    - They start with an "&" and ends with a ";"
+        - With the entity name or numbers embedded in-between
+
+    - Entity code reference
+        - HTML Living Standard (https://html.spec.whatwg.org/multipage/named-characters.html)
+        - SYMBL (https://symbl.cc/en/html-entities/)
+
+
+Syntax:
+
+    &<entity_name>;
+
+    &#<entity_number>;
