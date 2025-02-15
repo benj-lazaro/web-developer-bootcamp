@@ -1,0 +1,9 @@
+Screen Reader Demonstration
+---------------------------
+- MacOS has a built-in screen reader called VoiceOver
+    - Activated using Cmd + F5
+
+    - Launches the "Web Spots" window
+
+    - Displays a list based on a web site's semantic elements
+        - If said elements have been implemented
