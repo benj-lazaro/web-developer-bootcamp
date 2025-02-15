@@ -1,0 +1,6 @@
+Exercise 04: Snowman Logo
+-------------------------
+- Write a <h1> element to re-create the shown image
+    - Implement a "snowman" entity
+    - Followed by the text "Snowman Productions"
+    - End with a "registered trademark" entity
