@@ -1,0 +1,38 @@
+VS Code Tip: Emmet
+------------------
+- Emmet is a tool that helps write HTML
+    - It is built-in into (or bundled with) VS Code
+    
+    - It is a downloadble extension 
+        - For other code editors (e.g. Sublime Text)
+
+    - Cheatsheet (https://docs.emmet.io/cheat-sheet/)
+
+    - Website (https://www.emmet.io/)
+
+
+- An example shortcut
+    - To create a <main> with a nested child element <section>
+        - Inside of it, a child <h1> element
+
+            main>section>h1 
+
+        - Then press "tab" to create the corresponding elements
+
+            <main>
+                <section>
+                    <h1></h1>
+                </section>
+            </main>
+
+
+    - To create adjacent sibling elements <h1>, <h2> and another <h2>
+
+        h1+h2+h2
+
+        - Hit the "tab"
+
+            <h1></h1>
+            <h2></h2>
+            <h2></h2>
+
