@@ -1,0 +1,26 @@
+Intro to Semantic Markup
+------------------------
+- Semantic = relating to meaning
+    - Markup that pertains to the meaning of the content of an (HTML) element
+
+
+- HTML is the technology that
+    - Defines the content & structure of any website
+
+    - It should define the semantics (i.e. meaning) of the content in a machine-readable way
+    
+    - This is vital for
+        - Accessibility (for screen readers)
+        - Browser features for content to work optimally
+        - Search Engine Optimization
+                
+
+- Instead of just using <div> elements to group content
+    - Better to use elements such as <main>, <header>, <footer>, <nav>, <section>, <article>
+        - These elements ONLY add meaning to the markup
+
+    - They behave EXACTLY like a <div> EXCEPT
+        - Each use a different name 
+        
+        - Each conveys a different meaning to the markup
+            - In relation to the content
