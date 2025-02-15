@@ -1,0 +1,122 @@
+Playing With Semantic Elements
+------------------------------
+- The <main> element represents the dominant content of the <body> of a HTML document
+    - Basically the main content of a web page
+        - Content should be unique to the document
+
+    - It EXCLUDES repeated content accross a set of documents (or document sections)
+        - e.g. sidebars, navigation links, copyright information, site logos & search forms
+
+    - It is also referred as the "Main" element
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
+
+
+- The <nav> element represents a section of a page those purpose is
+    - To provide navigation links either
+        - Within the current (same) HTML document
+        - To other HTML documents
+
+    - Common example of navigation sections
+        - Menus
+        - Table of contents
+        - Indexes
+
+    - It is also referred as the "Navigation section" element
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
+
+
+- The <section> element represents a generic stand-alone section of a HTML document
+    - It does NOT have a more specific semantic element to represent it
+        - It SHOULD ALWAYS have a <h1>..<h6> element with very few exceptions
+
+    - It is also referred as the "Generic Section" element
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
+
+
+- The <article> element represents a self-contained composition in a document
+    - That is intended to be independently distributable or reusable
+        - e.g. forum post, a magazine, newpaper article, blog entry
+
+    - It is possible to have more than one (1) <article> element in a document
+        - It is used to group (related) content together
+
+    - Each <article> element should be identified
+        - By including a <h1>..<h6> element as its child
+
+    - A nested <article> element
+        - The inner element represents an <article> related to the outer <article> element
+
+    - Author information of an <article> element can be provided
+        - Through the <address> element
+        - BUT does NOT apply to nested <article> elements
+
+    - Publication date and time of an <article> element can be desribed
+        - Using the attribute "datetime" of a <time> element
+
+    - It is also referred as the "Article Contents" element
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+
+
+- The <aside> element represents a portion of a document
+    - Whose content is ONLY indirectly (tangential) related to the document's main content
+        - The content is NOT an essential part of the document
+    
+    - The <aside> elements are frequently presented as sidebars or call-out boxes
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside)
+
+
+- The <header> element represents introductory content
+    - Typically a group of introductory or navigational aids
+
+    - It MAY contain some <h1>..<h6> elements but also
+        - A logo
+        - A search form
+        - An author name & other elements
+
+    - It is also possible to place a <header> inside other elements
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
+
+
+
+- The <footer> element represents a footer for its nearest
+    - Nearest ancestor sectioning content or sectioning root element
+
+    - Typically contains information about the 
+        - Author of the section
+        - Copyright data
+        - Links to related documents
+
+    - It is also possible to place a <footer> inside other elements
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
+
+
+- The <time> element represents a specific period in time
+    - May include the attribute "datetime"
+        - To translate dates into machine-readable format
+        - Allowing for better search engine results or custom features as reminders
+            - e.g. <time datetime="2018-07-07">July 7</time>
+
+    - It may represents one of the following:
+        - A time on a 24-hour clock
+        - A precise date in the Gregorian calendar (w/ optional time & timezone information)
+        - A valid time duration
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time)
+
+
+- The <figure> element represents self-contained content
+    - Potentially with an optional caption using the <figcaption> element
+
+    - The figure (e.g. image or diagram), its caption and its contents
+        - Are referenced as a single unit
+
+    - It is also referred as the "Figure with optional caption" element
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
