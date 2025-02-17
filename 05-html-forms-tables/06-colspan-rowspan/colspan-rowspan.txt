@@ -1,0 +1,14 @@
+Table: colspan & rowspan
+------------------------
+- The attribute "colspan" of the <td> element
+    - Represents the number of columns a cell must span
+    - This lets a cell occupy space accross multiple columns of the table
+    - It accepts a positive number as value
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableCellElement/colSpan)
+
+
+- The attribute "rowspan" of the <tr> element
+    - Represents the number of rows a cell must span
+    - This lets the cell occupy space accepts multiple rows of the table
+    - It accepts a positive number as value
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableCellElement/rowSpan)
