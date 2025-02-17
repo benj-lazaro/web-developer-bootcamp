@@ -1,0 +1,11 @@
+Introducing HTML Tables
+-----------------------
+- Tables are structured set of data
+    - Made up of columns & rows
+        - They can be a great way of displaying data clearly
+
+    - In the early days (from the 90s up to the early 2000s)
+        - Tables were used to create page layouts
+
+    - Today and with the modern web
+        - Tables are ONLY used for creating an actual data table 
