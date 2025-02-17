@@ -1,0 +1,13 @@
+HTML Forms
+----------
+- The <form> element represents a document section containing
+    - Interactive controls for submitting information
+
+    - The attribute "action" specifies where
+        - The form data should be sent
+
+    - The attribute "method" specifies which
+        - HTTP method should be used
+        - e.g. post, get & dialog
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
