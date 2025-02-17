@@ -1,0 +1,24 @@
+Tables: <tr>, <td> & <th> Elements
+----------------------------------
+- The <table> element represents tabular data
+    - Information presented in a 2-dimensional table
+    - Comprised of rows & columns of cell containing data
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
+
+
+- The <tr> element defines a row of cells in a table
+    - Cells can be established using a mix of <td> (table ata cell) and <th> (table header cell) elements
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr)
+
+
+- The <td> element defines a cell of a table
+    - It contains data
+    - It maybe used as a child of the <tr> (table row) element
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td)
+
+
+- The <th> element defines a cell as the header of a group of <td> elements
+    - It maybe used as a child of the <tr> (table row) element
+    - The exact nature of this group is defined by the attributes "scope" & "headers"
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th)
+
