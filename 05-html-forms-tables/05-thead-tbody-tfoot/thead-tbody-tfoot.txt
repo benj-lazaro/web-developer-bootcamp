@@ -1,0 +1,20 @@
+Tables: <thead>, <tbody> & <tfoot> Elements
+-------------------------------------------
+- The following elements help break up a table into logical sections
+
+
+- The <thead> element encapsulates a set of <tr> elements
+    - Indicating that they comprise the head of table
+    - With information about the table's columns (i.e. column headers)
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead)
+
+
+- The <tbody> element encapsulates a set of <tr> elements
+    - Indicating that they comprise the body of a table's main data
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody)
+
+
+- The <tfoot> element encapsulates a set of <tr> elements
+    - Indicating that they comprise the foot of a table
+    - With information about the table's columns (i.e. summary of columns)
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot)
