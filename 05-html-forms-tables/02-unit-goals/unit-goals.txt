@@ -1,0 +1,11 @@
+Unit Goals
+----------
+- Goals for this section
+    - Create well-formatted HTML Tables
+        - Understand when and when NOT to use them
+
+    - Explain the role fo the <form> element
+        - Utilize a variety of form controls
+        - Define complex HTML Forms
+        - Add HTML5 Form Validations
+        - Ensure accessibility of forms
