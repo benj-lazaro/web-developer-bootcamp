@@ -1,0 +1,11 @@
+Exercise 05: Table Practice
+---------------------------
+- Create a 3x3 table with proper headings
+    - Counting the heading cells, its actually 4 x 3
+    
+    - Use the provided starter data
+
+        Subscription | Price | Support 
+        Free | Free | N/A 
+        Personal | $9.99 | Weekdays 
+        Business | $49.99 | 24/7 
