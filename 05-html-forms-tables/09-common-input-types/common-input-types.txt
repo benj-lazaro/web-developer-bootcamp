@@ -1,0 +1,31 @@
+Common Input Types
+------------------
+- The <input> element is self-closing tag that is used to create interactive controls
+    - For web-based forms in order to accept adata from the user
+
+    - A wide variety of types of input data & control widgets are available
+        - Depending on the device and user-agent (i.e. a computer program representing a person)
+
+        - Ranging from date pickers to checkboxes
+
+    - It is one of the most powerful and complex in all of HTML
+        - Due to its sheer number of combinations of input types & attributes
+
+    - The attribute "type" is where the magic happens
+        - Changing the assigned value alters the behavior & appearance of the <input> element
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+
+
+- The attribute "placeholder" defines the text displayed in a form control
+    - When the control has NO value
+
+    - It should provide a brief hint to the user
+        - As to what the expected type of data that should be entered into the control
+    
+    - NOTE: It does NOT work for EVERY form control
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/placeholder)
+
+    
+
