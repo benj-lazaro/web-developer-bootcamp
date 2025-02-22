@@ -1,0 +1,27 @@
+The All-Important Label
+-----------------------
+- The <label> element represents a caption for an item in a user interface
+    - It is a inline element
+
+    - They are important in terms of accessibility
+        - Making HTML forms easier to use
+    
+    - Associating a <label> with a form control (e.g. <input>) offer some major advantages
+        - The label text is programmatically associated with a text input
+    
+        - When a user clicks a label
+            - The browser passes the focus to its associated <input> element
+
+    - The <label> element utilizes two attributes "id" and "for"
+        - The global attribute "id" defines a UNIQUE IDENTIFIER for the <input> element
+            - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id)
+
+        - The attribute "for" when used on a <label> element
+            - It indicates the form element (e.g. <input>) that this label describes
+            - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/for)
+
+        - NOTE: The values for attributes "id" and "for" MUST match
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
+
+    
