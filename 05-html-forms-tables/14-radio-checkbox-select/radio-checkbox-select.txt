@@ -1,0 +1,53 @@
+Radio Buttons, Checkboxes & Selects 
+-----------------------------------
+- The value "checkbox" for the attribute "type of the <input> element
+    - By default, rendered as a box (a square)
+        - That get checked (ticked) when activated
+
+        - The exact appearance depends upon the operating system configuration
+            - Under which the browser is running
+        
+    - It allows to select single values for submission in a form
+
+    - Using the attribute "checked"
+        - Renders the checkbox ALREADY CHECKED
+        - IMPLICITLY assigns the value of "on"
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
+
+
+- The value "radio" for the attribute "type" of the <input> element
+    - It is rendered as a small circle
+        - That gets filled / highlighted when selected
+
+    - It is generally used in a radio groups
+        - A collection of radio buttons describing a set of related options
+        
+    - The attribute "name" groups the radio buttons together
+        - By assigning the same value on the radio buttons
+
+    - The attribute "value" contains the assigned value
+        - Associated to the individual radio button
+            
+        - This is NOT rendered on the browser
+            - It the the value that is sent through when the form is submitted
+            
+        - NOTE: Omitting the attribute "value"
+            - The value "on" gets submitted instead
+
+    - Can ONLY select ONE option in a radio group
+        - Unlike checkboxes where it can select all or none of them
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
+
+
+- The <select> element
+    - Represents a control that provide a drop-down menu of options
+        - It group a bunch of <option> elements
+
+    - An <option> element defines an item contained in a <select> element
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option)
+
+    - The attribute "selected" pre-selects an <option>
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
