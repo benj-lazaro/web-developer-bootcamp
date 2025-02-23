@@ -1,0 +1,15 @@
+"Hijacking" Google & Reddit's Search
+------------------------------------
+- A fun little demo
+    - Build a search form for Reddit, Google & YouTube
+    
+    - To send form data to their servers
+        - From your form
+        - Then end up getting a search page
+
+    - Taking advantage of the <form> element's attribute "action"
+        - Following the correct pattern (i.e. attribute "name" value)
+            - Using the correct value in the attribute "name"
+            - For the corresponding site's search query
+
+        
