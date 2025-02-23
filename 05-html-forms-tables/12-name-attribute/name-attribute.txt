@@ -1,0 +1,11 @@
+name Attribute
+--------------
+- The attribute "name" of the <input> element
+    - Store a string value that serves as a name for the input control
+
+    - The name is submitted along the the input control's value
+        - When the form data is submitted to a server
+
+    - NOTE: The attribute "name" should be placed on every <input> element
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#name)
