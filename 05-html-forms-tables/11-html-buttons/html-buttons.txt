@@ -1,0 +1,45 @@
+HTML Buttons
+------------
+- The <button> element is an interactive element activated by a user with
+    - A mouse, keyboard, finger, voice command or other assistive technology
+
+    - Once activated, it then performs an action
+
+    - By default, HTML buttons are presented in a style resembling
+        - The platform the user agent runs on
+        - Their appearance can be changed using CSS
+
+    - The text placed in-between the opening & closing tags
+        - Serves as a label to the <button> element
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
+
+
+- A <button> element INSIDE a <form> element
+    - It has a default behavior of submitting the HTML form data
+        - To the server (value) assigned on the <form> element's attribute "action"
+
+
+- A <button> element OUTSIDE a <form> element
+    - By default, it does NOTHING
+    
+
+- Using the attribute "type" changes the behavior of the <button> element
+    - The value "button"
+        - It does NOT submit form data to a server
+        - Even if the <button> element is inside a <form> element
+
+    - The value "submit" (optional)
+        - It performs the default behavior
+        - Submitting the form data to the server
+        
+    - The value "reset"
+        - Resets all controls to their initial values
+
+
+- Alternatively, an <input> element can used to behave like a <button> element
+    - Use the attribute "type"
+        - Assign the value "submit"
+    
+    - To label the button
+        - Assign the label using the attribute "value"

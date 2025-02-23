@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Demo</title>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+
+    <form action="/tacos">
+      <p>
+        <label for="username">Enter a Username:</label>
+        <input id="username" type="text" placeholder="user name" />
+      </p>
+
+      <p>
+        <label for="password">Enter a Password:</label>
+        <input id="password" type="password" placeholder="password" />
+      </p>
+
+      <p>
+        <label for="color">Enter a Color:</label>
+        <input id="color" type="color" />
+      </p>
+
+      <p>
+        <label for="number">Enter a Number:</label>
+        <input id="number" type="number" placeholder="enter a number" />
+      </p>
+
+      <!-- This button doesn't submit the form -->
+      <button type="button">Regular button (won't submit)</button>
+
+      <!-- Submits the form -->
+      <button>Submit!!!</button>
+
+      <!-- So does this one -->
+      <input type="submit" value="Click Me!" />
+    </form>
+
+    <!-- Outside of a form, no default behavior -->
+    <button>Not Inside Form</button>
+  </body>
+</html>
