@@ -1,0 +1,32 @@
+Range & Textarea
+----------------
+- The <input> element whose attribute "type" is of "range"
+    - Allows a user to specify a numeric value which MUST be
+        - NO LESS than a given value
+        - NO MORE than another given value
+
+    - Use attributes "min" and "max" to
+        - Set the minimum and maximum values, respectively
+
+    - The attribute "step" adds the assigned numeric value to either
+        - Minimum or maximum values when moving the slider or dial
+
+    - The attribute "value" sets the initial value for the slider
+
+    - Typically represented using a slider or dial control
+        - Rather than a text entry box
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range)
+
+
+
+- The <textarea> element represents a multi-line plain-text editing control
+    - Allows users to enter a sizeable amount of free-form text
+
+    - The attribute "rows" sets the <textarea> element's number of rows
+
+    - The attribute "cols" sets the <textarea> element's number of rows
+
+    - The attribute "placeholder" sets the placeholder text inside the <textarea> element
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
