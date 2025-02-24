@@ -1,0 +1,83 @@
+HTML Form Validation
+--------------------
+- The term "validation" refers to
+    - Adding constraints or validation user input or data
+        - e.g. Some field can NOT be empty, password requiring 20 characters, etc.
+
+    - This section focuses on
+        - Browser built-in (or client-side) validations that can be added into HTML forms
+
+
+- The HTML attribute "required"
+    - The boolean attribute IF PRESENT in an <input> element
+        - Indicates that the user MUST specify a value for the input
+            - BEFORE the HTML form can be submitted
+
+    - Returns the message "Please fill out this field"
+        - When providing a blank (or nothing) on said field
+        - Prevents the HTML from being submitted
+        - NOTE: Message may vary on the browser being used
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/required)
+
+
+- The HTML attribute "minlength"
+    - Defines the minimum string length that
+        - The user can enter into an <input> or <textarea> element
+
+    - It MUST have an integer value of 0 or higher
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/minlength)
+
+
+- The HTML attribute "maxlength"
+    - Defines the maximum string length that
+        - The user can enter into an <input> or <textarea> element
+
+    - It MUST have an integer value of 0 or higher
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/maxlength)
+
+
+- The HTML attribute "min"
+    - Defines the minimum value that is acceptable & valid for
+        - The input containing the attribute
+
+    - If the value of the element is LESS than
+        - The element FAILS validation
+        - The value MUST be less than or equal to the value of the attribute "max"
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/min)
+
+
+- The HTML attribute "max"
+    - Defines the maximum value that is acceptable & valid for
+        - The input containing the attribute
+
+    - If the value of the element is GREATER than
+        - The element FAILS validation
+        - The value MUST be greater than or equal to the value of the attribute "min"
+
+    - If the attribute "max"is present but is not specified or is invalid
+        - NO "max" value is applied
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max)
+
+
+- The HTML attribute "pattern"
+    - Specifies a regular expression that 
+        - The HTML form control's value SHOULD MATCH
+
+    - If a non-null value does NOT conform to the constraints
+        - Set by the value assigned to the attribute "pattern"
+        - Then the "ValidityState" object's property "patternMismatch" will be true
+
+    - The <input> element with an attribute "type" set to "email"
+        - It comes with a built-in pattern-matching validation
+        - Requiring an "@" symbol and a trailing text afterwards
+
+    - The <input> element with an attribute "type" set to "url"
+        - It comes with a built-in pattern-matching validation
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern)
+
