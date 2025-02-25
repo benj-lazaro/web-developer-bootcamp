@@ -1,0 +1,36 @@
+Creating A Marathon Registration Form
+-------------------------------------
+- A larger exercise on HTML forms
+    - Build a registration form for a marathon race
+
+    - A <h1> element with the text "Race Registration!"
+
+    - An <input> element for the runner's first name
+        - Correctly labeled
+        - Accepts a text input
+        - A required field
+
+    - An <input> element for the runner's last name
+        - Correctly labeled
+        - Accepts a text input
+        - A required field
+
+    - A group of radio buttons with options
+        - Fun Run 5k
+        - Half Marathon
+        - Full Marathon
+
+    - An <input> element for the runner's email address
+
+    - An <input> element for the runner's password
+
+    - A drop-down menu for the runner's Age Group
+        - under 18
+        - 18-30
+        - 30-50
+        - 50+
+
+    - A button labeled "Register"
+
+    - NOTE: Use <div> and <p> elements 
+        - To visually format the content and fields of the HTML form
