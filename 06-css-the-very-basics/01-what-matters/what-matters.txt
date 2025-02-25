@@ -1,0 +1,15 @@
+What Matters In This Section 
+----------------------------
+- Crucial
+    - Conceptual overview of CSS
+    - Basic CSS Syntax
+    - Including Styles Correctly
+    - Color Systems: RGB, Hex, etc.
+    - font-family Property
+
+
+- Important
+    - Common Text Properties
+
+
+- Nice To Have
