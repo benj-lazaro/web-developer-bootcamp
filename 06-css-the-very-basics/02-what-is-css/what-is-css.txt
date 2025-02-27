@@ -1,0 +1,18 @@
+What is CSS
+-----------
+- CSS (Cascading Style Sheet)
+    - Is a language for describing how a HTML document is presented visually
+        - How the content are visually arranged and styled
+
+    - It is very easy to get the hang of it
+        - But can be intimidating due to the number of properties to manipulate
+
+
+- When writing CSS, it is actually writing CSS rules
+    - It follows the basic pattern / template:
+
+        <selector> {
+            <property>: <value>;
+            ...
+        }
+
