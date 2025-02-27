@@ -1,0 +1,23 @@
+CSS is Huge, Don't Panic
+------------------------
+- CSS has TONS of properties that can be used at any point
+    - NO need to know them ALL at once
+    
+    - Compared to HTML
+        - There is a lot more to know
+            - None of it is complicated
+
+    - CSS properties that are often used
+        - Will naturally easy to remember
+        
+        - Those that are NOT, just look them up
+            - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+
+        - Those properties whose name can NOT be remembered
+            - Just Google it
+            - NOTE: There is NO shame in researching it on Google
+
+    - Just focus on:
+        - The syntax / patterns
+        - Being able to access information online when you need it
+            - NOT craming everything in your head at once
