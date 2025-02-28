@@ -1,0 +1,33 @@
+Color Systems: RGB and Named Colors
+-----------------------------------
+- The Named color is a CSS data type that 
+    - Refers to the literal name of a color
+
+    - This is the easiest color system to get started with 
+        - But also the most limited set
+            - It references 140 named colors
+            - Reference (https://htmlcolorcodes.com/color-names/)
+
+        - Modern-day computer monitors can display 16+ million colors 
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/named-color)
+    
+
+- RGB is a color model / system that represents colors 
+    - As a mixture of Red, Green & Blue channels
+    
+    - Each channel in the browser ranges from 0 to 255
+        - 0 = meaning off
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Glossary/RGB)
+
+    - It is an example of additive color system that
+        - Mix Red, Green & Blue together in order to make different colors
+
+    - Write the value of each channel in order
+        - Starting with Red, then Green and ends with Blue (i.e. RGB)
+
+    - These values are NOT needed to be memorized
+        - Online and downloadable color pickers can help with the task
+        - Color Picker (https://htmlcolorcodes.com/color-picker/)
+
