@@ -1,0 +1,39 @@
+Including Styles Correctly
+--------------------------
+- Methods of including styles using CSS in a HTML document
+
+- Inline Styles (Inline CSS)
+    - Defining styles directly inline on EACH HTML element 
+        - Using the global attribute "style"
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style)
+
+    - It is IMPOSSIBLE to share styles between HTML documents
+    
+    - It is NOT RECOMMENDED
+
+
+- The <style> element (Intenral CSS)
+    - Writing styles NOT directly inline on EACH HTML element
+    
+    - Instead using a <style> element on a EACH HTML document
+        - Located within the <head> element
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style)
+
+    - Write the CSS rule(s) as content
+        - Allows multiple HTML elements to share the same style
+        - It does NOT allow sharing styles between multiple HTML documents
+    
+    - It is NOT RECOMMENDED
+        
+
+- External Stylesheet (External CSS)
+    - Writing styles in an external and separate stylesheet (.css) file then
+        - In each HTML document, use the <link> element to include the .css file
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link)
+
+    - Benefit of this approach is:
+        - Allows to share styles between multiple HTML documents
+        - NO need to duplicate the CSS rules from one HTML document to another
+
+    - It is HIGHLY RECOMMENDED
+           
