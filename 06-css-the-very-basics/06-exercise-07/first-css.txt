@@ -1,0 +1,20 @@
+Exercise 07: First CSS
+----------------------
+- On the provided HTML document (index.html)
+    - Style the elements according to these rules:
+        - <h1>
+            - Green text
+
+        - <h2>
+            - Magenta text
+
+        - <p>
+            - White text
+            - Black background color
+
+        - <button>
+            - Red text
+            - Pink background color
+
+
+    - Write the CSS rules on the provided CSS stylesheet (styles.css)
