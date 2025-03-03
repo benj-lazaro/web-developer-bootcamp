@@ -1,0 +1,9 @@
+Quiz 01
+------
+1. Which of the following rgb color result in the following shade of green
+
+rgb(0, 200, 0)
+
+2. Which of the following hex color codes is equivalent to rgb(255,255,255)
+
+#FFFFFF
