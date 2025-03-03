@@ -1,0 +1,21 @@
+Color Systems: Hexadecimal
+--------------------------
+- It is based on the RGB color system
+    - Except the color channel is expressed / written in hexadecimal
+        - Each channel (i.e. Red, Green and Blue) ranges from 0 (00) to 255 (FF)
+
+    - The entire hexadecimal number is prefixed with a "#"
+        - To indicate the the succeeding characters pertains to a hexadecimal number
+
+    - It contain three pairs of hex numbers        
+        - The first pair of hex numbers (leftmost) refer to Red channel
+        - The second pair of hex numbers refer to the Green channel
+        - The last pair of hex numbers (rightmost) refer to the Blue channel
+        
+    - It offers a compact color names / references   
+
+    - NOTE: If each channel is the exact same digit
+        - It can be reduced into a 3-digit hexadecimal number
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color)
+
