@@ -1,0 +1,14 @@
+A Reminder On Semicolons & CSS
+------------------------------
+- In CSS
+    - A semicolon at the end of every property declaration is ESSENTIAL
+    
+    - Leaving it off
+        - The browser will NOT generate an error message
+            - The style will simply NOT be IMPLEMENTED
+
+        - This is a common source of a style NOT being rendered on the browser
+
+    - NOTE: When VS Code as a code editor
+        - It will highlight and report that a semicolon is missing
+
