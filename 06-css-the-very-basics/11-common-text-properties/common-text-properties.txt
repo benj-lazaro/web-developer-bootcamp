@@ -1,0 +1,65 @@
+Common Text Properties 
+----------------------
+- CSS property "text-align"
+    - It sets the horizontal alignment of the inline-level content inside
+        - A block element or table-cell box
+    
+    - It is NOT about how the targeted HTML element is aligned on the HTML document
+
+    - It works like the CSS property "vertical-align"
+        - BUT in the horizontal direction
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
+
+
+- CSS property "font-weight"
+    - It sets the weight (i.e. boldness or lightness) of the font
+
+    - The weights available is dependent on the CSS property "font-family"
+    
+    - The weights (i.e. values) are expressed as either 
+        - Words (e.g. normal, bold, etc.) 
+        - Numbers (e.g. 100, 200, etc.)
+
+    - If an assigned weight does NOT exists on the chosen "font-family"
+        - The browser will choose the closest weight
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight)
+
+
+- CSS property "text-decoration"
+    - It sets the appearance of decorative lines on text
+
+    - It is a shorthand for the CSS properties
+        - "text-decoration-line"
+        - "text-decoration-color"
+        - "text-decoration-style"
+        - "text-decoration-thickness"
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration)
+
+
+- CSS property "line-height"
+    - It is commonly used to set the distance between lines of text
+
+    - It takes the current value of the property "font-size"
+        - Then mulitply it to the value assigned to the property "line-height"
+        - The product sets the distance between lines of text
+
+    - The selected value for the "font-size" is mutiplied
+        - To the assigned value in "line-height"
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
+
+
+- CSS property "letter-spacing"
+    - It sets the horizontal spacing between text characters
+
+    - The assigned value is ADDED to the natural spacing between characters
+        - While rendering the text
+
+    - Positive values causes the characters to spread farther apart
+
+    - Negative values bring the characters closer together
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing)
