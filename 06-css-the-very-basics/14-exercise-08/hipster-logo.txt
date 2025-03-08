@@ -1,0 +1,17 @@
+Exercise 08: Hipster Logo
+-------------------------
+- Update the <h1> element of the website based on the follows specifications:
+    - Uppercase all letter
+        - Without touching the HTML document
+
+    - Set the "font-family" to monospace
+
+    - Center align the text
+
+    - Set the font weight to 100
+
+    - Make the text size 40px
+
+    - Set spacing between letters to 20px
+
+    - Add a wavt plum underline 
