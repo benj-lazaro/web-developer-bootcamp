@@ -1,0 +1,27 @@
+The Font Family Property
+------------------------
+- CSS property "font-family" is used to change the font family of an HTML element
+    - It specifies a prioritized list of one or more font family names and/or
+        - Generic family names for a selected element
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
+
+    - Changing fonts is NOT as simple
+        - Have to rely on browser fonts or web-safe fonts
+            - Fonts that ASSUMED to be accessible on MOST users on their respective systems
+        
+        - They are NOT that many as demonstrated in the "CSS Fonts" website
+            - Displays commonly used fonts accross different Operating Systems
+            - Reference (https://www.cssfontstack.com/)
+
+    - Generally when assigning a value in the property "font-family"
+        - It is in the form of a "Font Stack"
+
+        - A Font Stack is basically a list of fonts
+            - That will be used in order
+                - Each font family is separated by a ","
+
+            - Each succeeding font serves as a backup font
+                - In the event that the primary font is NOT available in a user's system
+
+        - The font-family "sans-serif" is a popular generic font family
+            - That is used as a backup (fallback) font        
