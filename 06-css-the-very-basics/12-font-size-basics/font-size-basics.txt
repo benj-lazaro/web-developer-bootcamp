@@ -1,0 +1,30 @@
+Font Size Basics With Pixels 
+----------------------------
+- CSS property "font-size" sets the size of the font
+    - It accepts a number representing the size of the font
+    
+    - The assigned value is expressed in various units
+        - e.g. named values, "em", "ex", "px", etc.
+
+    - These units are divided into two (2) groups
+        - Absolute
+            - It is NOT dependent on parent element's font size
+            - It will ALWAYS be the same size in the HTML document
+                - e.g. "px", "pt", "cm", "in", "mm"
+
+        - Relative
+            - e.g. "em", "rem", "vh", "vw", "%" and more
+    
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
+
+
+- The unit "px" is the MOST commonly used Absolute unit
+    - It is a static value  
+        - A good choice if pixel accuracy is required
+
+        - An OS independent and cross-browser way of literally telling the browser
+            - To render the letters at exactly the number of pixels in height that have been specified
+
+        - However, "1px" does NOT mean that the width of a letter is exactly 1 pixel
+
+    - This unit is NOT RECOMMENDED for responsive websites
