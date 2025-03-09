@@ -1,0 +1,19 @@
+What Matters In This Section 
+----------------------------
+- Crucial
+    - Element Selector
+    - Class Selector
+    - ID Selector
+    - Descendant Selector
+    - CSS Specificity
+
+
+- Important
+    - Adjacent Selector
+    - Direct Descendant Selector
+    - Attribute Selector
+    - Pseudo Elements
+    - Pseudo Classes
+
+
+- Nice To Have
