@@ -1,0 +1,15 @@
+/* Universal Selector */
+* {
+  background-color: cyan;
+}
+
+/* Element/Type Selector */
+button {
+  font-size: 30px;
+}
+
+/* Combining multiple selectors */
+h1,
+h2 {
+  color: darkslateblue;
+}

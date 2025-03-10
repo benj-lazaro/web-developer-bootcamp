@@ -1,0 +1,48 @@
+Universal & Element Selectors
+-----------------------------
+- The CSS Universal selector
+    - It is represented using "*"
+    
+    - It matches (or selects) EVERYTHING
+        - Within a HTML document
+
+    - It is generally NOT a good idea to use
+        - On a larger HTML document it can be pretty inefficient
+        
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
+
+
+- The CSS Element (Type) selector 
+    - It matches elements by node (tag) name
+    
+    - It selects EVERYTHING of a GIVEN TYPE (element) 
+        - Within a HTML document
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors)
+
+
+- In order to combine multiple selectors for a single CSS rule
+    - Use "," in-between each selector
+
+
+Syntax:
+
+    /* Universal Selector */
+    * {
+        <property_name>: <value>;
+        ...
+    }
+
+
+    /* Element Selector */
+    <element_name> {
+        <property_name>: <value>;
+        ...
+    }
+
+
+    /* Multiple Selectors */
+    <css_selector_1>, <css_selector_2> {
+        <property_name>: <value>;
+        ...
+    }
