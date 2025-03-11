@@ -1,0 +1,14 @@
+Exercise 08: Basic Selectors
+----------------------------
+- Without touching the HTML document
+
+
+- Write the CSS in app.css according to the following rules:
+    - Give the <li> elements the text color of "blue"
+
+    - Give ALL elements with the class of "done"
+        - With the text color of "grey"
+
+    - Give the element with an id "clear"
+        - With a color background of "red"
+        - And a text color of "white"
