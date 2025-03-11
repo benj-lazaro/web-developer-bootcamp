@@ -1,0 +1,25 @@
+The Class Selector
+------------------
+- The CSS Class selector 
+    - Matches elements based on the value of their "class" attribute
+
+    - The selector MUST be PREFIXED with "."
+
+    - Unlike the ID selector
+        - Where the defined rule(s) can ONLY be applied 
+            - To a specific elements in a HTML document
+
+        - The defined rule(s) in a Class selector is applied 
+            - To multiple elements in a HTML document
+            - Commonly on grouped elements with identical value on their "class" attribute
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors)
+
+
+Syntax:
+
+    /* Class Selector */
+    .<selector_name> {
+        <property_name>: <value>;
+        ...
+    }
