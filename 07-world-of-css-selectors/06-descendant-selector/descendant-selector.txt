@@ -1,0 +1,26 @@
+Descendant Selector
+-------------------
+- The CSS Descendant selector (i.e. Descendant combinator)
+    - Combines two (2) selectors
+        - Separated by a space " "
+
+        - Defined CSS rules applies to elements with a 
+            - Matching 1st (ancestor) and 2nd (descendant) selectors
+
+        - The rules will ONLY be APPLIED to the descendant selector(s)
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator)
+
+
+Syntax:
+
+    /* Descendant Selector */
+    <ancestor_selector> <descendant_selector> {
+        <property_name>: <value>;
+        ...
+    }
+
+    <ancestor_selector> <descendant_selector> <descendant_selector> ... {
+        <property_name>: <value>;
+        ...
+    }
