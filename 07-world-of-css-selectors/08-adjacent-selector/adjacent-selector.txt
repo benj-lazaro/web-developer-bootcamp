@@ -1,0 +1,33 @@
+The Adjacent & Direct Descendant Selector
+-----------------------------------------
+- The CSS Adjacent selector (i.e. Next-sibling combinator)
+    - Uses the "+" between two selectors
+    
+    - Matches the 2nd selector ONLY IF it comes RIGHT AFTER the 1st selector
+        - BOTH selectors are children of the SAME parent element
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/Next-sibling_combinator)
+
+
+- The CSS Direct Descendant (i.e. Child combinator)
+    - Uses the ">" between two selectors
+
+    - Matched by the 2nd selector that is a DIRECT CHILD of the 1st selector
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)
+
+
+Syntax:
+
+    /* Adjacent Selector */
+    <ancestor_selector> + <descendant_selector> {
+        <property_name>: <value>;
+        ...
+    }
+
+
+    /* Direct Descendant Selector */
+    <ancestor_selector> > <descendant_selector> {
+        <property_name>: <value>;
+        ...
+    }
