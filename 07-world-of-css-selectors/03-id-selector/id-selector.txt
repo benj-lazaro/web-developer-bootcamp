@@ -3,7 +3,8 @@ The ID Selector
 - The CSS ID selector
     - Matches an element based on the value of the element's "id" attribute
         - The "id" attribute MUST MATCH exactly the value given in the selector
-        - The value of the selector MUST be PREFIXED with "#"
+       
+    - The selector MUST be PREFIXED with "#"
     
     - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors)
 
