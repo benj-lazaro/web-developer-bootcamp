@@ -1,0 +1,65 @@
+/* Universal selector */
+/* * {
+  background-color: cyan;
+} */
+
+/* Element/Type selector */
+body {
+  background-color: #f1faee;
+}
+
+button {
+  font-size: 30px;
+  background-color: #a8dadc;
+}
+
+span {
+  color: #457b9d;
+}
+
+/* Combining multiple selectors */
+h1,
+h2 {
+  color: #1d3557;
+}
+
+/* ID selector */
+#signup {
+  background-color: #1d3557;
+  color: #f1faee;
+}
+
+/* Class selector */
+.tag {
+  background-color: #e63946;
+  color: #f1faee;
+  font-size: 16px;
+}
+
+/* Descendant selector / Descendant combinator */
+.post a {
+  color: #457b9d;
+}
+
+footer a {
+  color: #e63946;
+}
+
+/* Adjacent selector / Next-sibling combinator */
+h2 + button {
+  font-size: 20px;
+}
+
+/* Direct descendant / Child combinator */
+footer > a {
+  color: #a8dadc;
+}
+
+/* Attribute selector */
+input[type="password"] {
+  color: red;
+}
+
+a[href*="google"] {
+  color: magenta;
+}
