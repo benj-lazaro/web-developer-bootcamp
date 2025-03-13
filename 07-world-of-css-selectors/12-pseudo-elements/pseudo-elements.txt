@@ -1,0 +1,25 @@
+Pseudo Elements
+---------------
+- CSS Pseudo element is a keyword added to a selector
+    - That allows to style a specific part of the selected element(s)
+
+    - The targeted selector is suffixed with "::"
+        - Then followed by a pseudo element
+
+    - Commonly used pseudo elements:
+        - ::after
+        - ::before
+        - ::first-letter
+        - ::first-line
+        - ::selection
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+
+
+Syntax:
+
+    /* Pseudo Element  */
+    <element_selector>::<pseudo_element> {
+        <property_name>: <value>;
+        ...
+    }
