@@ -1,0 +1,12 @@
+Exercise 10: Checkboard
+-----------------------
+- The index.html file contains 25 <div> elements
+    - Each with the class of "square" 
+    
+
+- Create a simple checkerboard pattern 
+    - By making the even squares "black" and the odd squares "red"
+    
+    - Write your styles in app.css
+        - Do NOT CHANGE any of the styles in no_touch.css
+    
