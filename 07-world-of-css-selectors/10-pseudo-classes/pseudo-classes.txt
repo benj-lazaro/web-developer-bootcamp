@@ -1,0 +1,28 @@
+Pseudo Classes
+--------------
+- A CSS Pseudo class is a keyword added to a selector
+    - That allows to style a specific state of the selected element(s)
+
+    - The targeted selector is suffixed with ":"
+        - Then followed by a pseudo class name 
+
+    - Commonly used pseudo classes:
+        - :active
+        - :checked
+        - :first
+        - :first-child
+        - :hover
+        - :not()
+        - :nth-child()
+        - :nth-of-type()
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+
+
+Syntax:
+
+    /* Pseudo Class  */
+    <element_selector>:<pseudo_class> {
+        <property_name>: <value>;
+        ...
+    }
