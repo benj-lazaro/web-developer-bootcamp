@@ -1,0 +1,28 @@
+Specificity
+-----------
+- CSS specificity resolves the issue of conflicting selectors
+    - That targets the same element
+
+    - It is an algorithm used by browsers to calculate
+        - How specific a given selector is
+
+        - The more specific selector "wins" among competing selectors
+            - Its corresponding styles rendered on the browser
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity)
+
+
+- The general formula of specificity (from highest to lowest, categories from left to right):
+    - ID selector
+    - Class, Attribute, Pseudo-Class selectors
+    - Element, Pseudo-Element selector
+
+    - To manualy calculate for the specificity
+        - Each selector type has a score or weight of 1
+
+        - Add the score of identical selector types together
+            - According to their own groupings (see above e.g. ID, Class or Element)
+
+        - The selectors with the highest score "wins"
+
+    - Specificity calculator (https://specificity.keegan.st/)
