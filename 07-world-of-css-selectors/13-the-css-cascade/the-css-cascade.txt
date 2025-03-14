@@ -1,0 +1,20 @@
+The CSS Cascade
+---------------
+- The cascade refers to the ORDER of the styles are declared MATTERS
+    - Cascading from the top (first) to the bottom (last) of the style sheet
+        - OR onto the next stylesheet declared in the HTML document
+
+    - The ORDER that the things (i.e. styles) are encountered
+        - Will be reflected on what is rendered on the browser
+
+    - Between two conflicting styles declared separately in a stylesheet
+        - The first style will be rendered first
+            - Then the latter one will be rendered next
+            - Leaving the latter style to be implemented last
+
+    - A HTML document with MORE THAN one (1) stylesheet
+        - The declared styles of identifical Selectors in the latter stylesheet
+            - Will OVERRIDED the declared styles of the former stylesheet
+
+    - NOTE: Take away from this lecture is that ORDER MATTERS in CSS
+        - Take note on the ORDER of the stylesheets declared in a HTML document
