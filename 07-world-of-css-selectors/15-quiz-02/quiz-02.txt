@@ -1,0 +1,11 @@
+Quiz 02
+-------
+1. magenta
+    - Due to using a Class selector
+
+2. blue
+    - Due to using an ID selector
+
+3. yellow
+    - Both latter two selectors have the same specificity value of 0 2 1
+    - The latter color won based on cascade position (being the last rule)
