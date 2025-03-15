@@ -1,0 +1,35 @@
+Inline Styles & Important
+-------------------------
+- CSS Inline styles are MORE SPECIFIC than
+    - ID, Class and Element selectors
+
+    - NOTE: NOT RECOMMENDED to use
+        - Often leads to confusion
+
+
+- The "!important" flag ALTERS the rules selecting declarations in CSS
+    - It comes AFTER the value of a property
+        - Preceded by at least one (1) space
+
+    - Used on individual style declarations
+
+    - It signals the browser that the tagged "!important" rule
+        - Should override any other style declarations
+        
+        - To consider it as an EXCEPTION from the specificity model
+
+    - NOTE: Generally NOT RECOMMENDED to use
+        - Never use when writing a plugin
+        
+        - Never use on site-wide CSS stylesheet
+
+        - It will throw a "wrench" on the CSS stylesheet(s)
+            - Will mess things up badly
+
+        - Use it ONLY on page-specific CSS that overrides foreign CSS 
+            - From external libraries (e.g. Bootstrap, normalize.css)
+
+        - Always look for a way to use specificity 
+            - BEFORE considering "!important"
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/important)
