@@ -1,0 +1,26 @@
+CSS Inheritance
+---------------
+- Some CSS properties will be inherited by child elements
+    - If NOT set on that element specifically
+    
+    - NOTE: It inherits from the CLOSEST parent element
+    
+    - Using Chrome's dev tools
+        - Under the "Style" tab
+
+        - If an element inherits its style from a parent
+            - It will display "Inherited from <element>"
+
+
+- NOTE: NOT every element will inherit properties of its parent element
+    - e.g. <button>, <input>
+
+    - As a workaround assign the value "inherit"
+        - To the property of the aforementioned element(s)
+
+    - There are elements that are INCAPABLE of inheriting style(s)
+        - e.g. border
+
+        - Lookup details an element in MDN (https://developer.mozilla.org/en-US/)
+            - Search for the field labeled "Inherited"
+            - See if it is assigned with a value of "yes" or "no"
