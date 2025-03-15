@@ -1,0 +1,18 @@
+Chrome Dev Tools & CSS
+----------------------
+- Built-in CSS tools of the Chrome browser
+    - Launched by
+        - Keyboard shortcut (CTRL + SHIFT + I)
+        - Right-clicking an element 
+            - Selecting the menu item "Inspect"
+
+    - The tab "Styles"
+        - Displays the defined rule(s) of the declared selector(s)
+            - Of the attached stylesheet(s) in the HTML document
+
+        - Allows to "tweak" the rules of the selector(s)
+    
+    - Quite useful for:
+        - Experiment stylesheet ideas
+        - Troubleshooting specificity issues
+
