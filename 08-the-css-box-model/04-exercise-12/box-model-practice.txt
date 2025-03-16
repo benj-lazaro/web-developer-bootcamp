@@ -1,0 +1,16 @@
+Exercise 12: Box Model Practice
+-------------------------------
+- Add some styles to the "app.css" file
+    - To recreate the example image using the following rules
+        - <div> with the class of "card"
+            - width of 210px
+            - border of 1px solid gray
+            - border-radius of 5px
+            - center text-aligned
+
+        - <img> element
+            - 200px wide
+            - border of 5px solid rgb(236, 183, 191)
+            - border-radius of 50%
+
+        
