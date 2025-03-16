@@ -1,0 +1,54 @@
+Box Model: border & border-radius 
+---------------------------------
+- CSS property "border"
+    - It is a shorthand (and a property) that sets the border
+        - Around an element
+
+    - It sets the value for the properties:
+        - border-width
+        - border-style
+        - border-color
+
+    - The common convention (pattern) for the assigned values
+        - width | style | color
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+
+
+- CSS property "border-color"
+    - It sets the color of an element's border
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/border-color)
+
+
+- CSS property "border-style"
+    - It sets the line style for all four (4) sides of an element's border
+        - e.g. dashed, solid, etc.
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/border-style)
+
+
+- CSS property "border-width"
+    - It sets the width of an element's border
+
+    - NOTE: The value of "border-width" is added 
+        - To the width of the targeted element's Inner Content Box width
+
+        - To address this concern
+            - Declare the property "box-sizing"
+            - Assign the value of "border-box"
+
+        - The width of the targeted element's Inner Content Box
+            - Is subtracted from the value of the "border-width"
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/border-width)
+
+
+- CSS property "border-radius"
+    - It rounds the corners of an element's outer border edge
+
+    - Can use the units "px" or "%"
+    
+    - The "%" unit represents a percentage of 
+        - The height and width of the element's box
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
