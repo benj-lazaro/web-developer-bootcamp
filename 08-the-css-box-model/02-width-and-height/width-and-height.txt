@@ -1,0 +1,30 @@
+Box Model: width & height
+-------------------------
+- The CSS Box Model is basically
+    - Just an idea that EVERTHING in CSS is a BOX
+   
+    - Each box has a few core components or pieces namely:
+        - Inner Content Box
+            - Actual content of an element
+
+        - Padding
+        
+        - Border
+
+        - Margin
+
+
+    - The CSS properties thet control the Inner Content Box
+        - height
+        - width
+
+
+- The CSS property "height"
+    - By default, it sets the height of an element's Inner Content Box (/ Area)
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/height)
+
+
+- The CSS property "width"
+    - By default, it sets the width of an element's Inner Content Box (/ Area)
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/width)
+
