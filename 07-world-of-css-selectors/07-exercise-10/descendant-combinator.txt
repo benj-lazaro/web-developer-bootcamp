@@ -1,4 +1,4 @@
-Exercise 09: Descendant Combinator
+Exercise 10: Descendant Combinator
 ----------------------------------
 - Write styles in app.css to accomplish the following:
     - Give ONLY links in the <header>

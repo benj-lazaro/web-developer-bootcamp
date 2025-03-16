@@ -1,4 +1,4 @@
-Exercise 08: Basic Selectors
+Exercise 09: Basic Selectors
 ----------------------------
 - Without touching the HTML document
 

@@ -1,4 +1,4 @@
-Exercise 10: Checkboard
+Exercise 11: Checkboard
 -----------------------
 - The index.html file contains 25 <div> elements
     - Each with the class of "square" 
