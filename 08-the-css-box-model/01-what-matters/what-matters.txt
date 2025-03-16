@@ -1,0 +1,16 @@
+What Matters In This Section 
+----------------------------
+- Crucial
+    - Border
+    - Padding
+    - Margin
+    - Width & Height
+    - Display Property
+    - Units: Percentages, EMS & REMS
+
+
+- Important
+
+
+- Nice To Have
+    - Border Radius
