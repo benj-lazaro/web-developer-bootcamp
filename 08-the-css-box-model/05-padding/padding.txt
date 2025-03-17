@@ -1,0 +1,32 @@
+Box Model: padding
+------------------
+- CSS property "padding"
+    - It is a shorthand that sets the padding area
+        - On all four (4) sides of an element at once
+
+        - It comprises of the following individual properties:
+            - "padding-left"
+            - "padding-right"
+            - "padding-bottom"
+            - "padding-top"
+
+    - The shorthand is implement using any of the following patterns:
+        - Single value  = all four (4) sides
+        - Two values    = vertical | horizontal
+        - Three values  = top | horizontal | bottom
+        - Four values   = top | right | bottom | left
+
+    - Padding is the internal space between 
+        - The content and the border of an element
+
+    - Think of padding in the real world
+        - The content = actual package
+        - The border = the box / container
+        - The padding = styrofoam or bubblewrap
+
+    - Using the Chrome Dev Tools
+        - Padding is represented by the color Green
+        - Content is represented by the color Blue
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+
