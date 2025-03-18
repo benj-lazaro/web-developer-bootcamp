@@ -1,0 +1,21 @@
+CSS Units Revisited
+-------------------
+- Focuses on the Relative units
+    - These units are commonly used
+        - e.g. em, rem, vh, vw, %
+    
+    - Reference (https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units)
+    
+
+- The % (percentage) unit
+    - This unit is ALWAYS set relative to some other value 
+        - Sometimes a value from the parent element
+        - Other times a value from the element itself (e.g. font-size)
+
+    - It is a % of something (i.e. a property)
+        - It is dependent on what that "something" is
+
+    - When a parent element changes its current size
+        - The % unit will adapt to the changes
+
+    - Commonly used on properties such as "height" and "width"

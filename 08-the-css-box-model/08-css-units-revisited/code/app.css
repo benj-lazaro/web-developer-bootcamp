@@ -1,0 +1,19 @@
+section {
+  background-color: #6d6875;
+  width: 400px;
+  height: 800px;
+}
+
+div {
+  background-color: #e5989b;
+  width: 70%; /* Of the parent element <section> */
+  height: 20%; /* Of the parent element <section> */
+}
+
+h1 {
+  font-size: 40px;
+  border: 1px solid black;
+  line-height: 200%; /* of the property "font-size", not the parent element */
+  /* To verify: 200% x 40px / 100 = 80px */
+  /* Changing 200% to 80px, no visual changes on the "line-height" of the <h1> element */
+}
