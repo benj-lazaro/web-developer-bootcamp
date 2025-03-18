@@ -19,3 +19,7 @@ CSS Units Revisited
         - The % unit will adapt to the changes
 
     - Commonly used on properties such as "height" and "width"
+
+
+- NOTE: To convert percentage (%) to pixels (px)
+    - <percentage_value>% * <parent_pixel_value>px / 100 = <percentage_in_pixel_value>px
