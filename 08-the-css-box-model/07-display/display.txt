@@ -1,0 +1,44 @@
+Box Model: display
+------------------
+- CSS property "display" sets whether an element is treated
+    - As a "block" or "inline" element
+        - A "block" element occupies the entire "block" of space
+        - An "inline" element fit-n alongside other elements on the same line of space
+
+    - It also sets the layout used for the element's children
+        - e.g. flow, grid or flex
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+
+
+- The commonly used values for the property "display":
+    - "block"
+        - The element breaks the flow of a document
+        - Effects on the CSS properties
+            - "width"   = RESPECTED
+            - "height"  = RESPECTED
+            - "margin"  = RESPECTED
+            - "padding" = RESPECTED
+
+    
+    - "inline"
+        - The element does NOT break the flow of a document
+        - Effects on the CSS properties
+            - "width"   = IGNORED
+            - "height"  = IGNORED
+            - "margin"  = PUSHING neighboring elements horizontally, NOT vertically
+            - "padding" = PUSHING neighboring elements horizontally, NOT vertically
+
+
+    - "inline-block"
+        - Behaves like "inline"
+        - Effects on the CSS properties
+            - "width"   = RESPECTED
+            - "height"  = RESPECTED
+            - "margin"  = RESPECTED
+            - "padding" = RESPECTED
+
+    - "none"
+        - Hides the element(s)
+        - It is NOT deleted / removed from the HTML document
+            - It does NOT take up space
