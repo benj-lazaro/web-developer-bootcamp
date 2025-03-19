@@ -1,0 +1,17 @@
+CSS Units: ems
+--------------
+- The ems unit is relative to some other value
+
+
+- When used with the property "font-size" on an element
+    - 1em = same font size as of the parent element
+    - 2em = twice font size of the the parent element
+
+    - When used with other properties (e.g. padding, margin)
+        - 1em = computed "font-size" of the element itself
+        
+        - This value functions like a multiplier of the element's "font-size" value
+            - The size will scale accordingly to the current "font-size" value
+
+        - Useful for <button> element to proportionally scale
+            - When the element's "font-size" value changes
