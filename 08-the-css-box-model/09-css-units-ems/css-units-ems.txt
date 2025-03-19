@@ -10,8 +10,8 @@ CSS Units: ems
     - When used with other properties (e.g. padding, margin)
         - 1em = computed "font-size" of the element itself
         
-        - This value functions like a multiplier of the element's "font-size" value
-            - The size will scale accordingly to the current "font-size" value
+    - This value functions like a multiplier of the element's "font-size" value
+        - The size will scale accordingly to the current "font-size" value
 
         - Useful for <button> element to proportionally scale
             - When the element's "font-size" value changes
