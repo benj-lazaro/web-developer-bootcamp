@@ -1,0 +1,29 @@
+CSS Units: rems
+---------------
+- The rem unit is similar to em where it is relative to some other value
+    - HOWEVER, it is easier to work with than em
+
+
+- A common issue when working with em
+    - Working with nested element
+
+    - As it nests further, the "font-size" of each nested element
+        - Either grows or shrinks very quickly
+    
+    - Due to being dependent on the "font-size" property
+        - Of the CLOSEST parent element
+    
+
+- The rem unit (root ems) is relative to the "font-size" property 
+    - Of the root <html> element
+
+    - It is relative to one "font-size" property 
+        - For the entire HTML document
+        - It serves as a "constant" value for the entire HTML document
+
+    - It is NOT relative to the immediate parent element
+        - Employed by the em unit
+
+    - So if the "font-size" of the <html> element is 20px
+        - 1rem  = it is ALWAYS 20px (even on nested elements)
+        - 2rem  = it is ALWAYS 40px (even on nested elements)
