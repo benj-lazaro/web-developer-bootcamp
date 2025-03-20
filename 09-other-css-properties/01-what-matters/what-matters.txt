@@ -1,0 +1,16 @@
+What Matters In This Section 
+----------------------------
+- Crucial
+    - Transitions
+    - Position Property
+
+
+- Important
+    - Opacity & Alpah Channel
+    - Google Fonts
+    - Full Story on the Background Property
+
+
+- Nice To Have
+    - Transforms
+    
