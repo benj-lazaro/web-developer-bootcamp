@@ -1,0 +1,31 @@
+Opacity & Alpha Channel
+-----------------------
+- The alpha value represents a value that is either a number or percentage
+    - Specifying the alpha channel or transparency of a color
+        - How "see through" is the color
+
+    - The assigned value could be
+        - From decimal 0 (fully transparent) to 1.0 (fully opaque)
+        - From 0% (fully transparent) to 100% (fully opaque)
+
+    - NOTE: This does NOT affect the transparency of the element's text content
+        - ONLY the color
+
+    - NOTE: When using a hex value for color
+        - The last 2 (two) hex digits represents the alpha channel
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Glossary/Alpha)
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/alpha-value)
+
+
+- The CSS property "opacity" sets the opacity of an element
+    - Opacity is the degree to which content behind an element is hidden
+        - Basically, the opposite of transparency
+
+    - It affects the opacity of the ENTIRE element
+        - Including its contents and descendants
+
+    - The assigned value is
+        - From decimal 0 (fully transparent) to 1 (fully opaque)
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
