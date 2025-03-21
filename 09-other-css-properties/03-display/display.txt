@@ -1,0 +1,36 @@
+The Position Property
+---------------------
+- The CSS property "position" sets how an element is position in a HTML document
+    - The properties "top", "right", "bottom" & "left" determines the final location
+
+    - The assigned values are as follows:
+        - "static"
+            - The element is positioned according to the normal flow of the document
+            - Using properties "top", "right", "bottom" & "left" has NO effect
+
+        - "relative"
+            - The element is positioned according to the normal flow of the document
+            - Then offset relative to itself based on the properties "top", "right", "bottom" & "left"
+            - The previous space left behind by the element is still present
+
+        - "absolute"
+            - The element is REMOVED from the normal flow of the document
+            - NO space is created for the element in the page layout
+            - Positioned relative to its CLOSEST POSITIONED ancestor (other than "static") 
+                - Or initial containing block (i.e. <body>)
+            - Final position determined by the properties "top", "right", "bottom" & "left"
+
+        - "fixed"
+            - The element is REMOVED from the normal flow of the document
+            - NO space is created for the element in the page layout
+            - Positioned relative to its initial containing block (i.e. viewport)
+                - Unlike "absolute" it is NOT dependent on an ancestor / parent element
+            - Final position determined by the properties "top", "right", "bottom" & "left"
+            - NOTE: Often used for navigation bar
+
+        - "sticky"
+            - The element is positioned according to the normal flow of the document
+            - Then offset relative to its nearest SCROLLING ancestor & containing block
+                - Based on the values of the properties "top", "right", "bottom" & "left"
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/position)
