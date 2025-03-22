@@ -1,0 +1,30 @@
+CSS Transitions
+---------------
+- The CSS property "transition" is a shorthand for the following properties:
+    - "transition-property"
+    - "transition-duration"
+    - "transition-timing-function"
+    - "transition-delay"
+    - "transition-behavior"
+
+    - It animates the transition of one property
+        - To another property value
+    
+    - It enables to define the transition between two states of an element
+        - Different states may be defined using pseudo-classes (e.g. ":hover")
+            - Or dynamically set using JavaScript
+
+    - NOTE: To specify all properties to transition
+        - Use "all" to refer & transition said properties
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+
+    - NOTE: Good reference for the values assigned on CSS property "transition-timing-function"
+        - Reference (https://easings.net/)
+
+
+Syntax
+
+    <selector> {
+        transition: [<property_name>] | [<duration>] | [<timing_function>] | [<delay>], ...;
+    }
