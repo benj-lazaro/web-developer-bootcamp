@@ -1,0 +1,34 @@
+The Power of CSS Transforms
+---------------------------
+- The CSS property "transform" allows to rotate, scale, skew or translate an element
+    - It modifies the coordinate space of the CSS visual formatting model
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Visual_formatting_model)
+
+    - It accepts the following function values and a keyword
+        - matrix()
+            - Defines a homogenous 2D transformation matrix
+            - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/matrix)
+
+        - translate()
+            - Repositions (i.e. moves) an element in the horizontal and/or vertical directions
+            - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate)
+
+        - scale()
+            - Resizes an element on the 2D plane
+            - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale)
+
+        - rotate()
+            - Rotates an element around a fixed point on a 2D plane w/o deforming it
+            - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate)
+
+        - skew()
+            - Skews an element on the 2D plane
+            - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew)
+
+        - keyword "none"
+            - Specifies NO transformation should be applied
+
+    - NOTE: The changes apply NOT ONLY to the targeted element but ALSO 
+        - On the its content including descendant element(s)
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
