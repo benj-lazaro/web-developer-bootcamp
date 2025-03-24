@@ -1,0 +1,4 @@
+Fancy Button Hover Effect Code Along
+------------------------------------
+- Code along in implementing a hover effect on a normal <button> element
+    - Based on the recent CSS properties learned
