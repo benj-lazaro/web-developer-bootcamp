@@ -1,0 +1,54 @@
+The Truth About Background
+--------------------------
+- The CSS property "background" is a shorthand for the following properties:
+    - "background-attachment"
+        - Sets a background image's position is 
+            - Fixed within the viewport
+            - Scrolls with its containing block
+
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment)
+
+    - "background-clip"
+        - Sets whether an element's background extends underneath
+            - Its border box, padding box or content box
+
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/background-color)
+
+    - "background-color"
+        - Sets the background color of an element
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/background-color)
+
+    - "background-image"
+        - Sets one (1) or more background images on an element
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
+
+    - "background-origin"
+        - Sets the background's origin
+            - From the border start, inside the border or inside the padding
+
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin)
+
+    - "background-position"
+        - Sets the initial position for each background image
+            - Position is relative to the position layer set by "background-origin"
+
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
+
+    - "background-repeat"
+        - Sets how background images are repeated
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat)
+
+    - "background-size"
+        - Sets the size of the element's background image
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/background-size)
+
+    - NOTE: The order of the properties does NOT matter
+
+    - NOTE: When assigning the values for "background-size" & "background-position" for "background"
+        - The value of "background-size" MUST BE AFTER
+        - The value of "background-position"
+        - Both values SEPARATED by a "/"
+            - e.g. "center/80%", "center/cover"
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/background)
+
