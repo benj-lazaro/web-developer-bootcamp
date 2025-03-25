@@ -1,0 +1,22 @@
+Photo Blog Code Along Part 02
+-----------------------------
+- Focuses on the <nav> element of the project
+
+
+- The <img> elements in the starter code's HTML document
+    - Are intentionally close together
+        - Instead of each <img> element having their own separate line
+
+    - This is to eliminate a whitespace character
+        - Being automatically embedded in-between each <img> element
+        - As each whitespace character has its own width
+
+    - HTML INSERTS a whitespace character in-between inline elements
+        - That are separated by a newline
+        - Inline elements = <span>, <img>, etc.
+
+    - HTML does NOT INSERT a whitespace character in-between inline elements
+        - If the SHARE the same line
+
+    - NOTE: This is a well-known, obnoxious behavior of HTML
+        - Using Flexbox eliminates this behavior
