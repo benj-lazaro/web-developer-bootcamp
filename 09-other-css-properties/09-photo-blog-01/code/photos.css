@@ -1,0 +1,18 @@
+img {
+  width: 30%;
+  /* margin: 1.6666%; */
+  margin: calc(10% / 6);
+}
+
+/* Manual margin calculation */
+/* 3 images with 30% width */
+/* 30 + 30 + 30 = 90 */
+
+/* Remaining 10% of the root element space */
+/* Each image's left & right sides has a total of 6 sides  */
+/* 10% / 6 = 1.6666% */
+
+/* NOTE: Recalculation required when the width get changed */
+
+/* Alternatively use calc() for the property "margin" */
+/* calc(10%/6) */

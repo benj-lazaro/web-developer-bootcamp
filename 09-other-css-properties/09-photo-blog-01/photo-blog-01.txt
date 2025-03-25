@@ -1,0 +1,38 @@
+Photo Blog Code Along Part 01
+-----------------------------
+- Build a simple photographer's homepage
+    - Implementing recent lessons learned
+
+    - Use the attached starter code (photosite.html)
+
+
+- For setting the property "margin" of the images
+    - By manually calculating it
+        - Finding out how to distribute the remaining value around each image in a row
+
+    - Identify the number of images to be rendered in a single row
+        - Get the sum of the images' property "width"
+        - Subtract the sum with the 100% space of the HTML document
+        - Take note of the difference
+    
+    - Get the total number of sides for each image on the same row
+        - Take into account the left & right side of each margin
+
+        - Divide the difference with the total number of sides
+
+        - The result will be the value assigned
+            - For the property "margin" of each image
+
+
+- Alternatively
+    - Assign the function value "calc()" to the property "margin" of the images
+
+    - Pass the expression as argument value to "calc()"
+        - <difference> / <total_number_of_left_right_sides_of_images>
+        - e.g. calc(10%/g)
+
+    - Calculates and assigns the result to the property "margin"
+
+    - NOTE: This presents a better option
+        - It presents the logic / mathematical expression behind the assigned value
+    
