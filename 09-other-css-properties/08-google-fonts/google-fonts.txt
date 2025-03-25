@@ -1,0 +1,17 @@
+Google Fonts is Amazing
+-----------------------
+- Google Fonts is a free online resource for fonts
+    - Website (https://fonts.google.com/)
+
+    - Choose fonts weight that is ONLY needed
+        - Each weight increases the size of the download
+        - Download ONLY those that will be used
+
+    - Choose "Get embed code"
+        - Instead of downloading the font locally
+
+    - Paste the generated HTML code
+        - Into the HTML document
+
+    - Apply the fonts in CSS
+
