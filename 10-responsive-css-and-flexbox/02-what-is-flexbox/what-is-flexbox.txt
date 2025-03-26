@@ -1,0 +1,25 @@
+What on Earth is Flexbox?
+-------------------------
+- Flexbox is a one-dimensional layout method
+    - For laying out items in rows or columns
+    
+    - It is a series of CSS properties used to layout items
+        - In a box of content
+
+    - It is a recent addition to CSS
+        - Included to address common layout frustrations
+        - Standardized across all browsers quite recently
+
+
+- Flexbox allows to distribute space dynamically
+    - Accross elements of an unknown size
+        - Hence the term "flex"
+
+    - It distributes space (among child elements) inside a container 
+        - e.g. <div>, <nav>, etc.
+
+    - It allows a HTML document to be responsive
+        - According to the current window size of a browsers
+
+        - Redistributes space as the window contracts / expands
+            - And move and resize the child elements accordingly
