@@ -1,0 +1,38 @@
+flex-direction
+--------------
+- To enable Flexbox in CSS
+    - On the designated element as a Flexbox container
+        - Declare the CSS property "display"
+        - Assign the value "flex"
+
+    - Doing so, lines up elements inside a container horizontally
+        - Arranged from left to right
+
+        - NOTE: This is the default
+            - When the CSS property "flex-direction" is NOT declared
+    
+
+- Inside a container, there two (2) axis
+    - Main axis
+        - Determines how the content (elements) flows inside a container
+        - By default, the content flows from left to right
+
+    - Cross axis
+
+
+- The CSS property "flex-direction"
+    - Sets the Main axis of the container & the flow of its content (elements)
+
+    - The value of "row" (default)
+        - The content inside a container flows from left to right
+    
+    - The value of "row-reverse"
+        - The content inside a container flows from right to left
+
+    - The value of "column"
+        - The content inside a container flows from top to bottom
+
+    - The value of "column-reverse"
+        - The content inside a container flow from bottom to top
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction)
