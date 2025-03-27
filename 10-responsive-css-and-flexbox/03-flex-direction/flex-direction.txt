@@ -1,38 +1,36 @@
 flex-direction
 --------------
 - To enable Flexbox in CSS
-    - On the designated element as a Flexbox container
+    - On the element designated as a container (flex container)
         - Declare the CSS property "display"
-        - Assign the value "flex"
+        - Assign the value of "flex"
 
-    - Doing so, lines up elements inside a container horizontally
-        - Arranged from left to right
+    - By default
+        - Lines up elements (items) in a container from left to right
+        - When the CSS property "flex-direction" is / has NOT yet been declared
 
-        - NOTE: This is the default
-            - When the CSS property "flex-direction" is NOT declared
+
+- Inside a flex container
+    - There are two (2) axis
+        - Main axis
+        - Cross axis
     
-
-- Inside a container, there two (2) axis
-    - Main axis
-        - Determines how the content (elements) flows inside a container
-        - By default, the content flows from left to right
-
-    - Cross axis
+    - Main axis determines how the items flow inside a container
 
 
-- The CSS property "flex-direction"
-    - Sets the Main axis of the container & the flow of its content (elements)
+- The CSS property "flex-direction" sets the flex container's Main axis
+    - As well as the flow of the container's items 
 
-    - The value of "row" (default)
-        - The content inside a container flows from left to right
+    - "row" (default)
+        - Items inside a container flows from left to right
+
+    - "row-reverse"
+        - Items flow from right to left
+
+    - "column"
+        - Items flow from top to bottom
     
-    - The value of "row-reverse"
-        - The content inside a container flows from right to left
-
-    - The value of "column"
-        - The content inside a container flows from top to bottom
-
-    - The value of "column-reverse"
-        - The content inside a container flow from bottom to top
+    - "column-reverse"
+        - Items flow from bottom to top
 
     - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction)
