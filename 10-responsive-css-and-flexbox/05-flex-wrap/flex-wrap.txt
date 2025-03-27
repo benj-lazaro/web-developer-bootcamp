@@ -1,0 +1,38 @@
+flex-wrap
+---------
+- The CSS property "flex-wrap" determines whether items along the Main axis
+    - Are going going to wrap onto:
+        - A new line if the Main axis is horizontal
+            - CSS property "flex-direction" is "row"
+
+        - A new column if the Main axis is vertical
+            - CSS property "flex-direction" is "column"
+
+    - This property dictates the flow of a container's Cross axis
+    
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap)
+
+
+- Assigned values:
+    - "nowrap" (default)
+        - NO wrapping of items along the container's Main axis
+
+    - "wrap"
+        - Wraps the items along the Main axis onto a new line or column
+            - Dependent on the assigned value of "flex-direction"
+
+    - "wrap-reverse"
+        - Wraps the items along the Main axis
+        - Reverses the flow of the Cross axis
+
+
+- NOTE: The flow of both Main and Cross axis
+    - Are dependent on the assigned value of "flex-direction"
+
+    - "flex-direction" of "row"
+        - Main axis     = left to right
+        - Cross axis    = top to bottom
+        
+    - "flex-direction" of "column"
+        - Main axis     = top to bottom
+        - Cross axis    = left to right
