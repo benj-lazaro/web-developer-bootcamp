@@ -1,0 +1,50 @@
+justify-content
+---------------
+- The CSS property "justify-content" determines
+    - How items of a flex container are distributed along the Main axis
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
+
+
+- The start edge of a flex container is dependent on the value of "flex-direction"
+    - The "flex-direction" of "row"
+        - Main axis starts at the left of the container
+
+    - The "flex-direction" of "row-reverse"
+        - Main axis starts at the right of the container
+
+    - The "flex-direction" of "column"
+        - Main axis starts at the top of the container
+
+    - The "flex-direction" of "column-reverse"
+        - Main axis starts at the bottom of the container
+
+    - NOTE: CSS property "flex-direction" IMPACTS the behavior of "justify-content"
+
+
+- The CSS property "justify-content" values:
+    - "flex-start" (default)
+        - Items packed flush to each other
+        - Moved towards the start of the Main axis
+
+    - "flex-end"
+        - Items packed flush to each other
+        - Moved towards the end of the Main axis
+
+    - "center"
+        - Items packed flush to each other
+        - Moved towards the center of the Main axis
+
+    - "space-between"
+        - The space is evenly distributed between the items        
+        - First item    = flushed to the start of the Main axis
+        - Last item     = flushed to the end of the Main axis
+
+    - "space-around"
+        - Each item has the same amount of space around it 
+
+        - Space BEFORE the first and last items
+            - EQUALS to HALF of the space between adjacent items
+
+    - "space-evenly"
+        - Ensures the space between every element
+            - And between the elements and the container
