@@ -1,0 +1,27 @@
+align-items
+-----------
+- The CSS property "align-items" distribute items along the Cross axis
+    - NOTE: This is dependent on the value assigned to "flex-direction"
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/align-items)
+
+
+- Assigned values:
+    - "flex-start" (default)
+        - Align items in the container along the beginning of the Cross axis
+    
+    - "flex-end"
+        - Align items in the container along the end of the Cross axis
+
+    - "center"
+        - Align items in the container at the middle of the Cross axis
+
+    - "baseline"
+        - Uses the baseline (imaginary bottom line) of the items content
+            - These items are flushed towards the Cross axis' starting edge
+            - NOTE: Assumed all items have the same "font-size" value
+
+        - An item with a larger "font-size" content
+            - Will be flushed towards the Cross axis' startng edge
+            
+            - Remaining items sharing the same baseline (i.e. "font-size" value)
+                - Will be aligned among themselves
