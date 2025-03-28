@@ -3,10 +3,10 @@ flex-wrap
 - The CSS property "flex-wrap" determines whether items along the Main axis
     - Are going going to wrap onto:
         - A new line if the Main axis is horizontal
-            - CSS property "flex-direction" is "row"
+            - i.e. "flex-direction: row"
 
         - A new column if the Main axis is vertical
-            - CSS property "flex-direction" is "column"
+            - i.e. "flex-direction: column"
 
     - This property dictates the flow of a container's Cross axis
     
@@ -29,10 +29,10 @@ flex-wrap
 - NOTE: The flow of both Main and Cross axis
     - Are dependent on the assigned value of "flex-direction"
 
-    - "flex-direction" of "row"
+    - "flex-direction: row"
         - Main axis     = left to right
         - Cross axis    = top to bottom
         
-    - "flex-direction" of "column"
+    - "flex-direction: column"
         - Main axis     = top to bottom
         - Cross axis    = left to right
