@@ -1,0 +1,50 @@
+align-content & align-self
+-------------------------- 
+- The CSS property "align-content" sets the distribution of space along the Cross axis
+    - ONLY when the flex container has multiple columns or rows
+    - NO effect on single-line flex containers (e.g. "flex-wrap: nowrap")
+
+    - "flex-start" (default)
+        - Move items in the container towards the start edge of the Cross axis
+
+    - "flex-end"
+        - Move items in the container towards the end edge of the Cross axis
+
+    - "center"
+        - Center items in the container at the center of the Cross axis
+
+    - "space-between"
+        - Space is evenly distributed between items along the Cross axis
+        - Items are flushed towards the start & end edge of the Cross axis
+
+    - "space-around"
+        - Each item in the container has the same amount of space around it
+
+        - The space BEFORE the first and last item is EQUAL to the HALF
+            - of the space between adjacent items along the Cross axis
+
+    - "space-evenly"
+        - Ensure space between each item
+            - As well between the container and the items along the Cross axis
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/align-content)
+
+
+
+- The CSS property "align-self" aligns an individual item along the Cross axis
+    - This applies ONLY to individual items in a flex container
+        - NOT to the flex container itlself
+    
+    - It is similar to the CSS property "align-items"
+        - Except that it position one item (at a time) along the Cross axis
+
+    - "flex-start"
+        - Align an item to be flush with the start edge of the Cross axis
+
+    - "flex-end"
+        - Aligns an item to be flush with the end edge of the Cross axis
+
+    - "center"
+        - Centers an item at the middle of the Cross axis
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/align-self)
