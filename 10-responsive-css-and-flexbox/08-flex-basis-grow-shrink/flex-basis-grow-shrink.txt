@@ -1,0 +1,60 @@
+flex-basis, grow & shrink
+-------------------------
+- The CSS property "flex-basis" defines the initial size of an item in a container
+    - BEFORE it is added into the flex container along the Main axis
+
+    - It accepts a value of:
+        - number (%, px, em, rem)
+        - number (unit less)
+        - keyword ("auto")
+
+    - It OVERRIDES the flex item's CSS property 
+        - "width" if the container's "flex-direction: row"
+        - "height" if the container's "flex-container: column"
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis)
+
+
+- The CSS property "flex-grow" defines the growth factor of an item in a flex container
+    - It controls the amount of available space an item could take up
+        - ONLY IF there is SPACE AVAILABLE
+    
+    - It accepts a "unit less" number value
+        - Negative values are INVALID
+        - Defaults to 0
+
+    - An item with a higher "flex-grow" value
+        - It will consume more of the available space
+        - Than the item with a lower number value
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow)
+
+
+- The CSS property "flex-shrink" defines the shrink factor of an item in a flex container
+    - It governs the rate an item shrink when
+        - There is NOT ENOUGH SPACE available in a flex container
+
+    - If an item is LARGER THAN the flex container
+        - It shrinks accordingly to the "flex-shrink" value
+
+    - It accepts a "unit less" number value
+        - Negative values are INVALID
+        - Defaults to 1
+
+    - An item with a higher "flex-shrink" value
+        - It will consume less of the available space
+        - Relative to those items with a lower number value
+
+    - The value of "0" will NOT shrink the targeted item in a flex container
+
+    - Reference(https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink)
+
+
+- The CSS property "min-width" set the minimum width of an element
+    - Or item in a flex container
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/min-width)
+
+
+- The CSS property "max-width" set the maximum width of an element
+    - Or item in a flex container
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/max-width)
