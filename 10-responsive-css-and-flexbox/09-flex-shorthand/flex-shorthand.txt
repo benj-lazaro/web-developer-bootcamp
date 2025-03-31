@@ -1,0 +1,27 @@
+Flex Shorthand
+--------------
+- The CSS property "flex" is a shorthand that defines how an item
+    - Grow or shrink to fit the space available in its flex container
+
+    - It is a shorthand for the properties "flex-grow" and "flex-shrink"
+
+    - The order of the value are as follows:
+        - One (1) value: "flex-grow" (default)
+            - unitless value
+
+        - One (1) value: "flex-basis"
+            - width/height e.g. %, em, "min-content"
+
+        - Two (2) values: "flex-grow" | "flex-basis"
+            - One (1) unitless value
+            - One (1) unit-based value representing the "width" of an element
+
+        - Two (2) values: "flex-grow" | "flex-shrink"
+            - Two (2) unitless values
+        
+        - Three (3) values: - "flex-grow" | "flex-shrink" | "flex-basis"
+            - Two (2) unitless values
+            - One unit-based value 
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
+
