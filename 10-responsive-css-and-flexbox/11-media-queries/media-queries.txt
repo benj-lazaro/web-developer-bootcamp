@@ -1,0 +1,25 @@
+The Power of Media Queries
+--------------------------
+- Media queries allows the modification of a website's styles
+    - Based on particular parameters like device type or screen width (i.e. viewport)
+        - It is the main mechanism used to make a responsive website
+
+    - It uses the CSS rule "@media"
+        - Followed by one (1) or more media features enclosed within ( )
+
+        - Commonly used media features:
+            - "width"       = Refers to part of the document being viewed on the browser's window / screen
+            - "min-width"
+            - "max-width"
+
+        - The keyword "and"
+            - Combines different media features in a single statement
+
+        - NOTE: Featuers with "Media Queries Level 5" rating
+            - Meant it has VERT SPOTTY, (if any) support on most browsers
+            - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features)
+            
+        - It used to implement part of the stylesheet based
+            - On the result of one (1) or more media queries
+
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
