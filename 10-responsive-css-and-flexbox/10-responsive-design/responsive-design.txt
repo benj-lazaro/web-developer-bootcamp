@@ -1,0 +1,24 @@
+Responsive Design & Media Queries
+---------------------------------
+- Responsive design refers to making a website that is able
+    - To respond to the device that is on whether that refers to the
+        - Screen size
+        - Orientation (e.g. landscape or portrait)
+
+    - It allows to create a website using one (1) stylesheet
+        - Capable of responding to a device's screen size & features
+
+    - Early on, separate stylesheets where used for different devices
+        - Even to the point of creating different website for each device
+
+
+- Media queries allows to modify a website's stylesheet
+    - To modify the website's styles depending on a particular paramters:
+        - Screen width
+        - Device type
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
+
+    - Chrome's Dev Tools offers a "Toggle device toolbar" button
+        - It allows to view a website as they would display on different devices
+        - It mimics various device's view screen
