@@ -1,0 +1,25 @@
+Pricing Panel Code Along Part 01
+--------------------------------
+- Take what was learned about Flexbox and Media queries
+    - To build a simple responsive pricing table (or panel)
+        - The price tiers are arranged in a row
+    
+    - On a mobile device viewport
+        - The price tiers are arranged in a column
+
+
+- The first thing to implement
+    - A CSS Reset on the website's stylesheet
+
+    - The goal is to normalize how styles work
+        - Accross different browsers
+
+    - It basically provide a "clean slate" to work on
+        - Removing (or resetting) a browser's default (built-in) styles
+            - e.g. font-size, margin, padding, etc. of elements
+
+    - Copy and paste Meyerweb's CSS Reset code 
+        - Into the start code's stylesheet (app.css)
+        - Save the changes
+        
+        - Reference (https://meyerweb.com/eric/tools/css/reset/)
