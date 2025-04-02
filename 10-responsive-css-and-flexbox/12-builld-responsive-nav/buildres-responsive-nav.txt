@@ -1,0 +1,13 @@
+Building a Responsive Nav
+-------------------------
+- Apply recently learned topic on Media queries
+    - To implement a responsive navigation bar on the given starter code
+
+    - Stack the navigation bar items (on top of each other) in a column
+        - When viewed in a mobile device sized viewport
+
+    - Make the <h1> element responsive
+        - Avoiding to break the content into two lines
+        - When viewed in a mobile device sized viewport
+
+    
