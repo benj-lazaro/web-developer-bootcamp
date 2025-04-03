@@ -1,0 +1,22 @@
+Pricing Panel Code Along Part 02
+--------------------------------
+- Implement the basic stuff
+    - Set the <body> element's properties
+        - "background-color"    = #60a9ff
+        - "display"             = "flex"
+        - "flex-direction"      = "row"
+        - "justify-content"     = "center"
+        - "align-items"         = "center"
+
+    - Set the <html> element's properties
+        - "box-sizing"          = "border-box"
+        - "font-family"         = "Open Sans", sans-serif
+
+    - Set the class "panel" properties
+        - "border-raduis"       = 10px
+        - "padding"             = 15px 25px
+        - "width"               = 100%
+        - "max-width"           = 960px
+
+- NOTE: Implement the CSS rules RIGHT AFTER the CSS reset
+
