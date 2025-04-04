@@ -1,0 +1,5 @@
+Pricing Panel Code Along Part 05
+--------------------------------
+- Implementing the finishing touches of the project
+    - Arrangement of price tiers on large (wide) screen devices
+
