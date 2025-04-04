@@ -1,0 +1,8 @@
+Pricing Panel Code Along Part 03
+--------------------------------
+- Work on the contents (e.g. pricing tiers)
+    - Arranging them in a column
+        - To accomodate the "mobile-first" approach
+        
+        - Then later implement the corresponding Media query 
+            - For desktop PCs and landscape-orientation
