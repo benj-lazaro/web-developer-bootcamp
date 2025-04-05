@@ -1,0 +1,20 @@
+What Matters In This Section 
+----------------------------
+- Crucial
+    - WTF is Bootstrap
+    - Working with CSS Frameworks
+    - Include 3rd-party CSS & CDNs
+    - 
+
+
+- Important
+    - Bootstrap Grid
+    - Responsive Bootstrap Grid
+    - Bootstrap Navbars
+
+
+- Nice To Have
+    - Icons
+    - Typography & Utilities
+    - Bootstrap Forms
+    - Bootstrap Buttons
