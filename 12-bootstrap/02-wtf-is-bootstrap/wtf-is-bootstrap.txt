@@ -1,0 +1,11 @@
+WTF is Bootstrap
+----------------
+- It calls itself the most popular CSS framework
+    - It consists a collection of (pre-built) components
+        - e.g. button, navbar
+
+    - It comes with a Grid System
+        - Helps construct responsive layouts
+        - Reference (https://getbootstrap.com/docs/5.3/layout/grid/)
+
+    - Website (https://getbootstrap.com/)
