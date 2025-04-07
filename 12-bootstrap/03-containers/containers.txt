@@ -1,0 +1,49 @@
+Including Bootstrap & Containers 
+--------------------------------
+- Two ways to setup Bootstrap in a HTML document
+    - Download the file 
+        - Then "link" the Bootstrap file to the HTML document
+            - Using the <link> element
+            - NOTE: Applicable for a REAL-WORLD production deployment
+
+    - Use CDN (Content Delivery Network)
+        - Essentially a hosted version of a stylesheet
+            - Accessed remotely
+            - NO need to locally download the file
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+        - Paste it as a child of the <head> element
+            - Right above your custom stylesheet (.css)
+
+        - To prevent your custom stylesheet rules 
+            - From overriding Bootstrap's rules
+
+    - NOTE: Most of Bootstrap's components require JavaScript to function
+        - Copy the CDN URL of the corresponding script(s)
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+        - Paste it as a child of the <body> element
+
+
+- A Container is the most basic layout element in Bootstrap
+    - It is REQUIRED when using Bootstrap's Grid System
+
+    - It contains, pads & (sometimes) center the content within them
+
+    - The class "container" is a responsive, fixed-width container
+        - The property "max-width" changes at EACH (pre-defined) breakpoint
+        - NOTE: A full-width container on small screen devices
+
+    - The class "container-fluid" is a full-width container
+        - The content spans across the entire viewport
+
+    - The responsive container (e.g. "container-sm", "container-md", etc.)
+        - It is a full-width container UNTIL it hits a specific (pre-defined) breakpoint
+
+        - It starts like a class "container-fluid" 
+            - That is UNTIL it hits a set breakpoint 
+            - Then shifts behaving like a class "container"
+
+    - Reference (https://getbootstrap.com/docs/4.6/layout/overview/)
