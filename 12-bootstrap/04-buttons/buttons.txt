@@ -1,0 +1,10 @@
+Bootstrap Buttons
+-----------------
+- Bootstrap includes several pre-defined buttons
+    - Each serving its own semantic purpose (e.g. primary, success, danger, etc.)
+    - With a few extras thrown in for more control
+    - Reference (https://getbootstrap.com/docs/4.6/components/buttons/)
+
+
+- Every Bootstrap button requires the class "btn"
+    - Followed by related button classes for different button variations
