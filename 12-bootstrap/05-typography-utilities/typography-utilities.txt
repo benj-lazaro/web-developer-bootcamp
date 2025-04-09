@@ -1,0 +1,46 @@
+Typography & Utilities
+----------------------
+- Bootstrap sets the basic global display, typography and links
+    - Reference (https://getbootstrap.com/docs/4.6/content/typography/)
+
+
+- The Display Heading classes (e.g. "display-1" to "display-4")
+    - Make large header elements that stands out
+        - Offers a larger, more opinionated heading style
+        - NOTE: By default, these classes are NOT responsive
+
+    - They have NO SEMANTIC meaning
+        - Does NOT REQUIRE to be in-sequence of each other
+
+
+- The class "lead"
+    - Makes the content of a <p> element stands out
+        - Renders the content with a slightly larger font size & weight
+
+    - Common use case:
+        - A tagline
+        - A lead text of a page
+
+    
+- The class "blockquote"
+    - For quoting blocks of content from another source within the HTML document
+        - Implemented with the HTML element <blockquote>
+
+    - To name / identify the source material
+        - Use the class "blockquote-footer"
+        - Implemented with the HTML element <footer>
+
+        - Renders a grayed out content and appends a "--" character
+
+
+- The Text Alignment classes (e.g. "text-left", "text-center", "text-right")
+    - Changes the alignment of an element's text content
+
+
+- The Color utility classes (e.g. "text-primary", "bg-primary", "bg-gradient-primary etc.)
+    - Conveys meaning through color 
+
+    - NOTE: These ONLY provide visual indication
+        - Can NOT convery meaning to users of assistive technologies (i.e. screen readers)
+        - Ensure that information denoted by color is OBVIOUS from the content
+    
