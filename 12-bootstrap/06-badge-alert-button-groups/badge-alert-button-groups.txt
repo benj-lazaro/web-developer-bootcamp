@@ -1,0 +1,44 @@
+Badges, Alerts & Button Groups
+------------------------------
+- Alert provide contextual feedback message for typical user actions
+    - Uses the base class "alert"
+        - Followed by the variant color class (e.g. "alert-primary", "alert-warining", etc.)
+
+    - The class "alert-heading" provides a heading
+        - To the element with the class of "alert"
+
+    - It can be dismissed
+        - Adds an "x" to the alert component
+        - Clicking the "x" dismisses the alert component from the DOM
+
+    - Reference (https://getbootstrap.com/docs/4.6/components/alerts/)
+
+
+- Badge is a small count & labeling component
+    - Scale to match the size of the immediate parent element
+        - Using relative font sizing and em units
+
+    - Can be a used as part of links or buttons to provide a counter
+
+    - Works with the HTML element <span>
+
+    - Reference (https://getbootstrap.com/docs/4.6/components/badge/)
+
+
+- Button group collects (groups) buttons together in a single line
+    - Super-powered by JavaScript
+
+    - Use to make nice looking selects
+        - In place for a group of radio buttons
+
+    - NOTE: For accessibility support
+        - Ensure that the buttons are associated in a way
+            - Expected for a user to choose ONLY one button from the group
+
+        - On the element
+            - Declare the attribute "role"
+            - Assign the value "group"
+
+        - This informs screen readers that this is a group of buttons
+
+    - Reference (https://getbootstrap.com/docs/4.6/components/button-group/)
