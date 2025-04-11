@@ -1,0 +1,16 @@
+Exercise 13: Bootstrap Practice
+-------------------------------
+- Add in the appropriate bootstrap classes according to these instructions:
+    - Make the section a bootstrap container
+
+    - Give the h1 white text
+        - A dark background
+        - A center-aligned text
+
+    - Make the div an alert ('warning' color)
+        - Set the role attribute to alert, for accessibility purposes!
+
+    - Make the first button a green bootstrap button
+
+    - Make the second button a red bootstrap button
+
