@@ -1,0 +1,30 @@
+Intro to the Bootstrap Grid
+---------------------------
+- Bootstrap's grid system uses a series of containers, rows & columns
+    - To layout and align content
+        - Built with Flexbox & is fully responsive
+
+    - NOTE: It ONLY WORKS inside a Bootstrap "container"
+        - A "container-fluid" (i.e. full-width container) can also be used
+        - Containers can also be NESTED
+
+    - Reference (https://getbootstrap.com/docs/4.6/layout/grid/)
+
+
+- To create a row in Bootstrap Grid
+    - Use the class "row"
+    - NOTE: Every row has a TOTAL of 12 units of space across the screen
+        - To be divided into columns
+
+
+- To create a column
+    - Use the class "col" followed by
+        - Intended size (e.g. "-sm", "-md", "-lg") 
+        - Number of columns (e.g. "-4", "-2")
+
+    - NOTE: Using the class "col" ONLY
+        - NOT specifying the size or number of columns
+            - Results to equally sized columns in a row
+
+        - It automatically figures out how much space each one (i.e. column) needs
+    
