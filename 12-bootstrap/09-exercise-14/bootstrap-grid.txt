@@ -1,0 +1,9 @@
+Exercise 14: Bootstrap Grid Practice
+------------------------------------
+- Recreate the layout given
+    - Explicitly use the correct column size
+
+    - Refrain from using the class "col" ONLY
+        - To automatically fill the remaining space in a row
+
+    
