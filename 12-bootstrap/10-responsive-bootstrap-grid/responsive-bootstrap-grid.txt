@@ -1,0 +1,21 @@
+Responsive Bootstrap Grid
+-------------------------
+- Responsive layouts hinges upon Bootstrap's pre-defined breakpoints (e.g. "sm", "md", etc.)
+    - Using classes such as 
+        - "col-<units>"
+        - "col-<breakpoint>"
+        - "col-<breakpoint>-<units>"
+
+    - Reference (https://getbootstrap.com/docs/4.6/layout/grid/)
+
+
+- To implement responsive images
+    - Use the class "img-fluid"
+        - It scales an image based upon the size of its containing element
+
+    - NOTE: The class "no-gutters"
+        - Removes the space on both (left & right) sides of an image
+        - Applied on "row" containers
+
+    - Reference (https://getbootstrap.com/docs/4.6/content/images/#responsive-images)
+
