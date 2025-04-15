@@ -1,0 +1,26 @@
+Useful Grid Utilities
+---------------------
+- Bootstrap uses Flexbox terminologies when aligning content along corresponding axises
+    - As it is built on top of Flexbox
+
+
+- Classes "align-items-start", "align-items-center", "align-items-end"
+    - Aligns the content along the container's Cross Axis
+        - Reference (https://getbootstrap.com/docs/4.6/layout/grid/#alignment)
+
+
+- Classes "align-self-start", "align-self-center", "align-self-end"
+    - Aligns the content vertically along the container's Cross Axis
+        - Reference (https://getbootstrap.com/docs/4.6/layout/grid/#vertical-alignment)
+
+
+- Classes "justify-content-start", "justify-content-center", "justify-content-end"
+    - "justify-content-between" & "justify-content-around"
+
+    - Aligns the content horizontally along the container's Main Axis
+        - Reference (https://getbootstrap.com/docs/4.6/layout/grid/#horizontal-alignment)
+
+
+- NOTE: These utlity classes have variants
+    - e.g. "justify-content-lg-start", "justify-content-xl-between"
+        - Reference (https://getbootstrap.com/docs/4.6/utilities/flex/)
