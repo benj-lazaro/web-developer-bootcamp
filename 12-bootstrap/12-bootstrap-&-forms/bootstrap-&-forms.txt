@@ -1,0 +1,50 @@
+Bootstrap & Forms 
+-----------------
+- The class "form-control"
+    - Often placed on the HTML element <input>
+        - Returns a nicely rendered form <input> element
+
+    - Or on the HTML element <select>
+
+
+- The class "form-group"
+    - Groups together <label> and <input> elements
+
+
+- The class "form-control-lg" and "form-control-sm"
+    - Enables HTML element <input> larger or smaller, respectively
+
+
+- The class "form-check"
+    - Checkbox and radio buttons that are immediate siblings
+        - Will be vertically stacked and spaced
+
+    - Uses browser-default checkbox and radio buttons
+
+
+- For custom checkbox and radio button, respectively
+    - Use classes "custom-control custom-checkbox"
+        - Reference (https://getbootstrap.com/docs/4.6/components/forms/#checkboxes)
+
+    - Use classes "custom-control custom-radio"
+        - Reference (https://getbootstrap.com/docs/4.6/components/forms/#radios)
+
+
+- For custom switches
+    - Use classes "custom-control custom-switch"
+        - Reference (https://getbootstrap.com/docs/4.6/components/forms/#switches)
+
+
+- To place form elements on the same row
+    - Place involved elements as a child to a HTML element <div> with the class of "row"
+
+    - Each element with a class of "form-group"
+        - Add a new class of "col"
+
+    - Alternatively, class "form-row" can also be used
+        - Similar to the previous solution
+        - Renders compact elements, different gutter szie
+        - Reference (https://getbootstrap.com/docs/4.6/components/forms/#form-row)
+
+
+- Reference (https://getbootstrap.com/docs/4.6/components/forms/)
