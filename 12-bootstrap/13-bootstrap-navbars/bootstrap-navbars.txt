@@ -1,0 +1,87 @@
+Bootstrap Navbars 
+-----------------
+- The most basic navbar use the class "navbar"
+    - Implemented on a HTML element <nav>
+
+
+- The class "navbar-brand"
+    - Use for the title or "brand"
+    - Can be applied on most elements
+    - Works best with the HTML element <a>
+    - Reference (https://getbootstrap.com/docs/4.6/components/navbar/#brand)
+
+
+- Classes "navbar-light" and "navbar-dark" 
+    - Changes the navbar's text color scheme
+    - Class "navbar-light" will have a dark (black) text color
+    - Class "navbar-dark" will have a light (white) text color
+    - Reference (https://getbootstrap.com/docs/4.6/components/navbar/#color-schemes)
+
+
+- Class "navbar-nav"
+    - Renders a full-height & lightweight navigation
+        - Including support for dropdowns
+
+    - Implemented on a HTML element <div>
+        - Of a parent HTML element <nav>    
+    - Reference (https://getbootstrap.com/docs/4.6/components/navbar/#supported-content)
+
+
+- Classes "navbar-item navbar-link"
+    - Serves as a navbar item and its corresponding link
+    - Implemented on a HTML element <a>
+
+
+- Classes "collapse navbar-collapse"
+    - Groups and handles hiding of contents by a parent breakpoint
+    
+    - Implemented on a HTML element <div>
+        - Wraps the corresponding navbar contents within
+
+    - NOTE: This "hides" the navbar items
+        - Use the class "navbar-expand-<breakpoint_size>" 
+        - Implement on the HTML element <nav>
+        - To display navbar items once it reached the declard breakpoint size (e.g. lg)
+
+
+- Class "navbar-toggler"
+    - Implemented on a HTML element <button>
+        - The HTML element <button> is placed BEFORE the HTML element <div>
+            - Containing the navbar items
+
+    - Contains a child HTML element <span>
+        - With a class of "navbar-toggler-icon"
+        - Renders the "hamburger icon" that contains the collapsed navbar items
+
+    - To connect the "hamburger icon" to the navbar
+        - On the <div> with the class of "collapse navbar-collapse"
+            - Declare the HTML attribute "id"
+                - Assign a value that MUST MATCH with the HTML attributes "data-target"
+                - Of the HTML element <button> with the class "navbar-togger"
+
+        - On the <button>
+            - Declare the HTML attribute "data-toggler"
+                - Assign the value of "collapse"
+
+            - Declare the HTML attribute "data-target"
+                - Assign a value that MATCHES with the attribute "id"
+                - of the <div> with the class of "collapse navbar-collapse"
+                - NOTE: Prefix the assigned value with a "#"
+
+    - NOTE: Bootstrap JavaScript MUST be included (installed) 
+        - In order for this feature to work
+
+
+- Classes "fixed-top", "fixed-bottom", "sticky-top"
+    - Implemented on a HTML element <navbar>
+    - Fixes the navbar in-place on top or bottom, respectively
+
+    - Class "sticky-top" 
+        - Functions like "fixed-top"
+        - Applicable for navigation bar with content on top of it
+        - Fixed the navigation bar in place when it hits the top of the browser window
+
+    - Reference (https://getbootstrap.com/docs/4.6/components/navbar/#placement)
+
+
+- Reference (https://getbootstrap.com/docs/4.6/components/navbar/)
