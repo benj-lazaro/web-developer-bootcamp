@@ -1,0 +1,53 @@
+Bootstrap Icons
+---------------
+- This is a newer part of Bootstrap
+    - Offers free, high quality, scalable & open-source icon library
+
+    - The icon is actually an SVG (Scalable Vector Graphics) HTML element (i.e. <svg>)
+        - It is information describes the actual paths & shape of the icon
+        - It is NOT an exported image
+        - They kinda behave like text instead of images
+
+    - Icon(s) selected by searching on the official website
+        - Copying the generated HTML code
+
+    - Most icons uses "em" units for its size (i.e. attributes "height" & "width")
+        - Responsive to the size of their immediate parent HTML element
+
+    - Icon color is ALSO dependent on their immediate parent HTML element
+        - NOTE: This setting can be overriden via CSS
+
+    - Website (https://icons.getbootstrap.com/)
+
+
+- Bootstrap icons are commonly used on Bootstrap Input group
+    - Extends form controls by adding text, buttons or button groups
+        - On either side of textual inputs, custom selects & custom file paths
+
+    - Class "input-group"
+        - Serves as a container for the corresponding <input> elements
+
+    - Class "input-group-prepend"
+        - Implemented on a HTML element <div> 
+            - Adds a gray space in-front of an HTML element <input>
+        
+        - Bootstrap icon is implemented inside an HTML element <span>
+            - With a class of "input-group-text"
+
+        - Followed by the HTML element <input>
+
+    - Class "input-group-append"
+        - Implemented on a HTML element <div> 
+            - Adds a Gray space at the end of an HTML element <input>
+
+    - Reference (https://getbootstrap.com/docs/4.6/components/input-group/)
+
+
+- An alternative to Bootstrap icons is Font Awesome
+    - It has more icons than Bootstrap
+        - Currently has 55,663 icons (as of April of 2025)
+        - Althought most of the them (tagged PRO) requires a subscription fee
+        
+    - It requires an email address to sign-up
+
+    - Website (https://fontawesome.com/)
