@@ -1,0 +1,74 @@
+Other Bootstrap Utilities 
+-------------------------
+- Focuses on a number utilities (NOT components) that
+    - Offer quick ways of applying CSS styles
+
+
+- The class "border" renders a border on ALL sides of an element
+    - NOTE: Size of the border can NOT be changed
+    - Reference (https://getbootstrap.com/docs/4.6/utilities/borders/)
+
+
+- The class "border-<top|right|bottom|left>"
+    - Renders a border on the specified size of an element
+    - Reference (https://getbootstrap.com/docs/4.6/utilities/borders/#additive)
+        
+
+- The classes "border border-0" or "border-<top|right|bottom|left>-0" 
+    - The former removes the rendered border from ALL sides of an element
+    - The latter removes the rendered border from the specified side of an element
+    - Reference (https://getbootstrap.com/docs/4.6/utilities/borders/#subtractive)
+
+
+- The classes "border border-<bootstrap_color>
+    - Renders the border on the specified Bootstrap color (e.g. primary, secondary, etc.)
+    - Reference (https://getbootstrap.com/docs/4.6/utilities/borders/#border-color)
+
+
+- The classes "border rounded", "border rounded-<side>" & "border rounded-<circle | pill>"
+    - The first two classes renders a rounded corner on ALL or specified corner of the border
+    - The latter two renders a pill or circle border around an element
+    - Reference (https://getbootstrap.com/docs/4.6/utilities/borders/#border-radius)
+
+
+- The classes "border rounded-<ld | sm>
+    - Renders a larger or smaller sized "border-radius" around an element
+    - Reference (https://getbootstrap.com/docs/4.6/utilities/borders/#sizes)
+
+
+- The classes "shadow" & "shadow-<sm|lg|none>" 
+    - Adds / removes shadows to an element
+    - Reference (https://getbootstrap.com/docs/4.6/utilities/shadows)
+
+
+- The spacing utilities
+    - Includes a wide-range of shorthand responsive margin & padding utility classes
+        - Applies to all breakpoints from "xs" to "xl"
+        - Reference (https://getbootstrap.com/docs/4.6/utilities/spacing/#how-it-works)
+
+    - Classes are named using the format:
+        <property> <sides>-<size>
+        <property> <sides>-<breakpoint>-<size>
+
+    - Property is abbreviated to:
+        - "m"   = margin
+        - "p"   = padding
+
+    - Sides are abbreviated to:
+        - "t"   = top
+        - "b"   = bottom
+        - "l"   = left
+        - "r"   = right
+        - "x"   = left & right
+        - "y"   = top & bottom
+        - none  = all 4 sides of an element
+    
+    - Sizes are abbreviated to:
+        - 0     = margin or padding set to 0
+        - 1     = margin or padding set to $spacer * .25
+        - 2     = margin or padding set to $spacer * .5
+        - 3     = margin or padding set to $spacer
+        - 4     = margin or padding set to $spacer * 1.5
+        - 5     = margin or padding set to $spacer * 3
+        - auto  = sets margin to auto
+        
