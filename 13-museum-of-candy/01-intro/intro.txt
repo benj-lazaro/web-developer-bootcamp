@@ -1,0 +1,7 @@
+Introduction
+------------
+- This section is a project code-along
+    - To create a responsive web site that uses Bootstrap
+        - Called "Museum of Candy"
+
+    - This offers an opportunity to practice Bootstrap
