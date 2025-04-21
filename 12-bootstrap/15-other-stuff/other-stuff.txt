@@ -1,0 +1,49 @@
+A Mixed Bag of Other Bootstrap Stuff
+------------------------------------
+- The class "card" 
+    - Renders a flexible and extensible (content) container that includes
+        - Headers & footers
+        - Wide variety of content
+        - Contextual background colors
+        - Powerful display options
+    
+    - It is basically a container with a border that
+        - Includes special (yet optional) components inside
+
+    - Reference (https://getbootstrap.com/docs/4.6/components/card/)
+
+
+- The class "carousel slide" along with other support classes
+    - Renders a slideshow component for cycling through 
+        - Images or slides of text like a carousel (e.g. image carousel)
+        - Behind the scenes, it involves a lot of JavaScript
+    
+    - Reference (https://getbootstrap.com/docs/4.6/components/carousel)
+
+
+- The class "dropdown"
+    - Renders a toggleable contextual overlays for displaying links & more
+    - Reference (https://getbootstrap.com/docs/4.6/components/dropdowns)
+
+
+- The class "spinner-border"
+    - Renders a border spinner used as a lightweight loading indicator
+    - Reference (https://getbootstrap.com/docs/4.6/components/spinners)
+
+
+- The class "progress"
+    - Renders a custom progress bar
+    - Reference (https://getbootstrap.com/docs/4.6/components/progress)
+
+
+- The class "modal"
+    - Uses Bootstrap's JavaScript modal plugin
+    
+    - Renders pop-up dialog box used for
+        - Lightboxes
+        - User notification
+        - Custom content in a dialog box
+        
+    - Reference (https://getbootstrap.com/docs/4.6/components/modal/)
+
+
