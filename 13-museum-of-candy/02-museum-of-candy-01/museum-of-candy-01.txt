@@ -1,0 +1,19 @@
+Museum of Candy Part 01
+-----------------------
+- A code-along project using Bootstrap
+    - Create a fictional Instragram "museum" website
+
+    - It is minimal & responsive website
+        - Using light pastel colors
+        - Includes large royalty-free photos, forcibly squared
+    
+    - Section text content are centered vertically
+
+    - On a smaller breakpoint
+        - Navigation bar collapse into a hamburger icon
+
+        - Content stacks on top of each other
+            - Image over section content
+            - Section icon disappears
+            
+    - Using the attached starter code
