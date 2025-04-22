@@ -1,0 +1,4 @@
+Museum of Candy Part 02
+-----------------------
+- Start on working with the project's navigation bar
+    - Implement both markup and CSS portions of the project
