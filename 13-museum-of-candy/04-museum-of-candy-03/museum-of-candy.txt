@@ -1,0 +1,16 @@
+Museum of Candy Part 03
+-----------------------
+- Next to focus is the top section
+    - Image on the right (i.g. donut on gloved hand)
+        - Takes up the entire heading space at smaller breakpoints
+
+    - Series of heading on its opposite side
+        - Font size of the headings scales accordingly at different breakpoints
+
+        - At lower breakpoints
+            - The content disappears
+            - The image on its opposite side takes up the entire space (row)
+  
+        - Text content is centered vertically
+
+    
