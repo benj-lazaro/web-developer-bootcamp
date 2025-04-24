@@ -1,0 +1,16 @@
+Museum of Candy Part 04
+-----------------------
+- Focuses on the sections of the virtual museum
+    - Succeeding the recently created heading
+
+    - Content of placeholder text and an image
+        - Altering content orientation for each section
+
+    - On smaller screen size breakpoints
+        - Section icon disappears
+
+        - Sections stacks up into a single column
+        
+        - Order of the section changes into
+            - Text content moves on top of the corresponding section image
+
