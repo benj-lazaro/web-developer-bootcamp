@@ -1,0 +1,16 @@
+What Matters In This Section 
+----------------------------
+- Crucial
+    - Understanding the role of JavaScript
+    - JavaScript Numbers
+    - Variables & Let
+    - Const
+    - Booleans
+    - Variable Naming
+
+
+- Important
+    
+
+- Nice To Have
+    
