@@ -1,0 +1,5 @@
+Why JavaScript is Awesome
+-------------------------
+- JavaScript is the action and "verbs" that happens on a webpage
+    - Example (https://codepen.io/ste-vg/details/GRooLza)
+    
