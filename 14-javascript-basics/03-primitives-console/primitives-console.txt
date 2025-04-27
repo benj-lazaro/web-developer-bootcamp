@@ -1,0 +1,50 @@
+Primitives & The Console
+------------------------
+- Primitive types refer to the basic (fundamental) building blocks
+    - These refer to the types of inforation that
+        - JavaScript can store, handle & work with
+
+    - Common primitive types are as follows:
+        - Number
+        - String
+        - Boolean
+        - Null
+        - Undefined
+
+    - Less commonly used primitive types are as follows:
+        - BigInt
+        - Symbol
+
+
+- Running JavaScript code in the browser's console
+    - Launch Chrome browser
+
+    - Launch the browser's dev tools (CTRL + SHIFT + I)
+        - Click the tab "Console"
+        - Type code at the ">" prompt
+
+    - NOTE: This is NOT the standard place for developer's
+        - To type / write JavaScript code in a professional setting
+
+
+- To clear out any pre-loaded error or messages in the console
+    - Type "clear()"
+    - Press ENTER
+    - Returns a "undefined" message
+
+
+- The JavaScript console is also referred as a REPL
+    - It stands for Read, Evaluate, Print, Loop
+
+    - What it does is that it
+        - Reads the written code (i.e. user input)        
+        - It evaluates the code
+        - Then prints out the corresponding result
+        - Loops back to display the ">" prompt
+            - Awaiting for another user input
+
+    - NOTE: This does NOT offer permanence
+        - Refreshing the browser
+            - Automatically clear the content of the JavaScript console
+
+        - It offers a faster way to test JavaScript code
