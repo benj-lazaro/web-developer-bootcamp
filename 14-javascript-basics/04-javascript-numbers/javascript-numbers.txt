@@ -1,0 +1,32 @@
+JavaScript Numbers
+------------------
+- Number is a JavaScript primitive type
+    - JavaScript has one (1) Number type
+    
+    - These includes positive / negative, whole and decimal numbers
+        - Both integers & floating points are under the primitive type of Number
+
+    - There is a point where a number (i.e. decimal number) loses its precision
+        - e.g. 1.9999999999999999 is considered as 2
+
+        - This is due to numbers get a certain amount of space in memory
+            - They are NOT permitted to take up an "infinite" amount of space
+
+
+- Numbers work with math operators
+    - Addition          = +
+    - Subtraction       = -
+    - Multiplication    = *
+    - Division          = /
+    - Modulo            = %
+    - Exponent          = **          
+
+
+- Numbers follows the PEMDAS order of operations (from left to right)
+    - Parenthesis
+    - Exponent
+    - Multiplication
+    - Division
+    - Addition
+    - Subtraction
+

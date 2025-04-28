@@ -1,0 +1,40 @@
+> 1
+< 1
+
+> 89
+< 89
+
+// Decimal number loses precision
+> 1.9999999999999999
+< 2
+
+// Addition
+> 50 + 5
+<55
+
+// Subtraction
+> 90 - 1
+< 89
+
+// Multiplication
+> 11111 * 7
+< 77777
+
+// Division
+> 400 / 25
+< 16
+
+// Modulo
+> 27 % 2
+< 1
+
+// Exponent
+> 2 ** 4
+< 16
+
+// PEMDAS in action
+> 3 + 1 * 9
+< 12
+
+> (3 + 1) * 9
+< 36
