@@ -1,0 +1,11 @@
+> typeof 4
+< "number"
+
+> typeof 3.1415
+< "number"
+
+> 0/0
+< NaN
+
+> typeof NaN
+< "number"

@@ -1,0 +1,11 @@
+WTF is NaN
+----------
+- NaN stands for Not a Number
+    - It is a concept that represents a value that is NOT a number
+        - e.g. 0/0 = NaN, 1 + NaN = NaN
+    
+    - It is technically considered a member of the Number family by JavaScript
+
+    - JavaScript operator "typeof"
+        - Helps identify the primitive type of a value
+        - e.g. typeof 4 = number
