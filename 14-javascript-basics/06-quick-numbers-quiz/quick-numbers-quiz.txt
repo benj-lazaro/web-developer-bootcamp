@@ -1,0 +1,13 @@
+Quick Numbers Quiz
+------------------
+- Evaluate the following expressions:
+
+    4 + 3 * 4 / 2
+    - Answer: 10
+
+    (13 % 5) ** 2
+    - Answer: 9
+
+    200 + 0/0
+    - Answer: NaN
+    
