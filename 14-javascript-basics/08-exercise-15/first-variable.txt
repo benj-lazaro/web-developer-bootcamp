@@ -1,0 +1,9 @@
+Exercise 15: Our First Variable Experience
+------------------------------------------
+- Define a variable called myLuckyNumber
+    - Set it equal to 37
+
+
+- Define a variable called octopusLimbs
+    - Set it equal to 8
+
