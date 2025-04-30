@@ -1,0 +1,23 @@
+> let score = 0
+< undefined
+
+> score += 5;
+< 5
+
+> score *= 2;
+< 10
+
+> let numLives = 9;
+< undefined
+
+> numLives--;
+< 9
+
+> numLives
+< 8
+
+> numLives++;
+< 8
+
+> numLives
+< 9

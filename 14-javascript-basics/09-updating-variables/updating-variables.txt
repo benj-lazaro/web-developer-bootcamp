@@ -1,0 +1,20 @@
+Updating Variables
+------------------
+- The "=" operator is used to assigning and updating
+    - A value stored in a variable
+
+
+- Commonly used shortcut on updating a Number value stored in a variable
+    - Prepending the mathematical operator ahead of the "=" operator  
+        - e.g. score += 1, score -= 50, score *= 2, score /= 10
+
+    - This is equavalent to:
+
+        <variable_name> = <variable_name> <math_operator> <value>
+
+        - e.g. score = score + 1, score = score * 2
+
+
+- To increment or decrement a Number value in a variable by 1
+    - Append the "++" to incrment or "--" to decrement by 1
+        - At the end of a variable name
