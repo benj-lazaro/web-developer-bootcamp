@@ -1,0 +1,23 @@
+> let year = 1985
+< undefined
+
+> year
+< 1985
+
+> let numHens = 5
+< undefined
+
+> let numRoosters = 1
+< undefined
+
+> numHens
+< 5
+
+> numRoosters
+< 1
+
+> let totalChickens = numHens + numRoosters;
+< undefined
+
+> totalChickens
+< 6

@@ -1,0 +1,18 @@
+Variables & let
+---------------
+- Variables are like labels for values
+    - It can store a value & give it a name
+        - To refer back to the value at a later time
+        - Use the value to do stuff
+        - Or change the value later
+
+
+- This is done using the JavaScript keyword "let"
+    - The value assigned to a variable is a "snapshot" in time
+    - Assigned value can be updated at a later time
+
+
+Syntax:
+
+let <variable_name> = <value>;
+
