@@ -1,0 +1,9 @@
+Quick Variable Quiz
+-------------------
+- Which one of the following variables contains a valid boolean:
+    - Answer: let isHappy = true;
+
+
+- Which one of the following variable declarations follows JavaScript variable naming conventions?
+    - Answer: let highScore = 107;
+    
