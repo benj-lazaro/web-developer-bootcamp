@@ -1,0 +1,8 @@
+> let userName = "";
+< undefined
+
+> let _age = 90;
+< undefined
+
+> let 1user = "adam";
+< Uncaught SyntaxError: Invalid or unexpected token

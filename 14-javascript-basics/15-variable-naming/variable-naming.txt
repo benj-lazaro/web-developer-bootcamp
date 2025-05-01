@@ -1,0 +1,30 @@
+Variable Naming and Convention
+------------------------------
+- Hard rules in JavaScript for naming an identifier (i.e. variable name)
+    - It is case-sensitive
+        - Can container letters, $, _ and digits (from 0 to 9)
+    
+    - It can NOT start with a digit
+        - Triggers a "SyntaxError: Invalid or unexpected token" when doing so   
+
+    - It can NOT have spaces in-between
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Glossary/Identifier)
+
+
+- Best practices (common convention) for naming an identifier
+    - Use camelCase for an identifier with more than one (1) word
+        - Uppercase the 1st letter of the SUCEEDING word(s)
+        - Keep the 1st letter of the 1st word in lowercase
+
+        - Otheriwse, keep the entire (single word) identifier in lowercase
+
+    - Use good, descriptive names that describes to value it (will) store
+        - e.g. isUserLoggedIn, isGameOver, userHealth
+
+    - AVOID one letter identifier
+        - Brevity does NOT make the code more efficient
+        - e.g. n, x, y
+
+    - Do NOT use a sentence-long identifier either
+        
