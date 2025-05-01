@@ -14,5 +14,5 @@ Variables & let
 
 Syntax:
 
-let <variable_name> = <value>;
+let <identifier> = <value>;
 
