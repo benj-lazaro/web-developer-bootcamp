@@ -1,0 +1,26 @@
+Variables Quiz
+--------------
+- What is the value of score after the following code runs?
+
+    let score = 5;
+    score + 4;
+
+    - Answer: 5
+
+
+- What is the value of bankBalance after the following code runs:
+
+    let bankBalance = 100;
+    bankBalance /= 2;
+    bankBalance += 10;
+
+    - Answer: 60
+
+
+- What is the value of age after the following code runs?
+
+    const age = 64;
+    age++;
+
+    - Answer: 64;
+    
