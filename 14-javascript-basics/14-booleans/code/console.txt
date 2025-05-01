@@ -1,0 +1,15 @@
+> let isActiveGame = true;
+< undefined
+
+> isActiveGame
+< true
+
+> isActiveGame = false;
+< false
+
+> isActiveGame
+< false
+
+// From boolean to number
+> isActiveGame = 47;
+< 47

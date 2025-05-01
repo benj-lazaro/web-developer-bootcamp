@@ -1,0 +1,19 @@
+Booleans
+--------
+- A primitive type that stores ONLY two (2) special values in JavaScript
+    - These values are "true" or "false"
+        - NOTE: MUST be written in lowercase
+
+    - Use case
+        - Performing logic or condition checks
+        - Making decisions in a game
+
+
+- In JavaScript, the value (and its type) assigned to a variable
+    - Can be CHANGED throughout the execution of the program / script
+        - EXCEPT for the variable declared using the keyword "const"
+
+    - Doing so will NOT generate an error message
+
+    - TypeScript (a superset of JavaScript) 
+        - Prevents this 'feature" by enforcing type restrictions
