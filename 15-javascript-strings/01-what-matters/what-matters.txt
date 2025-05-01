@@ -1,0 +1,16 @@
+What Matters In This Section 
+----------------------------
+- Crucial
+    - String Basics
+    - Indices and Length
+    - Undefined & Null
+    - String Methods
+    - String Template Literals
+
+
+- Important
+    - Random Numbers and the Math Object
+
+
+- Nice To Have
+    
