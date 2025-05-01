@@ -1,0 +1,17 @@
+Increment Operator Explanation: i++ vs ++i
+------------------------------------------
+- The "++" operator placed AFTER a variable
+    - It is referred as the "post increment" operator
+    
+    - When used
+        - It first returns the current number value
+        - Then it increments the number value by 1
+
+
+- The "++" operator placed BEFORE a variable
+    - It is referred as the "pre-increment" opreator
+
+    - When used
+        - It first increments the current number value by 1
+        - Then returns the incremented number value
+

@@ -1,0 +1,17 @@
+> let i = 1;
+< undefined
+
+> let result = i++
+
+> result
+< 1
+
+// Clears JavaScript console
+
+> let i = 1;
+< undefined
+
+> let result = ++i
+
+> result
+< 2
