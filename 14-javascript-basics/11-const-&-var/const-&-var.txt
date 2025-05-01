@@ -1,0 +1,27 @@
+const & var
+-----------
+- The keyword "const" declares a variable
+    - Whose asisgned value will NOT CHANGE
+        - Throught the execution of the program / script
+
+    - Triggers a "TypeError: Assignment to constant variable"
+        - When attempting to change the assigned value
+
+    - Use case
+        - Storing a value that is expected NOT to CHANGE throughout the program execution
+        - Working with JavaScript array and object data structures
+
+
+- The keyword "var" is an old way of declaring a variable
+    - Whose assigned value can be CHANGED
+        - Throught the execution of the program / script
+
+    - Works similarly to the keyword "let"
+        - Still supported but discouraged from using it
+
+
+Syntax:
+
+const <identifier> = <value>;
+
+var <identifier> = <value>;

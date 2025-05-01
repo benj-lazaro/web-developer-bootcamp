@@ -1,0 +1,17 @@
+> const luckyNum = 13;
+< undefined
+
+> luckyNum = 47;
+< Uncaught TypeError: Assignment to constant variable
+
+> luckyNum++;
+< Uncaught TypeError: Assignment to constant variable
+
+> var runDistance = 25.2;
+< undefined
+
+> runDistance
+< 25.2
+
+> ++runDistance
+< 26.2
