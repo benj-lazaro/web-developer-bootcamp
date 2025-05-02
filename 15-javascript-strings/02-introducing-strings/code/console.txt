@@ -1,0 +1,17 @@
+> let userName = "Danny";
+< undefined
+
+> userName
+< 'Danny'
+
+> typeof userName
+< 'string'
+
+> let favAnimal = 'Dumbo Octopus'
+< undefined
+
+> favAnimal
+< 'Dumbo Octopus'
+
+> typeof favAnimal
+< 'string'

@@ -1,0 +1,14 @@
+Introducing Strings
+-------------------
+- The JavaScript primitive type String
+    - It represents textual information
+        - Can be a zero to single character or very long series of characters
+
+    - It MUST be wrapped within a pair of quotes
+        - Either a pair of double or single quotes
+            - As long as it remains consistent throughout the codebase
+            - NEVER switch from double to single (or vice versa) on a single string
+
+        - It is possible use a single / double quotes within a pair of quotes
+            - As long as the starting & ending quotes are the same
+            - e.g. "I'm doing well", 'I said "stop" in the name of love'
