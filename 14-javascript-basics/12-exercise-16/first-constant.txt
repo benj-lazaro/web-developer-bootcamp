@@ -1,4 +1,4 @@
-Exercise 15: Our First Constant Experience
+Exercise 16: Our First Constant Experience
 ------------------------------------------
 - Define a constant called boilingPointC
     - Set it to 100
