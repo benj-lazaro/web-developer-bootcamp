@@ -1,0 +1,26 @@
+> let animal = "Dumbo Octopus";
+< undefined
+
+> animal[2];
+< 'm'
+
+> animal[99];
+< undefined
+
+> animal.length
+< 13
+
+> let movieTitle = "Batman" + " Returns";
+< undefined
+
+> movieTitle
+< 'Batman Returns'
+
+> let hmm = 1 + "hey";
+> undefined
+
+> hmm
+< '1hey'
+
+> typeof (hmm)
+< 'string'

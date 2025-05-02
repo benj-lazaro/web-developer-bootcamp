@@ -1,0 +1,38 @@
+Indices & Length
+----------------
+- Strings are indexed
+    - Each character has a corresponding index number associated with it
+        - Index number = positional number
+
+    - Starting with the index value of 0
+        - Index increments from left to right
+
+    - Individual index can be accessed
+        - Wrapping the index value within a pair of []
+        - Returns the corresponding character associated with said index value
+
+    - Accessing a non-existent index
+        - Returns a primitive type of "undefined"
+        - JavaScript's way of saying that there is NO corresponding value on the specified index
+
+
+- Every string has a "magical" property named ".length"
+    - Returns the number of character(s) the associated string has
+
+
+- String values can be added together using the operator "+"
+    - This action is referred as "string concatenation"
+        - Returns a new string value
+
+    - NOTE: Using the "+" operator between a Number and a String value
+        - Returns a string value
+        - JavaScript coerce the values to a common type
+
+
+Syntax:
+
+<string_value>[<index_number>];
+
+<string_value>.length;
+
+let variable = <string_value> + <string_value>;
