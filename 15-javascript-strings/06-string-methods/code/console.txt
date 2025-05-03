@@ -1,0 +1,32 @@
+> let msg = "i want pizza";
+< undefined
+
+> msg.toLocaleUpperCase()
+< 'I WANT PIZZA'
+
+> let funny = "LOLOLOLOL";
+< undefined
+
+> funny.toLocaleLowerCase();
+< 'lolololol'
+
+> funny
+< 'LOLOLOLOL'
+
+> let greet = "       Hello World!    "
+< undefined
+
+> greet
+< '       Hello World!    '
+
+> greet.trim();
+< 'Hello World!'
+
+> greet
+< '       Hello World!    '
+
+> let testMsg = " hello again!!!     ";
+< undefined
+
+> testMsg.trim().toLocaleUpperCase();
+< 'HELLO AGAIN!!!'

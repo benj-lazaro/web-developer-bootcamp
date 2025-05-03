@@ -1,0 +1,54 @@
+String Methods
+--------------
+- Every string value in JavaScript
+    - Comes with a set of built-in actions (i.e. methods)
+    - That can be performed on a particular string values
+        - Searching within a string
+        - Replace part of a string
+        - Changing the case (i.e. lowercase or uppercase) of a string
+
+    - NOTE: Do NOT forget to include a pair of ( ) at the end of each method
+
+
+- The string method .toUpperCase()
+    - Copies the original string value
+        - Returns the converted string to uppercase
+        - Original string value remains UNCHANGED
+    
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
+
+
+- The string method .toLowerCase()
+    - Copies the original string value
+        - Returns the converted string to lowercase
+        - Original string value remains UNCHANGED
+        
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
+
+
+- The string method .trim()
+    - Copies the original string value
+        - Removes the whitespace from both ends of the string
+        - Original string value remains UNCHANGED
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim)
+
+
+- NOTE: These string methods can be chained one after another
+    - Reads the chained methods from left to right
+    - A common practice in JavaScript
+
+
+Syntax:
+
+// General Syntax
+<string_value>.<string_method>();
+
+<string_value>.toUpperCase();
+
+<string_value>.toLowerCase();
+
+<string_value>.trim();
+
+// Chaining string methods
+<string_value>.<string_method>().<string_method>() ... .<string_method>();
