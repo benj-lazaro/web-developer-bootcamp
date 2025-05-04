@@ -1,0 +1,44 @@
+> let tvShow = "catdog";
+< undefined
+
+> tvShow.indexOf("cat");
+< 0
+
+> tvShow.indexOf("dog");
+< 3
+
+> tvShow.indexOf("pizza");
+< -1
+
+> let longString = "Supercalifragilisticexpialidocious";
+< undefined
+
+> longString.slice(0, 5);
+< 'Super'
+
+> longString.slice(5);
+< 'califragilisticexpialidocious'
+
+> longString.slice(-1);
+< 's'
+
+> longString.slice(-2);
+< 'us'
+
+> longString.slice(-3);
+< 'ous
+
+> let annoyingLaugh = "teehee so funny! teehee!";
+< undefined
+
+> annoyingLaugh.replace("teehee", "haha");
+< 'haha so funny! teehee!'
+
+> annoyingLaugh
+< 'teehee so funny! teehee!'
+
+> let laugh = "lol";
+< undefined
+
+> laugh.repeat(3);
+< 'lollollol'

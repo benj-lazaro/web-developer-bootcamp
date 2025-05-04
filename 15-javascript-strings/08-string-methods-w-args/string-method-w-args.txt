@@ -1,0 +1,75 @@
+String Methods With Arguments 
+-----------------------------
+- Some string methods accepts argument value(s) that modify their behavior
+    - Think of them as input(s)
+    - Being passed inside a method's pair of ()
+
+
+- The string method ".indexOf()"
+    - Accepts an argument value
+
+    - Returns the 1st index value of the given argument 
+        - Can be found in the associated string value
+
+    - Returns -1 when NO match is found
+
+    - Use case
+        - To test if a string value contains a targeted string inside of it
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+
+
+
+- The string method ".slice()"
+    - Accepts more than 1 argument value
+        - Start index value
+        - End index value
+
+    - It extracts a portion of the string value
+        - Based on the given start & end index values
+
+    - Returns a shallow copy of the original string value
+        - NOTE: The character located at the "end" index will NOT be included
+
+    - NOTE: Passing a negative index value
+        - It is treated as the length of the string value + beginning index value
+        - Basically starts at the end of the string value
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+
+
+- The string method ".replace()"
+    - Accepts two argument values
+        - Targeted string value (or regular expression)
+        - Replacement string
+
+    - Returns a copy of the string value 
+        - With the replaced string in place
+
+    - NOTE: It replaces ONLY the 1st matching instance
+        - Use method ".replaceAll()" instead
+        - However this is NOT fully implemented on most browsers
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
+
+
+- The string method ".repeat()"
+    - Accepts a numeric argument (i.e. repeat count)
+
+    - Returns a new string
+        - Contains the specified number of copies of the associated string
+        - Concatenated together
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat )
+
+
+Syntax:
+
+<string_value>.indexOf(<arg>);
+
+<string_value>.slice(<start_index>);
+<string_value>.slice(<start_index>, [<end_index>]);
+
+<string_value>.replace(<target_string>, <replacement_string>);
+
+<string_value>.repeat(<repeat_count>);
