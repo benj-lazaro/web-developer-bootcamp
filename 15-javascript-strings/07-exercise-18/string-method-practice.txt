@@ -1,0 +1,9 @@
+Exercise 18: String Method Practice
+-----------------------------------
+- Let's get some practice working with string methods
+    - Without altering the original value stored in the variable named "message"
+    
+    - Define a new variable named "whisper"
+        - This variable will contain a lowercase version of "message"
+        - With the extra space at the beginning and end removed
+
