@@ -1,0 +1,15 @@
+Exercise 20: String Template Literal Exercise
+---------------------------------------------
+- Two provided variables "die1" & "die2" represents a 6-sided dice
+    - Each variable holds a randomly generated number from 1 to 6
+
+
+- Create a new variable called "roll"
+    - Which will be a string value
+    - Displays each die as well as their sum
+    - Following the pattern:
+
+        die1: <number>
+        die2: <number>
+        roll: "You rolled a <die1_value> and a <die1_value>. They sum up to <sum>"
+
