@@ -1,0 +1,50 @@
+Random Numbers & The Math Object 
+--------------------------------
+- JavaScript's built-in object "Math"
+    - A collection of properties and methods for mathematical constants & functions
+        - e.g. Math.pi, Math.round(), Math.abs(), Math.pow(), Math.floor()
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+
+
+- The Math method ".floor()"
+    - Rounds down the passed number (decimal) argument
+        - Returns the largest integer less than or equal to the given number
+        - Basically "chopping off" the decimal portion of the passed number argument
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
+
+
+- The Math method ".ceil()"
+    - Rounds up the passed number (decimal) argument
+        - Retuns the smallest integer greater than or equal to the given number
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)
+
+
+- The Math method ".random()"
+    - Returns a floating-point, pseudo-random number that is
+        - Greater than or equal to 0 & less than 1
+    
+    - NOTE: It does NOT provide cryptographically secure random numbers
+
+    - NOTE: To generate a random integer value
+        - Generate a random number using "Math.random()"
+        - Multiply the return value by the highest integer value to be randomized (e.g. 10)
+        - Pass the product as argument to "Math.floor()"
+        - Then add 1 to the return value
+            - To exclude 0
+            - To include the hightest random value
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+
+
+Syntax:
+
+Math.floor(<number_value>);
+
+Math.ceil(<number_value>);
+
+Math.random()
+
+Math.floor(Math.random() * <highest_random_integer>) + 1;

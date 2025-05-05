@@ -1,0 +1,25 @@
+> Math.PI
+< 3.141592653589793
+
+> Math.floor(23.90);
+< 23
+
+> Math.ceil(23.90);
+< 24
+
+> Math.random();
+< 0.7593259691190681
+
+// Random number between 1 and 10
+> Math.floor(Math.random() * 10) + 1;
+< 4
+
+> Math.floor(Math.random() * 10) + 1;
+< 8
+
+// Random number between 1 and 100
+> Math.floor(Math.random() * 100) + 1;
+< 68
+
+> Math.floor(Math.random() * 100) + 1;
+< 59
