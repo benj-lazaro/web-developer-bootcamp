@@ -1,0 +1,11 @@
+> let x;
+< undefined
+
+> x
+< undefined
+
+> let y = null;
+< undefined
+
+> y
+< null

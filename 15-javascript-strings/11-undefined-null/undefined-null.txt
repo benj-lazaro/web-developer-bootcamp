@@ -1,0 +1,14 @@
+Undefined & Null
+----------------
+- The primiive type "null"
+    - It is a value that represents the INTENTIONAL ABSENCE of value    
+
+    - It is EXPLICITLY assigned as a value to a variable
+    
+
+- The primitive type "undefined"
+    - It is a concept that means something NOT being defined
+
+    - IMPLICITLY assigned to a variable that do NOT have an assigned value
+
+    - Think of it as JavaScript's way of saying "I don't know the value"
