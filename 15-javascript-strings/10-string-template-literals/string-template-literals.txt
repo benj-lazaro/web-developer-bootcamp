@@ -1,0 +1,22 @@
+String Template Literals: Super Useful
+--------------------------------------
+- Template literals are string values enclosed within a pair of `` (back ticks, NOT single quotes)
+    - Allows embedded expression(s) using ${} for string interpolation
+    - The expression(s) are then evaluated & turned into a resulting string
+
+    - It is informally called "template string"
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+
+
+Syntax:
+`<string_text>`
+
+`<string_text>
+ <string_text>
+`
+`<string_text> \
+ <string_text>
+`
+
+`<string_text> ${expression} <string_text>`

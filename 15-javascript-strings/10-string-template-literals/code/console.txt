@@ -1,0 +1,14 @@
+> let product = "artichoke";
+< undefined
+
+> let price = 2.25;
+< undefined
+
+> let quantity = 5;
+< undefined
+
+> `You purchased ${quantity}s ${product} at $${price}`;
+< 'You purchased 5 artichokes at $2.25'
+
+> `You purchased ${quantity} ${product}s at $${price} each; for a total of $${price * quantity}`;
+< 'You purchased 5 artichokes at $2.25 each; for a total of $11.25'
