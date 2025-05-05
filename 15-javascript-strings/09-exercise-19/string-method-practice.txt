@@ -1,0 +1,7 @@
+Exercise 18: More String Methods Practice
+-----------------------------------------
+- Provided with the "word" variable, set to "skateboard"
+    - Use string methods .slice() and .replace()
+    - In order to end with a word "beard"
+    - Save the sliced & replaced string into the variable "facialHair"
+
