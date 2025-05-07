@@ -1,0 +1,15 @@
+What Matters In This Section 
+----------------------------
+- Crucial
+    - Comparison Operators
+    - Running JavaScript From a File
+    - Conditionals: if, else-if and else
+    - Truth-y and False-y Values
+    - Logical AND, OR & NOT
+
+
+- Important
+
+
+- Nice To Have
+    
