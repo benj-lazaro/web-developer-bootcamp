@@ -1,0 +1,5 @@
+Decision Making With Code
+-------------------------
+- Boolean logic influences decision making in any programming language including JavaScript
+    - Having different outcomes based off certain criteria
+
