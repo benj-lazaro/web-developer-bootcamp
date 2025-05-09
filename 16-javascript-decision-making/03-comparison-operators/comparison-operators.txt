@@ -1,0 +1,24 @@
+Comparison Operators
+--------------------
+- JavaScript's comparison operators
+    - Greater than              >
+    - Less than                 <
+    - Greater than or equal to  >=
+    - Less than or equal to     <=
+    - Equality                  ==
+    - NOT equal                 !=
+    - Strict equality           ===
+    - Strict non-equality       !==
+
+
+- These operators commonly work with numbers
+    - Returns a boolean value
+
+    - They can also work with strings
+        - Wherein each character has its corresponding Unicode value
+        - Unicode = numeric value
+
+    - JavaScript looks at the Unicode of a character
+        - When working with comparison operators
+        - NOT by the character's position in the alphabet
+
