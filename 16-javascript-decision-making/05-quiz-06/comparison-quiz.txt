@@ -1,0 +1,21 @@
+Comparison Quiz
+---------------
+- What does the following code evaluate to?
+
+    3 <= 2
+
+    - Answer: false
+
+
+- What does the following evaluate to?
+
+    9 == '9'
+
+    - Answer: true
+
+
+- What does the following code evaluate to?
+
+    -5 >= -6
+
+    - Answer: true
