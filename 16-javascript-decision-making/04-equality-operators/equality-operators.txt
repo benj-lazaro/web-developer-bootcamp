@@ -1,0 +1,32 @@
+Equality: Triple vs Double Equals
+---------------------------------
+- The comparison operators that deals with equality
+    - Equality (==)
+        - Checks for the equality of values, NOT the type
+
+        - JavaScript coerces BOTH values (if different) to the same type
+            - Then compare for equality
+            - NOTE: This can lead to unexpected results
+
+
+    - Non-Equality (!=)
+        - Checks for the non-equality of values, NOT the type
+
+        - JavaScript coerces BOTH values (if different) to the same type
+            - Then compare for non-equality
+            - NOTE: This can lead to unexpected results
+
+
+    - Strict Equality (===) 
+        - Checks for equality of BOTH type and value
+
+
+    - Strict Non-Equality (!==)
+        - Checks for non-equality of BOTH type and value
+
+
+    - IMPORTANT: Use either Strict Equality & Non-Equality for comparing values
+        - To see if values are equal or non-equal
+
+        - These operators prevent unexpected comparison results from happening
+

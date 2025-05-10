@@ -1,0 +1,47 @@
+> 1 == 1
+< true
+
+> 1 == "1"
+< true
+
+> 0 == ""
+< true
+
+> 0 == false
+< true
+
+> null == undefined
+< true
+
+> "a" == "b"
+< false
+
+> 1 === "1"
+< false
+
+> 0 === false
+< false
+
+> null === undefined
+< false
+
+> 1 === 1
+< true
+
+> "a" === "a"
+< true
+
+> 1 != 2
+< true
+
+> 1 != "2"
+< true
+
+> 1 != "1"
+< false
+
+> 1 !== "1"
+< true
+
+> 1 !== "2"
+< true
