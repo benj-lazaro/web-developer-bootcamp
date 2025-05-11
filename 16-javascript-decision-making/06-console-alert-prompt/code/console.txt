@@ -1,0 +1,28 @@
+> console.log("Hello");
+VM95:1 Hello
+< undefined
+
+> console.warn("Red alert!");
+VM166:1 Red alert!
+(anonymous) @ VM166:1
+< undefined
+
+> console.error("Error Encountered!");
+VM266:1 Error Encountered!
+(anonymous) @ VM266:1
+< undefined
+
+> alert("Well, hello there.");
+< undefined
+
+> prompt("Enter a number: ");
+< '12'
+
+> let age = parseInt(prompt("Enter your age"));
+< undefined
+
+> age
+< 13
+
+> typeof(age)
+< number

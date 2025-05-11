@@ -1,0 +1,46 @@
+Console, Alert & Prompt
+-----------------------
+- The console.log() is a static method that
+    - Outputs a message (or any value passed as an argument) to the browser's JavaSCript console
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/console/log_static)
+
+Syntax:
+console.log(<val1>)
+console.log(<val1>, /* …, */ <valN>)
+console.log(<msg>)
+console.log(<msg>, <subst1>, /* …, */ <substN>)
+
+
+- The window.alert() is a method that 
+    - Instructs the browser to display a dialog with an optional message
+        - It waits until the user dismisses the dialog 
+
+    - Under some conditions (e.g. user switches tabs)
+        - The browser may NOT display a dialog OR NOT wait for the user to dismiss it
+        - Use "parseInt()" to convert it to an integer
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)
+
+Syntax:
+alert()
+alert(<message>)
+
+
+- The window.prompt() is a method that
+    - Instructs the browser to display a dialog with an optional message
+        - Prompting the user to input some text
+        - Waits until the user submits the text or cancels the dialog
+
+        - NOTE: A number value is converted into a string type
+
+    - Under some conditions (e.g. user switches tabs)
+        - The browser may NOT display a dialog OR 
+            - NOT wait for the user to submit text it or to cancel the dialog
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
+
+Syntax:
+prompt()
+prompt(<message>)
+prompt(<message>, <defaultValue>)
