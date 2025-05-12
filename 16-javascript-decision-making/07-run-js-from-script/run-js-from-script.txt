@@ -1,0 +1,21 @@
+Running JavaScript From A Script
+--------------------------------
+- Running JavaScript code from a separate file
+    - Using the HTML element <script>
+
+    - The HTML attribute "src"
+        - Assign a path to a separate script file
+        - The script with the filename extension of ".js"
+    
+    - Calls the external JavaScript file 
+        - From inside an HTML document
+
+    - It is ideally placed 
+        - At the very end of the HTML element <body>
+        - Particularly if the JavaScript code interacts with HTML elements
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/script)
+
+
+Syntax
+<script src="<javascript_file>.js"></script>
