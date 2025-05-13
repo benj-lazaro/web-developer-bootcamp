@@ -1,0 +1,7 @@
+Exercise 21: Our First Conditional Exercise
+-------------------------------------------
+- Write your code inside a pre-defined function 
+
+- You will automatically have access to a variable called "num"
+    - If "num" is an even number, print out "even"  
+    - Don't do anything if num is an odd number.
