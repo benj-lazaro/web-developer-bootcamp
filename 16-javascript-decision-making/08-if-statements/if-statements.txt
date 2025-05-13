@@ -1,0 +1,25 @@
+if Statements
+-------------
+- The "if" statement
+    - Followed by a pair of ()
+        - Inside a condition that evaluates to true or false
+
+    - Executes the statement(s) enclosed within a pair of { }
+        - ONLY if the condition is truthy (true)
+    
+        - Otherwise, it is considered falsy (false)
+            - Disregards the statement(s) entirely
+
+        - Continues with program execution 
+            - Succeeding after the pair of { }
+
+
+Syntax
+
+if (<condition>) {
+    <statement1>
+    ...
+    <statementn>
+}
+  
+
