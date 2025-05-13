@@ -1,4 +1,4 @@
-Exercise 18: More String Methods Practice
+Exercise 19: More String Methods Practice
 -----------------------------------------
 - Provided with the "word" variable, set to "skateboard"
     - Use string methods .slice() and .replace()
