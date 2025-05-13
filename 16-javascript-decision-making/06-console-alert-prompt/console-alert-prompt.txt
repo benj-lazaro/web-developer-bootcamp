@@ -6,6 +6,7 @@ Console, Alert & Prompt
     - Reference (https://developer.mozilla.org/en-US/docs/Web/API/console/log_static)
 
 Syntax:
+
 console.log(<val1>)
 console.log(<val1>, /* …, */ <valN>)
 console.log(<msg>)
@@ -23,6 +24,7 @@ console.log(<msg>, <subst1>, /* …, */ <substN>)
     - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)
 
 Syntax:
+
 alert()
 alert(<message>)
 
@@ -41,6 +43,7 @@ alert(<message>)
     - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
 
 Syntax:
+
 prompt()
 prompt(<message>)
 prompt(<message>, <defaultValue>)

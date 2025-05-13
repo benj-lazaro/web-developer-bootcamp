@@ -18,4 +18,5 @@ Running JavaScript From A Script
 
 
 Syntax
+
 <script src="<javascript_file>.js"></script>
