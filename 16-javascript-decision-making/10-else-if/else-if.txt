@@ -1,0 +1,32 @@
+else if
+-------
+- The "else if" statement works in conjunction with the "if" statement
+    - This statement is executed when the condition of the "if" statement failed
+
+    - It is possible to chain a series of "else if"
+
+
+Syntax
+
+if (<condition>) {
+    <statement1>
+    ...
+    <statementn>
+} else if (<condition>) {
+    <statement1>
+    ...
+    <statementn>
+} else if (<condition>) {
+    <statement1>
+    ...
+    <statementn>
+}
+
+...
+
+ else if (<condition>) {
+    <statement1>
+    ...
+    <statementn>
+}
+  
