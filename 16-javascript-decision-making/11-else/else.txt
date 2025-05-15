@@ -1,0 +1,26 @@
+else
+----
+- The statement(s) within the "else" clause is ONLY executed
+    - When ALL previous condition(s) is/are falsy (false)
+        - It does NOT require a conditional
+        - It is simply a catchall
+        - It is the LAST PIECE of the "if" conditional
+
+    - NOTE: The "else" clause is OPTIONAL
+
+
+Syntax
+
+if (<condition>) {
+    <statement>
+    ...
+} else if (<condition>) {
+    <statement>
+    ...
+} else if (<condition>) {
+    <statement>
+    ...
+} else {
+    <statement>
+    ...
+}
