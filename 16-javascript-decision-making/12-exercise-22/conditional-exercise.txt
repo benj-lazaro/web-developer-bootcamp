@@ -1,0 +1,10 @@
+Exercise 22: getColor Conditional Exercise
+------------------------------------------
+- Write your code inside a pre-defined function getcolor()
+    - You will automatically have access to a variable called phrase
+
+    - Your job is to print out a color based upon the following rules
+        - If phrase is 'stop', you should print out 'red'
+        - If phrase is 'slow', you should print out 'yellow'
+        - If phrase is 'go', you should print out 'green'
+        - If phrase is anything else, you should print out 'purple'
