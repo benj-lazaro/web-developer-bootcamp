@@ -1,0 +1,5 @@
+Logical NOT
+-----------
+- Logical NOT operator is an operator that
+    - Returns true if an expression evaluates to false & vice-versa
+
