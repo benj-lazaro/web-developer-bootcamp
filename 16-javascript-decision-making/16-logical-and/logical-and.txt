@@ -1,0 +1,21 @@
+Logical AND
+-----------
+- Logical operators allows to combine different expressions
+    - To combine more than 1 piece of logic together 
+        - To form 1 larger piece of logic
+
+
+- JavaScript's 3 core Logical operators
+    - Logical AND   = &&
+    - Logical OR    = ||
+    - Logical NOT   = !
+    
+
+- Logical AND
+    - Requires for BOTH expressions to be true
+        - In order for the entire expression to be true
+
+    - If the lefthand expression is false
+        - The entire expression is false
+        - This is referred as "short circuiting"
+    
