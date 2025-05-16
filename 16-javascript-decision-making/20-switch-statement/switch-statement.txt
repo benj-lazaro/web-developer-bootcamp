@@ -1,0 +1,34 @@
+Switch Statement Is A Lot
+-------------------------
+- It is another control flow statement that
+    - Can replace multiple "if" statements
+
+
+- It uses the keyword "switch" followed by an expression enclosed within a pair of ( )
+    - Expression is evaluated
+        - Then matches the expression's value against a series of "case" clauses
+    
+    - Executes the corresponding statement(s) of the matching "case" clauses
+        - Until a "break" statement is encountered
+
+    - If NO match is found, the statement in the "default" clause will be executed
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+
+
+Syntax:
+
+switch (<expression>) {
+  case <caseExpression1>:
+    <statements>
+    break;
+  case <caseExpression2>:
+    <statements>
+    break;
+  // …
+  case <caseExpressionN>:
+    <statements>
+    break;
+  default:
+    <statements>
+}
