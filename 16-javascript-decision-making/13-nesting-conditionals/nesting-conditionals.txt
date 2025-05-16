@@ -1,0 +1,7 @@
+Nesting Conditionals
+--------------------
+- The concept of nesting conditional statements
+    - An "if" statement can be nested inside another "if" statement
+    
+    - However the code can be clunky
+        - There is an alternative for implementing nested conditionals
