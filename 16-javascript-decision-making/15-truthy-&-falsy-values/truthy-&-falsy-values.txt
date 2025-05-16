@@ -1,0 +1,19 @@
+Truthy & Falsy Values
+---------------------
+- All JavaScript values have an inherent truthyness or falsyness about them
+    - Falsy values
+        - false
+        - 0
+        - "" (empty string)
+        - null
+        - undefined
+        - NaN
+
+    - Truthy values
+        - Everything else
+
+
+- When using with an "if" statement as a condition
+    - NO need to use equality operators to check on the truthyness / falsyness
+    - Just pass the variable where the value is stored
+
