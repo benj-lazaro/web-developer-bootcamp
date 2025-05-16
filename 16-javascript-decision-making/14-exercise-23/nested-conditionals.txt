@@ -1,0 +1,7 @@
+Exercise 23: Nested Conditionals Practice
+-----------------------------------------
+- Given a nested conditional that uses a variable called "num"
+    - Change the value of "num" to another number
+    - So that the message "YOU GOT ME!" is printed out
+    - Do NOT CHANGE anything other than the value of "num"
+
