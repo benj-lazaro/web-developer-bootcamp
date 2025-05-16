@@ -1,0 +1,11 @@
+Logical OR
+----------
+- Logical OR requires one of the expressions to be true
+    - In order for the entire expression to be true
+
+    - If BOTH the expressions are false
+        - The entire expression is false
+
+    - NOTE: When both logical AND & OR are on the same statement
+        - Logical AND gets evaluated first before the logical OR
+
