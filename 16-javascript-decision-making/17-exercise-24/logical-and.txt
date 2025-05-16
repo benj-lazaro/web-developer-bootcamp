@@ -1,0 +1,8 @@
+Exercise 24: Logical AND Mystery Exercise
+-----------------------------------------
+- Have provided you with a conditional statement that 
+    - Uses a variable called "mystery"
+    
+    - Change the value of "mystery" so that
+        - The conditional evaluates to true
+        - Prints "YOU GOT THIS" on the console
