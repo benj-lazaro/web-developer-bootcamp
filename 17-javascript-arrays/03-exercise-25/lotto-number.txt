@@ -1,0 +1,5 @@
+Exercise 25: Lotto Numbers Exercise
+-----------------------------------
+- Define a variable called "lottoNumbers"
+    - Set it equal to an array containing any 6 numbers
+
