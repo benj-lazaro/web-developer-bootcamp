@@ -1,0 +1,21 @@
+Introducing Arrays
+------------------
+- An array is an ordered data structure that groups data or items together
+    - Under a single variable name
+
+    - An array in JavaScript is NOT a primitive type
+        - It is an object with the following core characteristics
+            - It is resizeable
+            - It can contain a mix of different data types
+            - It is NOT associative
+            - It is zero indexed
+            - It create shallow copy during an array copy operation
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+
+Syntax:
+
+let <variable_name> = [];
+
+let <variable_name> = [<item_1>, <item_2>, ..., <item_n>];

@@ -1,0 +1,32 @@
+> let colors = [];
+< undefined
+
+> colors;
+< []
+
+> typeof(colors);
+< 'object'
+
+> let days = ["Monday", "Tuesday", "Wednesday"];
+< undefined
+
+> days[0];
+< 'Monday'
+
+> days[2];
+< 'Wednesday'
+
+> days
+< (3) ['Monday', 'Tuesday', 'Wednesday']
+
+> days.length;
+< 3
+
+> [].length;
+< 0
+
+> let kitchenSink = [true, undefined, 12, 9.999, NaN, false, null, "Hi!"];
+< undefined
+
+> kitchenSink;
+< (8) [true, undefined, 12, 9.999, NaN, false, null, 'Hi!']
