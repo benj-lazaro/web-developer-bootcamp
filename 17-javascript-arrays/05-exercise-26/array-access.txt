@@ -1,0 +1,12 @@
+Exercise 26: Array Access Exercise
+----------------------------------
+- Provided with a "leaderboard" array
+    - Consists of 4 strings
+    
+    - Without touching line 1, make the following changes:
+        - Misspelled the 2nd name "Lua"
+            - Correct it to "Luna"
+
+        - Replace "Bellatrix" with "Draco"
+
+
