@@ -1,0 +1,52 @@
+Array Random Access
+-------------------
+- Each element in an array has a corresponding index value
+    - Starts at index 0
+
+    - Accessing a non-existent element
+        - It does NOT return an error
+        - It returns a value of "undefined"
+
+    - NOTE: If an element of is type "string"
+        - Accessing a letter from a string element
+            - Use a 2nd pair of [] 
+            - Pass the index of the letter in a string as an index value
+
+
+- To modify / update an array element
+    - Use the "=" operator to assign a new array element
+        - Pass the index value of the targeted element on the pair of [ ]
+
+
+- To add a new element to a non-existent index value
+    - Use the "=" operator to assign a new array element
+        - Pass the non-existent index index_value
+    
+    - JavaScript will add the new element
+        - In-between the last element and the added one
+        
+        - New empty slots are added
+            - Increasing the size of the array
+            - NOTE: Use the property ".length" to view
+    
+        - Chrome browser labeld an empty array element as "empty"
+
+
+- To a new element at the end of an array
+    - Use the property ".length"
+        - Pass the returned value as index for the new element
+    
+
+Syntax:
+
+// Accessing an array element
+<array_name>[<index_value>];
+
+// Add a new element in the array
+<array_name>[<index_value>] = <new_array_element>
+
+// Modify / update a specific array element
+<array_name>[<target_element_index_value>] = <update_array_element>;
+
+// Add a new element at the end of an array
+<array_name>[<array>.length] = <new_array_element>
