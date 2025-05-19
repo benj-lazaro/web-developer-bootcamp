@@ -1,0 +1,21 @@
+Shift & Unshift
+---------------
+- The array method ".shift()" removes the first element from the BEGINNING of an array
+    - Returns the removed element
+    - Changes the length of the array
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+
+
+- The array method ".unshift()" adds the specified element(s) to the BEGINNING of an array
+    - Returns the new length of the array
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
+
+
+Syntax:
+
+<array_name>.shift();
+
+<array_name>.unshift();
+<array_name>.unshift(<element1>);
+<array_name>.unshift(<element1>, <element2>);
+<array_name>.unshift(<element1>, <element2>, /* …, */ <elementN>);
