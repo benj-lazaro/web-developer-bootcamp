@@ -1,0 +1,13 @@
+Exercise 27: Push, Pop, Shift & Unshift Practice
+------------------------------------------------
+- Provided you with an array called "planets"
+    - Remove the first element "The Moon"
+
+    - Add "Saturn" at the very end of the array
+
+    - Add "Mercury" as the 1st element in the array
+    
+    - At the end of your hard work
+        - Array "planets" should look like this: 
+        
+            ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn"]
