@@ -1,0 +1,21 @@
+Push & Pop
+----------
+- The array method ".push()" adds the specified element(s) to the END of an array
+    - Returns the new length of the array
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+
+
+- The array method ".pop()" removes the last element from the END of an array
+    - Returns the removed element
+    - Changes the length of the array
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+
+
+Syntax:
+
+<array_name>.push();
+<array_name>.push(<element1>);
+<array_name>.push(<element1>, <element2>);
+<array_name>.push(<element1>, <element2>, /* …, */ <elementN>);
+
+<array_name>.pop();
