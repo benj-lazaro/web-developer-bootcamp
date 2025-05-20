@@ -1,0 +1,44 @@
+Concat, IndexOf, Includes & Reverse
+-----------------------------------
+- The array method ".concat()" mergers two or more arrays
+    - Returns a new array
+    - Does NOT change the existing arrays
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+
+
+- The array method ".indexOf()" returns the 1st index
+    - At which the given element can be found in the array
+    - Returns -1 if NOT found
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+
+
+- The array method ".includes()" determines whether an array includes
+    - A certain value among its entries (i.e. elements)
+    - Returns a Boolean "true" or "false" as appropriate
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+
+
+- The array method ".reverse()" reverses as array "in place"
+    - Returns the reference to the same array
+    - The 1st array element becomes the last & vice-versa
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+
+    - NOTE: To reverse elements in an array WITHOUT mutating the original
+        - Use the method ".toReversed()"
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toReversed)
+
+
+Syntax:
+
+<array_name>.concat();
+<array_name>.concat(<value1>);
+<array_name>.concat(<value1>, <value2>);
+<array_name>.concat(<value1>, <value2>, /* …, */ <valueN>);
+
+<array_name>.indexOf(<searchElement>);
+<array_name>.indexOf(<searchElement>, <fromIndex>);
+
+<array_name>.includes(<searchElement>);
+<array_name>.includes(<searchElement>, <fromIndex>)'
+
+<array_name>.reverse();
