@@ -1,0 +1,59 @@
+Slice, Splice & Sort 
+--------------------
+- The array method ".slice()" returns a shallow copy 
+    - Of a portion of an array into a new array
+    - Selected from "start" to "end" indices ("end" NOT included)
+    - The original array will NOT be modified
+    
+    - NOTE: Passing a negative index (e.g. "-1")
+        - It will start from the end of the array
+    
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+
+
+- The array method ".splice()" changes the content of an array
+    - By removing or replacing existing elements and/or adding new elements "in place"
+        - NOTE: This is modifies the original array
+
+    - It returns a new array containing the deleted element from the original array
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+
+    - NOTE: To refrain from modifying the original array
+        - Use the method ".toSpliced()" instead
+        - It creates a new array with the targeted segment removed and/or replaced
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSpliced)
+
+
+- The array method ".sort()" sorts the elements of an array "in place"
+    - Returns the reference to the same array, elements now sorted
+    
+    - The default sort order is ascending
+        - Converts elements into strings
+        - Then comparing their UTF-16 code unit values
+        - NOTE: This does NOT provide a reliable numeric sort
+            - Better pass a function as an argument value to ".sort()"
+            - That will perform a better sorting algorithm
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+
+    - NOTE: To sort array elements WITHOUT modifying the original array
+        - Use the method ".toSorted()"
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted)
+
+
+
+Syntax:
+
+<array_name>.slice();
+<array_name>.slice(<start_index>);
+<array_name>.slice(<start_index>, <end_index>);
+
+<array_name>.splice(<start_index>);
+<array_name>.splice(<start_index>, <deleteCount>);
+<array_name>.splice(<start_index>, <deleteCount>, <item1>);
+<array_name>.splice(<start_index>, <deleteCount>, <item1>, <item2>);
+<array_name>.splice(<start_index>, <deleteCount>, <item1>, <item2>, /* …, */ <itemN>);
+
+<array_name>.sort();
+<array_name>.sort(<compareFn>);
