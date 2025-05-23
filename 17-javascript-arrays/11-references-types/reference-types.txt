@@ -1,0 +1,31 @@
+Reference Types & Equality Checking
+-----------------------------------
+- When using the "===" or "==" operator between two arrays
+    - It will ALWAYS yield a boolean "false"
+        - Despite both arrays contain identical number & type of elements
+
+    - JavaScript's "===" or "==" operators compare
+        - Each array's own address (i.e. reference) in memory
+        - NOT the arrays' contents (i.e. elements)
+    
+    - When a new array is created / declared
+        - JavaScript assigns a unique address (i.e. reference)
+        - In order to store associated elements of the array
+
+    - Common use case
+        - To check if variables are references the same array
+        - NOT to check the array's elements
+
+    - In order to yield a boolean "true" using "===" or "==" operators
+        - Create a new array
+            - Assign it as value to a variable
+
+        - Create another variable
+            - Assign the previous variable as value
+        
+        - In doing so
+            - Both variables references the same array
+
+        - NOTE: Any changes made in the array
+            - Will be reflected on both variables
+            - As both of them references the same array
