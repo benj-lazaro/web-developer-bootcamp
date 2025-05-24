@@ -1,0 +1,21 @@
+Arrays + Const
+--------------
+- Reason why "const" is used when declaring a variable that holds an array
+    - The variable holds the reference (address) where the array is located in memory
+        - It does NOT hold the content of the array
+        - Think of it as referencing to a container where the array's element(s) is/are stored
+        
+        - Unlike assigning a primitive value to a variable
+            - Where it stores the actual value
+            - Where it has a finite amount of space in memory
+
+    - This prevents a variable from being re-assigned 
+        - With a reference of a brand-new array
+            - Even if their contents (elements) are identical
+
+        - Doing so, JavaScript will flag an error
+            - "Uncaught TypeError: Assignment to constant variable"
+
+    - Despite the variable being a "constant"
+        - The associated array can add / remove elements
+        - JavaScript will NOT flag an error
