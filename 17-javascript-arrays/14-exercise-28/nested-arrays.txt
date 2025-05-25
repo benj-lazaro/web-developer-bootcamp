@@ -1,0 +1,13 @@
+Exercise 28: Nested Arrays Practice
+-----------------------------------
+- Provided you with an array called "airplaneSeats"
+    - Represents rows of seats of a flight
+    
+    - Hugo is looking to book a seat
+        - Fortunately, there is one in the middle
+        - The seat that is currently set to "null"
+
+    - Update the array element that is currently set to "null"
+        - Replace it with "Hugo"
+
+    
