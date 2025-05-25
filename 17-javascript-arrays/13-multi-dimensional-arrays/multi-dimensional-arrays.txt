@@ -1,0 +1,8 @@
+Multi-Dimensional Arrays
+------------------------
+- Arrays can be stored inside other Arrays
+
+
+Syntax:
+
+const <variable_name> = [[<item>, <item>], [<item>, <item>], [<item>, <item>]];
