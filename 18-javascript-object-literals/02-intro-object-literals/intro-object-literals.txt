@@ -14,16 +14,3 @@ Introducting Object Literals
 
     - It is basically a collection of key-value pairs (i.e. properties)
         - The order of the properties does NOT matter
-
-
-Syntax:
-
-<object_name> = {
-    <key>: <value>,
-    ...
-    <key>: <value>
-}
-
-// To access a value using a key
-let <variable_name> = <object_name>.<key>;
-
