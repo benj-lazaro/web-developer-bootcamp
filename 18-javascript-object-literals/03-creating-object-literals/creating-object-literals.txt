@@ -1,0 +1,17 @@
+Creating Object Literals
+------------------------
+- To create an object literal in JavaScript
+    - This refers to an object whose data structure
+        - Is assigned with key-value pairs (i.e. properties)
+
+    - Similar to an array, an object literal 
+        - Is also a "Reference Type" data structure
+
+
+Syntax:
+
+const <object_name> = {
+    <key>: <value>,
+    ...
+    <key>: <value>
+}
