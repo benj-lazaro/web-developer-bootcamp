@@ -1,0 +1,29 @@
+Introducting Object Literals
+----------------------------
+- Objects (like Arrays) help to store 
+    - Multiple pieces of related data together in some sort of structure
+    
+    - It stores data in a "key-value" pairs
+        - Also referred to as "properties"
+
+        - To access a particular value from an object
+            - Use the corresponding key (i.e. a label)
+
+        - It is similar to accessing an element from an Array
+            - Using the corresponding index value
+
+    - It is basically a collection of key-value pairs (i.e. properties)
+        - The order of the properties does NOT matter
+
+
+Syntax:
+
+<object_name> = {
+    <key>: <value>,
+    ...
+    <key>: <value>
+}
+
+// To access a value using a key
+let <variable_name> = <object_name>.<key>;
+
