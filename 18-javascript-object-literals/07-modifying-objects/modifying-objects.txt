@@ -1,0 +1,22 @@
+Modifying Objects
+-----------------
+- To modify a value of an object literal's property (i.e. key)
+    - Using the dot syntax / notation
+
+        <object_name>.<property_name> = <update_value>;
+
+
+    - Using the square brackets notation
+
+        <object_name>["<property_name>"] = <update_value_value>;
+
+
+- To add a new property (i.e. key) into an object literal
+    - Using the dot syntax / notation
+
+        <object_name>.<property_name> = <new_value>;
+
+
+    - Using the square brackets notation
+
+        <object_name>["<property_name>"] = <new_value>;
