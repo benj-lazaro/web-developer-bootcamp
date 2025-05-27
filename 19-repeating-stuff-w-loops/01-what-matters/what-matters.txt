@@ -10,8 +10,7 @@ What Matters In This Section
 
 - Important
     - Nested Loops
-    - Iterating Objects
 
 
 - Nice To Have
-    
+    - Iterating Objects
