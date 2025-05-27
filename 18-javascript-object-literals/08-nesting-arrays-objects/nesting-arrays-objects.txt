@@ -1,0 +1,7 @@
+Nesting Arrays & Objects
+------------------------
+- Often Arrays and Literal Objects work together
+    - Illustrated by the common pattern of
+        - Having an array of objects (e.g. shopping cart)
+        - An object with an array and/or object inside of it (e.g. student bio)
+
