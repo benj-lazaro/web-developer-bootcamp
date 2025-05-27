@@ -1,0 +1,10 @@
+Exercise 29: Our First Object Exercise
+--------------------------------------
+- Define a new variable called "product"
+    - It should be an object literal
+    - Contains the following properties
+        - "name" with the value of "Gummy Bears"
+        - "inStock" with the value of "true"
+        - "price" with the value of "1.99"
+        - "flavors" with the value of "["grape", "apple", "cherry"]"
+
