@@ -1,0 +1,39 @@
+Accessing Data Out of Objects
+-----------------------------
+- Every key (i.e. property) in an Object literal
+    - Is IMPLICITLY CONVERTED into a string
+        - With the exception of a key that is a Symbol
+
+
+- Ways to access a value from an Object literal
+    - Using the square brackets
+        - Passing the key (enclosed in quotes) as an argument
+
+            <array_name>["<key>"];
+
+        - It allows to access keys containing special characters
+
+        - It allows the use of an expression as key
+
+            <array_name>["<expression_as_key>"];
+
+
+        - It allows the use of a variable as key
+            - NOTE: The variable name is NOT enclosed in quotes
+
+            <array_name>[<variable_name>];
+
+
+    - Using the dot syntax
+        - A dot "." followed by the key 
+            
+            <array_name>.<key>;
+
+        - It is faster to write & cleaner to read
+
+        - Using something dynamic e.g. an expression or variable name as key 
+            - Will NOT work & returns "undefined"
+
+        - Keys that is a number or contains a dot somewhere (e.g. "bar.Baz")
+            - Will NOT work & returns "undefined"
+
