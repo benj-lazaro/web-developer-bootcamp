@@ -1,0 +1,14 @@
+Exercise 30: Object Access Exercise
+-----------------------------------
+- Given an object literal named "restaurant"
+    - Create a variable named "fullAddress"
+    
+    - It should contain a string based on the object literal's properties
+        - Address
+        - City
+        - State
+        - Zipcode
+
+    - The value of the variable should look like this:
+
+        "64 Johnson Ave, Brooklyn, NY 11206" 
