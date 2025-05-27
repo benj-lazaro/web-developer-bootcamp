@@ -1,0 +1,17 @@
+What Matters In This Section 
+----------------------------
+- Crucial
+    - For Loops
+    - While Loops
+    - The Break Keyword
+    - For..Of Loop
+    - Iterating Arrays
+
+
+- Important
+    - Nested Loops
+    - Iterating Objects
+
+
+- Nice To Have
+    
