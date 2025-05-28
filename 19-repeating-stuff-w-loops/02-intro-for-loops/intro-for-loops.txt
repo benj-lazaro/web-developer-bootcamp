@@ -1,0 +1,29 @@
+Intro To for Loops
+------------------
+- The purpose of a loop is to repeat some functionality
+    - JavaScript has several types of loops
+        - for
+        - while
+        - for of
+        - for in
+
+
+- The "for" statement creates a loop that consists of
+    - Three (3) optional expressions
+        - Initial Expression
+        - Condition (boolean expression)
+        - Increment Expression 
+
+    - Enclosed in parenthesis
+    - Separated by semicolons
+    - Followed by statement(s) to be executed within the loop
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+
+
+Syntax:
+
+for (<initialExpression>; <condition>; <incrementExpression>) {
+  <statement>
+  ...
+}
