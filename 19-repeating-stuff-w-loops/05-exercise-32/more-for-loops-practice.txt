@@ -1,0 +1,10 @@
+Exercise 32: More for Loops Practice
+------------------------------------
+- Write a for loop that counts down, rather than up
+    - A for loop that prints the following numbers (in this order):
+        25
+        20
+        15
+        10
+        5
+        0
