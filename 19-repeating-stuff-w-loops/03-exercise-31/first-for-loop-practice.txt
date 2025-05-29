@@ -1,0 +1,4 @@
+Exercise 31: First for Loop Practice
+------------------------------------
+- Print out the classic chorus lyrics of "I'm Blue" by Eiffel 65
+    - Print the string "Da ba dee da ba daa" 6 times 
