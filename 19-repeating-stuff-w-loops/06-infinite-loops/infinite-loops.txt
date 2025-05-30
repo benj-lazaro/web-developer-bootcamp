@@ -1,0 +1,14 @@
+The Perils Of Infinite Loops
+----------------------------
+- An infite loop is a loop that does NOT STOP
+    - It runs continuously until the browser & JavaScript runs out of memory
+    - Sometimes locks up or unexpectedly force quit (crashes) the browser application
+
+
+- To prevent an infite loop
+    - When writing any loop, pay attention to how the loop will stop
+    - Will the loop meet the condition that eventually terminates the loop
+
+        for (let i = 20; i >= 0; i++) {  // The given condition will NEVER be met
+            console.log(i);
+        }
