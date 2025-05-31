@@ -1,0 +1,10 @@
+Looping Over Arrays
+-------------------
+- To loop over (i.e. iterate) an array using a "for" loop
+    - Start at index 0
+    - Continue looping until the last index (i.e. length - 1)
+
+
+- To reverse iterate an array using a "for" loop
+    - Start at the highest index (i.e. length - 1)
+    - Continue looping (in reverse) until the first index
