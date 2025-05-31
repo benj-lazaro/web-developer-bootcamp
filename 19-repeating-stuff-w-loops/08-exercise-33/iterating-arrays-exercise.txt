@@ -1,0 +1,6 @@
+Exercise 33: Iterating Arrays
+-----------------------------
+- Provided with an array called "people"
+    - Iterate over the array using a "for" loop
+    - Print each name in uppercase
+
