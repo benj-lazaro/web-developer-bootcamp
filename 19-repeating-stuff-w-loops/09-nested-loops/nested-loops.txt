@@ -1,0 +1,14 @@
+Nested Loops
+------------
+- Having one "for" loop inside the body of another "for" loop
+    
+
+- For every single iteration of the outer "for" loop
+    - The inner "for" completes its own full iteration cycle
+    
+
+- Common use case of nested loop
+    - Traverse or iterate across nested arrays
+
+    
+    
