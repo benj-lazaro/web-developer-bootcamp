@@ -1,0 +1,30 @@
+Another Loop: The while Loop
+----------------------------
+- The "while" loop continue to run
+    - As long as the test condition evaluates to "true"
+        - The condition is evaluated BEFORE executing the statement(s)
+    
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
+
+    - NOTE: It is very easy to create an infinite loop
+        - Make sure that the condition will EVENTUALLY evaluates to "false"
+            - e.g. placing the iterator within the loop's code block
+
+        - Otherwise the "while" loop PERPETUALLY executes
+
+
+- Use case
+    - A "for" loop is preferred for tasks that
+        - Come with a set number of iterations
+
+    - A "while" loop is prefered for tasks that
+        - Executes statement(s) as long as the condition evaluates to true
+        - NOT based on a set of iterations
+    
+
+Syntax:
+
+while (<test_condition>) {
+  <statement>;
+  ...
+}
