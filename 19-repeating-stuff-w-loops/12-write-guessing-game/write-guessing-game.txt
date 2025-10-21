@@ -1,0 +1,5 @@
+Writing A Guessing Game
+-----------------------
+- Write a guessing game using
+    - A "while" loop
+    - A "break", "prompt()" and "alert()" statements
