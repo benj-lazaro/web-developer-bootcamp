@@ -1,0 +1,6 @@
+Guessing Game Explanation & Bug Fixes
+-------------------------------------
+- Implementation of improvements and bug fixes in the JavaScript code
+
+
+
