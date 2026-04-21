@@ -1,0 +1,20 @@
+The Lovely for..of Loop
+-----------------------
+- The "for..of" loop 
+    - It is a relatively new feature in JavaScript
+        - NOT supported in Internet Explorer (IE)
+
+    - Operates on a sequence of values
+        - Sourced from an iterable object
+
+    - Offers an nice & easy way to iterate over arrays or
+        - Other iteratble objects (e.g. object, string)
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
+
+
+Syntax:
+
+for (const <singular_iterable_name> of <iteratble_object>) {
+    ...
+}
