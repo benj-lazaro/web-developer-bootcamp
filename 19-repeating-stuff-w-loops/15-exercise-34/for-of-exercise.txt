@@ -1,0 +1,8 @@
+Exercise 34: for..of Practice
+-----------------------------
+- Provided with an array called "numbers"
+    - Use a "for..of" loop to loop over it
+
+    - Print out the square of each value
+        - NOTE: The number multiplied by itself
+
