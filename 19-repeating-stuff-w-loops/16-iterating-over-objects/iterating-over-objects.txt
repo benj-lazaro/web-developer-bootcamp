@@ -1,0 +1,47 @@
+Iterating Over Objects
+----------------------
+- Using a "for..of" loop to iterate over (almost ALL) objects
+    - Except for an object literals w/c is considered NOT an iterable object
+
+
+- To iterate over an object literal
+    - Use a "for..in" loop
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
+
+    Syntax:
+
+    for (const <singular_iterable_name> in <iteratble_object>) {
+        ...
+    }
+
+
+    - NOTE: Alternatively, to iterate over an object literal using a "for..of" loop
+        - Use the following static methods that returns an array
+        - Use a "for..of" loop to iterate over the array
+
+
+- Use the static method "Objects.keys()"
+    - Returns an array of property names from an object literal
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+
+    Syntax:
+
+    Object.keys(<object_literal>);
+
+
+- Use the static method "Objects.values()"
+    - Returns an array of property values from an object literal
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values)
+
+    Syntax:
+
+    Object.values(<object_literal>);
+
+
+- Use the static method "Objects.entries()"
+    - Returns a nested array of key-value pairs from an object literal
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+
+    Syntax:
+
+    Object.entries(<object_literal>);
