@@ -1,0 +1,22 @@
+Todo List Project Intro
+-----------------------
+- Create a simple Todo List demo
+    - Combines previous lessons learned
+        - Working w/ variables, arrays, array methods, loops & conditional logic
+
+    - List of commands that a user will provide
+        - To perform specific tasks
+            - "new"     = Add a new entry
+            - "list"    = List all Todos
+            - "delete"  = Remove a specific Todo (by its index number)
+            - "quit"    = Quit the app
+
+        - Feedback will be rendered on the browser's JavaScript console
+
+    - Upon starting the demo
+        - Prompts a window
+
+        - Asks the user on what to do
+            - Based on specific commands
+            - Ignores unrecognized commands 
+
