@@ -1,30 +1,38 @@
 const todoList = [];
 let command = "";
 
-while (command !== "quit") {
+while (command !== "quit" && command !== "q") {
   command = prompt("What would you like to do?").toLowerCase();
 
   if (command === "new") {
-    userInput = prompt("Enter new todo");
-
+    const userInput = prompt("Enter new todo");
     todoList.push(userInput);
     console.log(`${userInput} added to list`);
   } else if (command === "list") {
-    let indexCount = 0;
-
-    console.log("**********");
-
-    for (let list of todoList) {
-      console.log(`${indexCount}: ${list}`);
-      indexCount++;
+    if (todoList.length === 0) {
+      console.log("Todo List is empty");
+    } else {
+      let indexCount = 0;
+      console.log("**********");
+      for (let list of todoList) {
+        console.log(`${indexCount}: ${list}`);
+        indexCount++;
+      }
+      console.log("**********");
     }
-
-    console.log("**********");
   } else if (command === "delete") {
-    let indexToDelete = prompt("Enter index of todo to delete");
+    const indexToDelete = parseInt(prompt("Enter index of todo to delete"));
 
-    todoList.splice(indexToDelete, 1);
-    console.log("Todo Removed");
+    if (todoList.length === 0 || indexToDelete > todoList.length) {
+      console.log("No Todo item is deleted");
+    } else {
+      if (!Number.isNaN(indexToDelete)) {
+        const deleted = todoList.splice(indexToDelete, 1);
+        console.log(`Todo: ${deleted[0]} removed`);
+      } else {
+        console.log("Unrecognized index");
+      }
+    }
   }
 }
 
