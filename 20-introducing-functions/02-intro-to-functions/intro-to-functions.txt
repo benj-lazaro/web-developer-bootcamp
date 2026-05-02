@@ -1,0 +1,11 @@
+Intro To Functions
+------------------
+- A JavaScript function allows to
+    - Write reusable, modular code 
+    
+    - Wrapped up & given a name
+        - Then executed (called) at a later time
+        - NOTE: NOT all functions have a name
+
+    - It reduces code duplication & improve readability
+    
