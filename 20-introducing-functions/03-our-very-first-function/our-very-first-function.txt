@@ -1,0 +1,48 @@
+Our Very First Function
+-----------------------
+- Writing functions is a two (2) step process
+    - Define the function
+    - Execute the function
+
+
+- There are multiple ways to define a function
+    - The most common
+
+    Syntax:
+    function <name>() {
+        // function body
+    }
+
+    - NOTE: Naming convention for a function uses "camelCase"
+        - First letter is in lowercase
+        - First letter of EVERY subsequent word is in uppercase
+
+    - IMPORTANT: Naming a function should ALWAYS be descriptive
+
+
+- After a function is defined
+    - The function can be executed (called) once or multiple times
+
+    - Placing a function call PRIOR to its definition
+        - Does NOT flag an error
+        - This is due to JavaScript's "hoisting"
+
+    - While "hoisting" works
+        - It is encouraged to define a function FIRST
+        - BEFORE using it
+
+
+- On the practice code (script.js)
+    - Define a function named "singSong"
+        - Calls "console.log()" three (3) times
+        - Each w/ its own string value
+
+
+    - Outside of the function
+        - Call / execute the function "singSong()" multiple times
+
+
+    - Save the changes
+        - Load / reload the browser
+        - Launch the browser's JavaScript console
+        - Prints (displays) three (3) string values
