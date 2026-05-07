@@ -1,0 +1,6 @@
+Exercise 35: Heart Function Exercise
+------------------------------------
+- Define a function called "printHeart" that
+    - Prints out the stirng "<3"
+    - Execute the function once
+
