@@ -1,0 +1,10 @@
+Exercise 36: Rant Exercise
+--------------------------
+- Define a function called "rant"
+    - Accepts a string argument called "message"
+
+
+- The function should print out
+    - An uppercase version of "message" three (3) times
+    - Three separate calls to "console.log()"
+
