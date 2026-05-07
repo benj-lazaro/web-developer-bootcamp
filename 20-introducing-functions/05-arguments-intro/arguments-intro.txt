@@ -1,0 +1,23 @@
+Arguments Intro
+---------------
+- Arguments serves as "inputs" to a function
+    - It allows a function to accept input(s)
+
+    - It refers to the actual value(s) passed
+        - To a function as input 
+
+        
+- To setup a function that accepts an input(s)
+    - Define a "parameter" variable
+        - In-between the pair of "( )" of a function
+
+    - This variable holds the value of an argument
+        - Passed as input to the function
+
+
+Syntax:
+function <name>(<parameter) {
+    // Function body
+}
+
+<function_name>(<argument>);
