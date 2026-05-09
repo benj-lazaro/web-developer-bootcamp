@@ -1,0 +1,17 @@
+Functions With Multiple Arguments
+---------------------------------
+- A function can accept multiple argument values
+    - Through multiple function parameter variables
+
+    - IMPORTANT: Multiple argument values are based
+        - On the order of the function's corresponding parameter variables
+
+    - A parameter variable that does NOT get an assigned values
+        - Returns the value of "undefined"
+
+Syntax:
+function <name>(<parameter_1>, <parameter_n>) {
+    // Function body
+}
+
+<function_name>(<argument>);

@@ -16,7 +16,7 @@ Arguments Intro
 
 
 Syntax:
-function <name>(<parameter) {
+function <name>(<parameter>) {
     // Function body
 }
 
