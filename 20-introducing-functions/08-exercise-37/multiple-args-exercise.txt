@@ -1,0 +1,11 @@
+Exercise 37: Multiple Args Exercise
+-----------------------------------
+- Write a function named "isSnakeEyes"
+    - Accepts two (2) numbers as input
+
+    - If BOTH numbers are 1
+        - Print "Snake Eyes!"
+        - Otherwise, print "Not Snake Eyes!"
+
+    - Send the output to "console.log()"
+
