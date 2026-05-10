@@ -1,0 +1,20 @@
+The "return" Keyword
+--------------------
+- The "return" keyword / statement
+    - Stops the execution of a function
+        - Succeeding lines of code right after the "return" statement are ignored
+    
+    - Specifies the (single) value to be returned by that function
+        - In the form of an expression, a constant or variable, an object
+
+    - The "returned value" (output) can be
+        - Stored to a variable
+        - Pass as input to another function
+    
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
+
+
+Syntax:
+return;
+return <expression>;
+
