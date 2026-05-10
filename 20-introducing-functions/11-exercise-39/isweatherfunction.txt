@@ -1,0 +1,10 @@
+Exercise 39: isShortsWeather Function
+-------------------------------------
+- Write a function called "isShortsWeather"
+    - Accepts a single number argument called "temperature"
+
+    - If "temperature" is greater than or equal to 75
+        - Return "true"
+        - Otherwise return "false"
+
+    - NOTE: This exercise assumes temperature is in Fahrenheit
