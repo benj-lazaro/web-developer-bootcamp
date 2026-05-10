@@ -1,0 +1,9 @@
+Exercise 40: Last Element Exercise
+----------------------------------
+- Write a function called "lastElement"
+    - Accepts a single array argument
+        - Returns the last element of the array
+    
+    - If the array is empty
+        - Return a value of "null"
+
