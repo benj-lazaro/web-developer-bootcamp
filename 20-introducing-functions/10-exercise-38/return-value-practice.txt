@@ -1,0 +1,5 @@
+Exercise 38: Return Value Practice
+----------------------------------
+- Write a simple function named "multiply"
+    - Accepts two (2) numerical inputs
+    - Returns the product
