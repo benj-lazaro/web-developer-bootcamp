@@ -1,0 +1,13 @@
+Exercise 41: Capitalize Exercise
+--------------------------------
+- Define a function called "capitalize"
+    - Accepts a string argument
+    - Returns a string w/ the 1st letter capitalized
+
+    - NOTE: Strings are immutable
+        - Make a new string that will be returned
+        
+        - Use a string method to capitalize the first letter
+            - Add the 1st capitalized letter to the rest of the original string
+            - Use ".slice()" to omit the original 1st letter
+
