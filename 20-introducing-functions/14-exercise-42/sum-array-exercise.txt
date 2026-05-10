@@ -1,0 +1,17 @@
+Exercise 42: Sum Array Exercise
+-------------------------------
+- Write a function called "sumArray"
+    - Accepts a single argument (an array of numbers)
+
+    - Returns the sum of ALL  the numbers in the array
+
+    - Hints:
+        - Requires a variable that keeps track of the total
+            - Should start out as 0
+
+        - Loop over the array
+            - For each element read
+            - Add it to the total
+
+        - After added every number to the total
+            - Return the total
