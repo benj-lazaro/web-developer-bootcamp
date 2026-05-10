@@ -1,0 +1,17 @@
+What Matters In This Section 
+----------------------------
+- Crucial
+    - Function Scope
+    - Block Scope
+    - Lexical Scope
+    - Function Expressions
+    - Higher Order Functions
+
+
+- Important
+    - Returning Functions
+    - The Keyword "this"
+    - Adding Methods To Objects
+
+
+- Nice To Have
