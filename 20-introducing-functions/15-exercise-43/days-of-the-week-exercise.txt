@@ -1,0 +1,18 @@
+Exercise 43: Days Of The Week Exericse
+--------------------------------------
+- Write a function called "returnDay"
+    - Takes in one (1) parameter
+        - A number from 1 to 7
+
+    - Returns the day of the week
+        - e.g. 1 = Monday
+
+    - If the the number
+        - Is less than 1 or greater than 7
+        - Return a value of "null"
+
+    - Hint:
+        - Store the days of the week in an array
+        - Or use an object w/ numerical keys
+
+        
