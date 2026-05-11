@@ -1,0 +1,23 @@
+Function Scope
+--------------
+- Scope refers to variable visibility
+    - Where a JavaScript variable is defined
+        - Impacts where we have access to it
+
+    - Accessing a variable outside of its defined scope
+        - Returns an "Uncaught ReferenceError: <variable_name> is not defined"
+    
+
+- A Function Scope
+    - Refers to variables that are defined w/in a Function
+    
+    - These variables are inacessible (NOT available)
+        - Outside of the function that they're defined w/in
+
+    - If there are two (2) variables of the same name
+        - A Global & a function scope
+
+        - JavaScript first checks for a Function scope variable
+            - Before checking a Global scope variable_name
+
+
