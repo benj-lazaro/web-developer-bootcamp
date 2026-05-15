@@ -1,0 +1,22 @@
+Block Scope
+-----------
+- A Block scope has a similar concept w/ that of a Function Scope
+    - A Block refeers to constants and/or variables declared w/in
+        - A pair of "{ }" that is NOT a function
+        - These include conditional & loop statements
+
+    - Those constants and/or variables ONLY exists w/in that Block
+
+    - Accessing them outside of a Block scope
+        - Returns an "Uncaught ReferenceError: ..."
+
+
+- Using the keyword "var"
+    - To define a variable w/in a Block scope
+
+    - The variable would NOT be scope w/in 
+        - The Block it was defined in
+        - Causing issues w/ regards to scoping
+
+    - This was the reason why the keywords "const" & "let" were created
+        - Lead to the idea of Block scope
