@@ -1,0 +1,10 @@
+Lexical Scope
+-------------
+- A Lexical scope refers to constants and/or variables declared w/in
+    - A nested child function that has access to 
+        - The constants and/or variables that are declared w/in
+        - The scope of the parent (or ancestor) function
+
+    - IMPORTANT: The parent (or ancestor) function does NOT
+        - Have access to the constants and/or variables that are
+        - Declared w/in the child or descendant function(s)
