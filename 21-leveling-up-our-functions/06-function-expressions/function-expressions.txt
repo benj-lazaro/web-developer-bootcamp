@@ -1,0 +1,27 @@
+Function Expressions
+--------------------
+- A different way of defining a function that
+    - Involves storing a function w/ NO name in a variable (or constant)
+        - Located at the right-hand side of the "=" operator
+
+    - The name of the variable (or constant)
+        - Will be used to execute the function
+
+    - Uses the keyword "return" to return a value
+
+    - NOTE: In JavaScript, a function is treated like any other value wherein it
+        - Can be stored (in a constant or variable)
+        - Can be passed as an argument value
+        - Can be used as a return
+
+
+Syntax:
+let <variable_name> = function (<parameter>) {
+    ...
+    return <expression>;
+};
+
+const <variable_name> = function (<parameter>) {
+    ...
+    return <expression>;
+};
