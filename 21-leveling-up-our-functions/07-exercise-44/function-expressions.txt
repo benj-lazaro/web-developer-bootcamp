@@ -1,0 +1,5 @@
+Exercise 44: Function Expressions Exercise
+------------------------------------------
+- Define a function expression that
+    - Returns the square of a number
+    - Stored in a variable called "square"
