@@ -1,0 +1,10 @@
+Returning Functions
+-------------------
+- Returning a function as a value from w/in a function
+
+
+- Common implemented pattern is the "factory function"
+    - A function that returns a function
+
+    - Input to the "factory" function influences
+        - The kind of function that is being returned
