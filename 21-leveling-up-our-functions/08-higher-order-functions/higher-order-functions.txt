@@ -1,0 +1,16 @@
+Higher Order Functions
+----------------------
+- It is a fancy way of saying functions that work w/ other Functions
+
+
+- Functions that operate on or w/ other functions
+    - Accept other function as argument values
+    - Returns a function
+
+
+- A function is just a value that
+    - Can be stored in a variable
+    - Can be passed around as an argument value
+
+    
+
