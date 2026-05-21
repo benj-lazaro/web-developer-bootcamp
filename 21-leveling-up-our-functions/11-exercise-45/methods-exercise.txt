@@ -1,0 +1,13 @@
+Exercise 45: Methods Exercise
+-----------------------------
+- Define an object called "square"
+    - Holds two (2) methods named "area" & "perimeter"
+
+    - The method "area"
+        - Should accept the length of a "side"
+        - Return the value of "side" squared
+
+    - The method "perimeter"
+        - Should accept the length of a "side"
+        - Return the value of "side" multiplied by 4
+
