@@ -1,0 +1,27 @@
+Defining Methods
+----------------
+- A method is simply a function that is
+    - Assigned as value to a property on an object
+
+    - Accessed using the "." (dot) notation in front of its name
+        - (e.g. .push(), .indexOf(), .toUpperCase(), ...)
+
+    - NOTE: Every method is a function HOWEVER
+        - NOT every function is a method
+
+
+Syntax:
+const <name> = {
+    <property>: function() {
+
+    },
+    ...
+}
+
+// Shorthand 
+const <name> = {
+    <method_name>() {
+
+    },
+    ...
+}
