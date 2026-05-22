@@ -1,0 +1,12 @@
+Exercise 46: Egg Laying Exercise
+--------------------------------
+- Define an object "hen" w/ the following properties
+    - "name" should be set to "Helen"
+    - "eggCount" should be set to 0
+
+    - "layAnEgg" should be a method w/c 
+        - Increments the value of "eggCount" by 1
+        - Returns the string "EGG"
+        
+        - NOTE: Need to use the keyword "this"
+    
