@@ -1,0 +1,17 @@
+The Mysterious Keyword "this"
+-----------------------------
+- The keyword "this" is used 
+    - To access properties on the same object
+        - Commonly used w/in an object's method
+
+    - HOWEVER, the value of the keyword "this"
+        - Depends on the invocation context of the function it is used in
+
+    - It depends on how the function (or method) is called
+        - The object on the left-hand side of the "." notation
+
+    - The keyword "this" could refer to the "Window" object
+        - The top-level object that refers to the (active) browser window 
+        - The huge main object that EVERYTHING lives inside of 
+
+        - NOTE: Every defined function gets added to the "Window" object
