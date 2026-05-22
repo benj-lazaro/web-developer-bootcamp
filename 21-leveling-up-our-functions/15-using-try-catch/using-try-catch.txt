@@ -1,0 +1,29 @@
+Using Try/Catch
+---------------
+- The "try..catch" statement work w/ errors or exceptions in JavaScript
+    - Catching error & preventing from breaking / stopping code execution
+
+    - It is comprised of a "try" block then 
+        - Either a "catch" block, a "finally" block or BOTH
+
+    - The "try" block is EXECUTED FIRST
+        - If the "try" block throws an exception (i.e. triggers an error)
+        - The "catch" block is executed
+
+    - The "finally" block will ALWAYS be EXECUTED
+
+    - NOTE: The "catch" block has access to the exception
+        - Common convention if using "e" on the parameter field
+        - To hold / store the caught exception (error)
+        
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+
+
+Syntax:
+try {
+  // try block
+} catch (exception_variable) {
+  // catch block
+} finally {
+  // finally block
+}
