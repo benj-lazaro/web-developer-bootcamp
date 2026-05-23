@@ -1,0 +1,18 @@
+What Is This Section About
+--------------------------
+- This section focuses on
+    - A subset of built-in Array methods
+        - Method that require to pass an Arrow function as an argument value
+        
+        - These methods are as follows:
+            - .forEach()
+            - .map()
+            - .filter()
+            - .find()
+            - .reduce()
+            - .some()
+            - .every()
+
+    - Arrow function
+        - The new, fancier, modern way (syntax) of defining a function
+
