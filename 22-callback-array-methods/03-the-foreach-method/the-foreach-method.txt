@@ -1,0 +1,15 @@
+The "forEach" Method
+--------------------
+- The method "forEach()"
+    - Accepts a callback function
+    - Executes the function once per element in an array 
+
+    - NOTE: This method is commonly used BEFORE
+        - The advent of the "for..of" loop
+
+
+Syntax:
+<array_name>.forEach(<callback_function>);
+
+<array_name>.forEach(<callback_function>, <this_argument_value>);
+
