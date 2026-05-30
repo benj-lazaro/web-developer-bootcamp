@@ -1,0 +1,16 @@
+The "map" Method
+----------------
+- The method "map()"
+    - Creates a new array populated w/ the results of 
+        - Calling a provided (callback) function on every element in the calling array
+        - The value returned by the function is added as a single element in the new array
+
+    - It is a way to "map" an array from one state to another
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+
+Syntax:
+<array_name>.map(<callback_function>);
+
+<array_name>.map(<callback_function>, <this_argument>);
