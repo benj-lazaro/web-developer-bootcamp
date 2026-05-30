@@ -1,0 +1,6 @@
+Exercise 47: "map()" Practice
+-----------------------------
+- Define a variable named "firstNames"
+    - Assign it to the result of mapping over the existing array "fullNames"
+    - New array contains ONLY the first name of the Harry Potter characters
+
