@@ -1,0 +1,66 @@
+Intro To Arrow Functions
+------------------------
+- An Arrow function is the newer & compact alternative for defining a function
+    - It has some semantic differences & deliberate limitations in usage
+    
+    - It is used to create a function expression that
+        - Can NOT be declared on its own (as it does NOT use a function statement)
+        - Gets assigned as value to a constant or variable
+        - Passed as an argument value
+        - Used as a return value
+
+    - Semantic differences are as follows
+        - It drops the keyword "function" & assigned function name
+            - When defining an Arrow function
+            - NOTE: Does NOT use a function statement
+
+        - It uses an "=>" (i.e. an arrow) that
+            - Points to the body of the Arrow function
+
+    - NOTE: An Arrow function that contains a single line of code
+        - Can drop the pair of "{ }" that 
+            - Contains the body of the Arrow function
+        
+        - Can drop the use of the keyword "return"
+            - An Arrow function IMPLICTLY RETURNS a value
+
+    - Limitations are as follows:
+        - It does NOT have thwie own bindings to the
+            - Keyword "this"
+            - Array-like object "arguments"
+            - Keyword "super"
+
+        - It should NOT be used as a method
+
+        - It can NOT be used as a Constructor method
+            - Calling them w/ the keyword "new" throws a TypeError
+
+        - It can NOT be used w/ the operator "yield" inside its own body
+            - Can NOT be created as a Generator function
+
+        - It is NOT supported by Internet Explorer browser
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+
+Syntax:
+() => expression;
+
+<parameter> => expression;
+
+(<parameter>) => expression;
+
+(<parameter_1>, <parameter_N>) => expression;
+
+() => {
+  statements
+};
+
+<parameter> => {
+  statements
+};
+
+(<parameter_1>, <parameter_N>) => {
+  statements
+};
+
