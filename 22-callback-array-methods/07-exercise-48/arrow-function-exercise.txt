@@ -1,0 +1,8 @@
+Exercise 48: Arrow Function Exercise
+------------------------------------
+- Write an Arrow function expression called "greet"
+    - It accepts a single string argument that
+        - Represents a person's name
+
+    - It returns a greeting string
+
