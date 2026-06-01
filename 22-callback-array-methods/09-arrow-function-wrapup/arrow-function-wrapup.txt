@@ -1,0 +1,6 @@
+Arrow Function Wrapup
+---------------------
+- Practice implementing an Arrow Function that
+    - Replaces the Anonymous functions passed as an argument value
+    - To the Array method ".map()"
+    
