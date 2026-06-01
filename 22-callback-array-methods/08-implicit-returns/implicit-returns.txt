@@ -1,0 +1,10 @@
+Arrow Function Implicit Returns
+-------------------------------
+- An Arrow function is already compact compared to a typcai function expression
+    - It can be made more compact by
+        - Eliminating the pair of "{ }"
+        - Eliminating the keyword "return"
+        - Leaving the expression or value behind that is intended to be returned
+
+    - NOTE: It ONLY WORKS if the Arrow function's body contains a single expression
+    
