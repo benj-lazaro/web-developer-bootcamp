@@ -1,0 +1,68 @@
+setTimeout And setInterval
+--------------------------
+- The method "window.setTimeout()" of the "window" instance
+    - Sets a timer w/c executes a function or code when the timer expires
+
+    - It accepts two arguments
+        - A callback function (i.e. TimerHandler)
+        - An optional delay timer (i.e. timeout)
+
+    - The "delay" argument is a non-negative integer
+        - Indicates how long (in milliseconds) the timer should WAIT
+        - BEFORE the specified code or function is executed
+
+        - NOTE: The delay has a maximum value of 2147483647 ms
+            - A larger value may result to an overflow or the value of 0 is used
+            - The value of 0 IMMEDIATELY EXECUTES the corresponding code or function
+            
+            - Passing a negative value for timer behaves the same as 0
+
+        - IMPORTANT: Passing a non-numeric value (i.e. string) for timer
+            - JavaScript performs an implicit type coercion
+            - This can lead to unexpected or suprising results
+
+    - Returns a positive integer
+        - Often referred as a "timout ID"
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout)
+
+
+Syntax:
+setTimeout(<code>);
+setTimeout(<function>);
+
+setTimeout(<code>, <delay>);
+setTimeout(<code>, <delay>, <parameter>);
+
+setTimeout(<function>, <delay>);
+setTimeout(<function>, <delay>, <parameter>);
+
+
+- The method "window.setInterval()" of the "Window" instance
+    - Repeatedly calls a function or executes a code snippet w/
+        - A fixed time delay between each call
+
+    - Returns a positive integer
+        - Often referred as a "internval ID"        
+
+    - IMPORTANT: As long as the "Window" instance is open / active
+        - This method "window.setInterval()" will continue to run
+
+        - Two ways stop it
+            - Pass the "internval ID" as argument value to 
+                - The method "clearInterval()"
+            
+            - Manually close the corresponding "Window" instance or
+                - The active browset (window) tab
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval)
+
+
+Syntax:
+setInterval(<code>)
+setInterval(<code>, <delay>)
+
+setInterval(<function>)
+setInterval(<function>, <delay>)
+setInterval(<function>, <delay>, <parameter>)
+setInterval(<function>, <delay>, <parameter>)
