@@ -1,0 +1,20 @@
+The "filter" Method
+-------------------
+- The method "filter()"
+    - Creates a new array (shallow copy) based from a given array
+        - Filled w/ elements that passed the test
+        - Implemeneted by the provided (callback) function
+
+    - NOTE: The original array is UNTOUCHED
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
+    - Common use case
+        - Make a subset array based from an existing array
+
+
+Syntax:
+<array_name>.filter(<callback_function>);
+
+<array_name>.filter(<callback_function>, <this_argument>);
+
