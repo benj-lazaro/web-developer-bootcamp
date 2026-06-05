@@ -1,0 +1,7 @@
+Exercise 49: Filter Exercise
+----------------------------
+- Write a function called "validUserNames" that
+    - Accepts an array of usernames (string)
+    
+    - Returns a new array containing ONLY
+        - Usernames that are less than 10 characters
