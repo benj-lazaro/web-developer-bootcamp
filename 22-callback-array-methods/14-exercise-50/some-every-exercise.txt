@@ -1,0 +1,10 @@
+Exercise 50: "some" / "every" Exercise
+--------------------------------------
+- Define a function called "allEvens"
+    - Accepts a single array of numbers
+    
+    - If ALL elements of the array are even
+        - Return a boolean value of "true"
+        - Otherwise, "false"
+
+        
