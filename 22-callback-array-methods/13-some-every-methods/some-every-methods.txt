@@ -1,0 +1,28 @@
+The "some" & "every" Methods
+----------------------------
+- The method "every()"
+    - Returns a boolean "true" if EVERY elements in the array
+        - Satisfies the provided testing (callback) function
+        - Otherwise, returns "false"
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+
+
+Syntax:
+<array_name>.every(<callback_function>);
+
+<array_name>.every(<callback_function>, <this_argument>);
+
+
+- The methdo "some()"
+    - Returns a boolean "true" if SOME elements in the array
+        - Satisfies the provided testing (callback) function
+        - Otherwise, returns "false"
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+
+
+Syntax:
+<array_name>.some(<callback_function>);
+
+<array_name>.some(<callback_function>, <this_argument>);
