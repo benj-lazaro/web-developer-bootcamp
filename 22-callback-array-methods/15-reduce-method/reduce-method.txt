@@ -1,0 +1,43 @@
+The Notorious "reduce" Method
+-----------------------------
+- The method "reduce()"
+    - Executes a "reducer" (callback) function on each element of the array
+        - Reduces it down to a single value (or to a single array element)
+
+    - The "reducer" function requires two parameter values
+        - 1st = accumulator (basically the thing being reduced down to)
+        - 2nd = current value being read
+
+    - On the 1st call of the method "reduce()"
+        - The parameter variable that functions as the "accumulator" holds the 1st element
+        - The parameter variable "currentValue" holds the 2nd element
+        - Corresponding mathematical expression performed w/in the callback function
+
+    - On the 2nd call
+        - The result of the mathematical expression gets stored in the "accumulator"
+        - The parameter variable "currentValue" holds the 3rd element
+        - Corresponding mathematical expression performed w/in the callback function
+
+    - On the 3rd call
+        - The result of the mathematical expression updates the value in the "accumulator"
+        - The parameter variable "currentValue" holds the 4th element
+        - Corresponding mathematical expression performed w/in the callback function
+
+    - This pattern continues until ALL elements of the array have been READ
+        - The value in the "accumulator" returns the reduced value
+
+    - The method "reduce()" offers as a shorter alternative to a "for..of" loop
+
+    - NOTE: The method "reduce()" is NOT limited to
+        - Reducing array elements down to a single value mathematically
+        - It can also reduce down to a single array element using comparison operators
+
+
+- The method "reduce()" accepts a 2nd argument value that
+    - Gets assigned as the initial value for the "accumulator"
+
+
+Syntax:
+<array_name>.reduce(<callback_function>(<accumulator>, <current_value>));
+
+<array_name>.reduce(<callback_function>(<accumulator>, <current_value>), <initial_value>);
