@@ -1,0 +1,15 @@
+What Matters In This Section 
+----------------------------
+- Crucial
+    - Spread In Arrays
+    - Spread In Objects
+    - Destructuring
+
+
+- Important
+    - Default Params
+    - Spread In Function Calls
+    - Rest Params
+
+
+- Nice To Have
