@@ -1,0 +1,29 @@
+Arrow Function & "this"
+-----------------------
+- The keyword "this" behaves DIFFERENTLY
+    - When placed inside of an Arrow function compared to a traditional function
+
+
+- Inside of a traditional function
+    - The keyword "this" refers to the object that called the function (method)
+        - Simply "looks" at the lefthand-side of the dot notation
+
+    - It has NOTHING to do w/ the scope where it is created in
+        - Focused rather on how the function (method) is execute (i.e. Execution Context)
+
+
+- Inside of an Arrow function
+    - The keyword "this" does NOT refer to the object that called the function (method)
+
+    - Instead, it refers to the scope where the keyword "this" is created in
+
+    - An Arrow function does NOT CARE about the "Execution Context"
+        - How that impacts the keyword "this"
+
+        - This offers the advantage of working w/ functions (methods) from other objects
+            - Where a change of "Execution Context" occurs
+            - Causing problems (e.g. Uncaught TypeError)
+
+
+- IMPORTANT: To help identify w/c object that the keyword "this" is currently referring to
+    - Pass the keyword "this" as an argument value to "console.log()"
