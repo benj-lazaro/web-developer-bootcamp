@@ -1,0 +1,22 @@
+Default Params
+--------------
+- Default function parameters (i.e. params)
+    - Allow named parameter variables to be initialized w/ default values
+        - If NO value or an "undefined" is passed
+
+    - Uses the "=" operator on a parameter variable
+        - To assign a default value
+
+    - IMPORTANT: Need to WATCH OUT for the ORDER of the parameter variables
+        - Position parameter variable(s) w/ default value(s)
+            - At the end of the parameter list
+
+        - They NEED to come after parameter variable(s) w/ NO default value(s)
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+
+
+Syntax:
+function <name>(<parameter> = <default_value>, ...) {
+    // ...
+}
