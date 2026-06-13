@@ -4,7 +4,7 @@ Spread In Function Calls
     - It is used on multiple situations
         - Like a "swiss army knife" in JavaScript
 
-    - It allows an iteerable to be expanded in places where
+    - It allows an iterable to be expanded in places where
         - 0 or more arguments (function) or elements (array) are expected
         
         - NOTE: The passed iterable remains UNCHANGED
