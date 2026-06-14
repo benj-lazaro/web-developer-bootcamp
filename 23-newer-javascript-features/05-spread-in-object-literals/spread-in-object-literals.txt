@@ -1,0 +1,44 @@
+Spread In Object Literals
+-------------------------
+- The spread syntax (...) 
+    - It is an object expression to be expanded in places where
+        - 0 or more key-value pairs (for object literals) are expected
+
+    - It copies properties from an existing object literal
+        - Into another object literal
+
+    - NOTE: In the event of identical properties from the original object literals
+        - The value of the recent identical property will overwrite the former
+
+    - Common use case
+        - Creating a copy of an existing object literal
+            - Common wben working w/ libraries (e.g. React)
+
+        - Working w/ user-submitted form data stored in an object literal
+            - Insert additional properties & values on the submitted data before processing
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
+
+Syntax:
+const <object> = {
+    ...<pre_existing_object>, 
+    <key_1>: <value_1>,
+    <key_n>: <value_n>,
+};
+
+
+- Using the spread syntax
+    - On an array literal to be spread as key:value pairs in an object literal
+
+    - Results to
+        - Index of each element = key
+        - Individual element    = value assigned to the corresponding key
+
+
+- Using the spread syntax
+    - On a string literal to be spread as key:value pairs in an object literal
+
+    - Results to
+        - Index of each character = key
+        - Individual character    = value assigned to the corresponding key
