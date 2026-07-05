@@ -1,0 +1,17 @@
+Destructuring Arrays
+--------------------
+- Destructuring is a syntax improvement that
+    - Offers a nice way of unpacking (copying over)
+    - Array elements into distinct stand-alone variables
+    - Based on the element's position w/in the array
+    
+    - NOTE: The array's elements remains UNCHANGED
+
+
+- Use the rest parameter syntax (...) followed by a variable name
+    - To extract ALL remaining array elements
+    - Then store them into a single variable
+
+
+Syntax:
+const [<variable_name>, ...<variable_name>] = <array_name>;
