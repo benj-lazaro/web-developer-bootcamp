@@ -1,0 +1,25 @@
+Destructuring Objects
+---------------------
+- Destructuring is a syntax improvement that
+    - Offers a nice way of unpacking (copying over)
+    - Object properties into distinct stand-alone variables
+    - NOTE: The object's properties remains UNCHANGED
+
+
+- To rename a property name
+    - Place the ":" operator RIGHT AFTER the property being copied over
+    - Followed by the new property name
+
+
+- To assign a default value to a non-existent object property
+    - Use the "=" operator RIGHT AFTER the non-existent property being copied over
+    - Followed by a default value
+    - IMPORTANT: It will NOT work for an existing property w/ an assigned value
+
+
+Syntax:
+const {<property_name>, <property_name>} = <object_name>;
+
+const {<property_name>: <new_property_name>} = <object_name>;
+
+const {<property_name> = <default_value>} = <object_name>;
