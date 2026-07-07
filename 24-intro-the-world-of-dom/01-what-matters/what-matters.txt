@@ -1,0 +1,18 @@
+What Matters In This Section 
+----------------------------
+- Crucial
+    - Intro to the DOM
+    - .getElementById()
+    - .querySelector()
+    - .innerHTML & .innerText
+    - Changing Styles
+    - classList
+    - Creating / Removing Elements
+
+
+- Important
+    - Manipulating Attributes
+    - Traversing the DOM
+
+
+- Nice To Have
