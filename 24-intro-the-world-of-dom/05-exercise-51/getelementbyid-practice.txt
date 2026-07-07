@@ -1,0 +1,9 @@
+Exercise 51: "getElementById()" Practice
+----------------------------------------
+- Select the following elements using the method ".getElementById()"
+    - Select the <img> element by its attribute "id"
+        - Save it to a global variable named "image"
+
+    - Select the <h1> element by its attribute "id"
+        - Save it to a global variable named "heading"
+        
