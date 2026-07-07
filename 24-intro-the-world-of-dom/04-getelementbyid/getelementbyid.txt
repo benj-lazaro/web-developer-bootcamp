@@ -1,0 +1,44 @@
+getElementById
+--------------
+- The "document" object method ".getElementById()"
+    - Select & returns an "element" DOM object
+        - Represents the HTML element on the web page whose attribute "id"
+        - Matches the passed (string) argument value
+
+    - Returns the value of "null"
+        - If there is NO maching DOM object in the web page
+    
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+
+
+Syntax:
+document.getElementById("<id_to_locate>");
+
+
+- On the practice code (app.js)
+    - Create a global constant named "banner"
+        - Assign the method "document.getElementById()" as value
+        - Pass "banner" as an argument value
+        
+
+    - Pass the global constant "banner" as argument value
+        - To "console.log()" and "console.dir()" that respectively returns
+            - The HTML element <img> representing the selected DOM object
+            - The properties of the DOM object "img#banner"
+
+
+    - Create a global constant named "toc"
+        - Assign the method "document.getElementById()" as value
+        - Pass "toc" as an argument value
+
+
+    - Pass the global constant "banner" as argument value
+        - To "console.log()" and "console.dir()" that respectively returns
+            - The HTML element <div> representing the selected DOM object
+            - The properties of the DOM object "div#toc"
+
+
+    - Save the changes
+        - Load / reload the browser
+        - Launch the browser's JavaScript console
+
