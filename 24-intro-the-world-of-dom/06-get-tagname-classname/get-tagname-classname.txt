@@ -1,0 +1,82 @@
+getElementsByTagName & getElementsByClassName
+---------------------------------------------
+- The "document" object method ".getElementsByTagName()"
+    - Accepts an HTML tag as an argument value
+
+    - Returns an HTMLCollection of "Element" objects that matches the given HTML tag name
+        - The returned elements are JavaScript objects
+
+    - IMPORTANT: The returned HTMLCollection is live
+        - Updates automatically to stay in-sync w/ the DOM tree w/out requiring
+        - To call to the method "document.getElementByTagName()" again
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName)
+
+
+Syntax:
+document.getElemenstByTagName("<tag_name">);
+
+
+- The "document" object method ".getElementsByClassName()"
+    - Accepts a value of the HTML attribute "class" as an argument value
+
+    - Returns an HTMLCollection of "Element" objects that matches the given HTML tag name
+        - The returned elements are JavaScript objects    
+
+    - IMPORTANT: The returned HTMLCollection is live
+        - Updates automatically to stay in-sync w/ the DOM tree w/out requiring
+        - To call to the method "document.getElementByClassName()" again
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName)
+
+
+Syntax:
+document.getElementsByClassName("<class_name>");
+document.getElementsByClassName("<class_name> ... <class_name>");
+
+
+- A HTMLCollection
+    - It is an iterable array-like object that contains matching "Element" objects
+        - Each "Element" object represents a corresponding HTML element in the web page
+
+    - Has access to the property ".length"
+
+    - Can be used with a "for..of" loop to iterate through the collection
+
+    - Does NOT have access to array methods (e.g. ".map()")
+
+    - IMPORTANT: Returns an empty HTMLCollection 
+        - If NO match is found
+
+
+- On the practice code (app.js)
+    - Select "Element" objects that matches the tag name "img"
+        - Using the method "document.getElementsByTagName()"
+        - Pass "img" as argument value
+        - Store returned HTMLCollection to the global constant named "allImages"
+
+
+    - Use a "for..of" loop
+        - Iterate through the matching "Element" objects
+        - Display the value of each "Element" object property "src"
+
+
+    - Seletct "Element" object that matches the "class" attribute of "square"
+        - Using the method "document.getElementsByClassName()"
+        - Pass "square" as argument value
+        - Store returned HTMLCollection to the global constant name "squareImages"
+
+
+    - Use a "for..of" loop
+        - Iterate through the matching "Element" objects
+        - Assign a new value to individual "Element" object's property "src"
+
+
+    - Save the changes
+        - Load / reload the browser
+        - Launch the browser's JavaScript console
+
+        - Displays the content of the HTMLCollection stored in the global constant "allImages"
+
+        - "Element" objects w/ the matching HTML attribute "class" of "square"
+            - Gets updated w/ a new image
