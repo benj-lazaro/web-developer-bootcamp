@@ -1,0 +1,7 @@
+Introducing The DOM
+-------------------
+- The DOM stands for Document Object Model
+    - A JavaScript representation of a web page
+    - The JavaScript "window" into a web page's content
+    - A bunch of JavaScript objects that you can interact w/
+
