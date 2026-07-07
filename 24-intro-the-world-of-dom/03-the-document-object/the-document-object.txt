@@ -1,0 +1,54 @@
+The Document Object
+-------------------
+- JavaScript takes in the HTML markup & corresponding styles
+    - Generates respective JavaScript objects
+
+
+- The "document" is a special JavaScript object
+    - Serves as an entry point into the world of the DOM (Document Object Model)
+
+    - It contains representations of the content on a web page
+        - Plus tons of useful methods & properties
+
+    - It is created AUTOMATICALLY by the browser after loading a web page
+
+    - It is the "top-level" or "root" folder for everything
+
+
+- On the practice web page (index.html)
+    - Load the index.html to the browser
+        - Launch the browser's JavaScript console
+
+
+    - Type "document"
+        - Returns the HTML representation of the web page
+
+    
+    - Pass the "document" object as argument value to "console.dir()"
+        - Returns the properties of the "document" object
+
+    
+    - The property "all"
+        - Contains EVERY HTML element present on the web page
+        - Each HTML element is an object w/ its own properties
+
+    
+    - To change the text of the 1st HTML element <b> in the "document" object
+        - Access the object "document"
+        - Chain the property ".all"
+        - Chain the array index 10 (e.g. .all[10])
+        - Chain the property ".innerText"
+        - Use the "=" operator
+        - Assign a new value "Sealkey"
+
+
+    - Save the changes
+        - Load / reload the browser
+        - Launch the browser's JavaScript console
+        
+        - The "document" object's properties are displayed
+
+        - The HTML elements used in the web page
+            - As objects w/in an array
+
+        - The word "Silky" renamed as "Sealkey" in the web page
