@@ -1,0 +1,9 @@
+Exercise 52: "querySelector()" Practice
+---------------------------------------
+- Select ALL elements that have the "class" attribute of "done"
+    - Save them to a variable named "doneTodos"
+
+
+- Select the 1 checkbox w/ an attribute of "checked"
+    - Save it to a variable named "checkbox"
+    - TIP: Use the CSS Attribute selector
