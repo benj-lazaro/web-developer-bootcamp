@@ -1,0 +1,72 @@
+querySelector & querySelectorAll
+--------------------------------
+- The "document" object method ".querySelector()"
+    - Better (& newer) way to select an "Element" object from a web page
+    
+    - Acceptable argument values are as follows
+        - A HTML tag
+        - A HTML attribute
+        - Any CSS style selector
+
+    - Returns the 1st matching "Element" object
+        - Otherwise, returns "null"
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+
+
+Syntax:
+document.querySelector(<html_tag_or_css_selector>);
+
+
+- The "document" object method ".querySelectorAll()"
+    - Better (& newer) way to select ALL matching "Element" objects from a web page
+
+    - Acceptable argument values are as follows
+        - A HTML tag
+        - A HTML attribute
+        - Any CSS style selector
+
+    - Returns a NodeList of matching "Element" objects
+        - Otherwise, returns an empty NodeList
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
+
+    - IMPORTANT: A NodeList is an itereable array-like object that contains matching "Element" objects
+        - Unlike a HTMLCollection, it is NOT LIVE
+        - Requires to call the method "document.querySelectorAll()" AGAIN
+        - In order to stay in-sync w/ the DOM tree
+
+
+Syntax:
+document.querySelectorAll(<html_tag_or_css_selector>);
+
+
+- On the practice code (app.js)
+    - Use the "document" object method ".querySelector()"
+        - To select the 1st matching "Element" object 
+            - Based on the attribute "title" of an HTML element <a>
+            - Pass "a[title='Java']" as argument value
+
+        - Save the matching "Element" object to the global constant "findElement"
+        - Pass the global constant "findElement" as argument value to "console.log()"
+
+    
+    - Use the "document" object method ".querySelectorAll()"
+        - To select ALL matching HTML element <a>
+        - Pass "a" as argument value
+        - Save the matching "Element" objets to the global constant "anchorElements"
+        - Pass the global constant "anchorElements" as argument value to "console.log()"
+
+
+    - Use the "document" object method ".querySelectorAll()"
+        - To select ALL matching child element <a> of the HTML element <p>
+        - Pass "p a" as argument values
+        - Save the maching "Element" objects to the global constant "links"
+        - Use a "for..of" loop to iterate through the NodeList elements in the global constant "links"
+        - Access the ".src" property of each "Element" object
+        - Pass as argument value to "console.log()"
+
+
+    - Save the changes
+        - Load / reload the browser
+        - Launch the browser's JavaScript console
