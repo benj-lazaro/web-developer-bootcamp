@@ -1,0 +1,5 @@
+Exercise 53: Pickles Exercise
+-----------------------------
+- Please use JavaScript to select the <span> element that currently reads "Delicious"
+    - Change its text to "Disgusting"
+
