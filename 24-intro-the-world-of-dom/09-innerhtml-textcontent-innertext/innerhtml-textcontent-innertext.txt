@@ -1,0 +1,91 @@
+innerHTML, textContent & innerText
+----------------------------------
+- The "Element" object property ".innerHTML"
+    - It gets the full content of the selected "Element" object
+        - Including the embedded HTML elements (or tag names)
+
+    - It sets (updates) the content of the selected "Element" object
+        - Capable of "understanding" HTML element(s) embedded in the given value
+
+    - IMPORTANT: It accepts & parses argument value as HTML
+        - Writing the results into the DOM
+        - Offers a POTENTIAL vector for Cross-Side Scripting (XSS)
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
+
+
+- The "Node" object property ".textContent"
+    - It is similar to the property ".innerText" EXCEPT unlike ".innerText"
+        - Every embedded HTML mark-up is replaced w/ whitespace
+
+    - It gets the every piece of content inside the selected "Element" object
+        - Including hidden content & line breaks
+
+    - IMPORTANT: Setting the property ".textContent"
+        - REMOVES ALL pre-existing "Element" objects & content
+        - REPLACES it them w/ the given (string) value
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
+
+
+- The "HTMLElement" object property ".innerText"
+    - It gets the human-readable content of the "Element" object
+        - IGNORES HTML elements (tag names) embedded in the content
+
+    - It sets the text content of the selected "Element" object w/ the given value
+        - It accepts the passed value as a string
+        - Embedded HTML element(s) w/in the passed value will be treated as text
+    
+    - IMPORTANT: Setting the property ".innerText"
+        - REMOVES ALL pre-existing "Element" objects & content
+        - REPLACES it them w/ the given (string) value
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText)
+
+
+- On the practice code (app.js)
+    - Use the "document" object method ".querySelector()" to select the 1st HTML element <p>
+        - Pass "p" as argument value
+        - Chain the property ".innerText"
+        - Save the returned "Element" object as value to the global constant "innerTextP"
+        - Pass the global constant "innerTextP" as argument to "console.log()"
+
+
+    - Use the "document" object method ".querySelector()" to select the 1st HTML element <p>
+        - Pass "p" as argument value
+        - Chain the property ".innerContent"
+        - Save the returned "Element" object as value to the global constant "textContentP"
+        - Pass the global constant "textContentP" as argument to "console.log()" 
+
+
+    - Use the "document" object method ".querySelectorAll()" to select ALL HTML element <a>
+        - Save the returned NodeList to the global constant "allLinks"
+        - Use a "for..of" loop to iterate through the NodeList
+        - Set the property ".innerText" of every "Element" object to "I am a link"
+
+
+    - Use the "document" object method ".querySelector()" to select the HTML element <h1>
+        - Pass "h1" as argument value
+        - Chain the property ".innerText"
+        - Assign the value "<b>DANGER</b>"
+        - NOTE: The content is rendered as pure text including the embedded HTML element <b>
+
+
+    - Use the "document" object method ".querySelector()" to select the HTML element <h1>
+        - Pass "h1" as argument value
+        - Chain the property ".innerHTML"
+        - Assign the value "<b>DANGER</b>"
+        - NOTE: The value is rendered as a proper HTML mark-up
+
+
+    - Use the "document" object method ".querySelector()" to select the HTML element <h1>
+        - Pass "h1" as argument value
+        - Chain the property ".innerHTML"
+        - Assign the value "+= "<sup>To the max</sup>""
+        - NOTE: Adds a superscript to the previously rendered mark-up
+
+
+    - Save the changes
+        - Load / reload the browser
+        - Launch the browser's JavaScript console
+    
