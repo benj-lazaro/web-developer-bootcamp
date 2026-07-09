@@ -1,0 +1,74 @@
+Attributes
+----------
+- The "document" object method ".getAttribute()"
+    - Returns the assigned literal string value assigned to the specified attribute
+        - Instead of a JavaScript object when accessing an attribute as a property
+        - e.g. <element_object>.href, <element_object>.title
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute)
+
+
+Syntax:
+document.getAttribute(<attribute_name>);
+
+
+- The "document" object method ".setAttribute()"
+    - Sets the value of a specified attribute on the selected "Element" object
+
+    - If the attribute already exists
+        - The existing value is updated w/ the new value
+        - Otherwise, a new attribute is added w/ the specified value
+
+    - IMPORTANT: This method can take attribute values as parsed HTML, script or a script URL
+        - This can be a potential vector for Cross-Site Scripting (XSS) attacks
+        - Partitcularly, if the value originally came from an attacker
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
+
+
+Syntax:
+document.setAttribute(<attribute_name>, <new_value>);
+
+
+- On the practice code (app.js)
+    - Select the 1st occurrence of the HTML element <a>
+        - Using the "document" method ".querySelector()"
+        - Pass "a" as an argument value
+        - Store returned "Element" object to the global constant named "firstLink"
+
+    
+    - Access the attribute "href" like an object property
+        - Pass the statement as argument value to "console.log()"
+
+
+    - Access the attribute "href" using the method ".getAttribute()"
+        - Pass "href" as an argument value
+        - Pass the statement as argument value to "console.log()"
+
+
+    - Set the attribute "href" using the method ".setAttribute()"
+        - Pass "href" as the 1st argument value
+        - Pass a new value URL address as 2nd argument value (e.g. "https://www.google.com")
+
+
+    - Select the last HTML element <input>
+        - Using the method ".querySelector()"
+        - Pass "input[type='text']" as argument value
+        - Store the returned "Element" object to the global constant named "lastInput"
+
+
+    - Set the attribute "type" as a property
+        - Set a new value using the "=" operator
+        - Followed by a new value (e.g. password, color, etc.)
+
+
+    - Set the attribute "type" using the method ".setAttribute()"
+        - Pass "type" as the 1st argument value
+        - Pass "text" as the 2nd argument value
+
+        - NOTE: Reverts back the assigned value to the attribute "type"
+
+
+    - Save the changes
+        - Load / reload the browser
+        - Launch the browser's JavaScript console
