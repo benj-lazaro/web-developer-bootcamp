@@ -1,0 +1,5 @@
+Exercise 54: Manipulating Attributes Pratice
+--------------------------------------------
+- Select the HTML element <image>
+    - Change the assigned value of the attribute "src"
+    - Change the assigned value of the attribute "alt" to "chicken"
