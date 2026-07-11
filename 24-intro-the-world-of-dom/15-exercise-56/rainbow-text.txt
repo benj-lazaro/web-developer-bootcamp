@@ -1,0 +1,5 @@
+Exerciee 56: Rainbow Text
+-------------------------
+- Select ALL HTML element <span>
+    - Iterate over them
+    - Assign each one a color from the Array named "colors"
