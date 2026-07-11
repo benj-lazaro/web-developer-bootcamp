@@ -1,0 +1,42 @@
+Changing Styles
+---------------
+- The property ".style"
+    - Returns an object that contains a bunch of individual CSS properties
+    
+    - IMPORTANT: It ONLY reads Inline CSS style values
+    
+    - NOTE: To get the computed styles of a selected element
+        - Use the "window" object method ".getComputedStyle()"
+            - Pass the selected element as argument value
+        
+        
+
+    - It can also be used to set the CSS styles of the selected element
+        - It writes Inline CSS styling
+        - NOTE: Assigned value MUST BE A STRING
+
+    - This approach of changing styles is NOT PREFERRED
+        - CSS Inline styling is VERY SPECIFIC
+
+
+Syntax:
+<selected_element>.style.<css_property>; // ONLY return values of Inline CSS styles
+
+<selected_element>.style.<css_property> = "<new_value>";
+
+
+- To get the current computed style of a selected element
+    - Use the "window" method "getComputedStyle()"
+        - Pass the selected element as argument value
+
+    - Returns a "CSSStyleDeclaration" object that
+        - Contains the computed CSS styles of the selected element
+
+    - Use the correponding CSS properties (using camelCase)
+        - To access the computed style value(s)
+
+    
+Syntax:
+<selected_element>.window.getComputedStyle("<selected_element>").<css_property>;
+
+
