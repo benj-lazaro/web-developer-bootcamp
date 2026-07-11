@@ -1,0 +1,12 @@
+Exercise 55: Magical Forest Circle
+----------------------------------
+- Select the <div> w/ the HTML attribute "id" of "container
+    - Set it's CSS property "text-alignment" to "center"
+
+
+- Select the <img>
+    - Set it's CSS property "width" to "150px"
+    - Set it's CSS property "border-radius" to "50%"
+
+
+- NOTE: Do NOT change any of the HTML markup
