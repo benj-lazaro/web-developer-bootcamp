@@ -40,3 +40,81 @@ Syntax:
 <selected_element>.window.getComputedStyle("<selected_element>").<css_property>;
 
 
+- On the practice code (app.js)
+    - Use the "document" object method ".querySelector()"
+        - Pass "h1" as argument value
+        - Store the returned "element" object to the global constant "header"
+
+
+    - Access the styline of the "element" object
+        - Chain the property ".style"
+        - Then the CSS property ".fontSize"
+        - Pass the statement as argument value to "console.log()"
+        
+        - NOTE: Returns NO value since the CSS style of selected element
+            - Uses External CSS styling
+            - The property ".style" ONLY WORKS on Inline CSS
+
+    
+    - Fetch the computed style of the HTML element <h1>
+        - Use the "window" object method ".getComputedStyle()"
+        - Pass the global constant "header" as argument value
+        - Chain the CSS property ".fontSize"
+        - Pass the statement as argument value to "console.log()"
+        - Returns the value of "32px"
+
+
+    - Use the "window" object method ".getComputedStyle()"
+        - Pass the global constant "header" as argument value
+        - Chain the CSS property ".fontFamily"
+        - Pass the statement as argument value to "console.log()"
+        - Returns the value of "Times New Roman"
+
+
+    - Use the "window" object method ".getComputedStyle()"
+        - Pass the global constant "header" as argument value
+        - Chain the CSS property ".margin"
+        - Pass the statement as argument value to "console.log()"
+        - Returns the value of "21.44px 0px"
+
+
+    - Set the (Inline) style properties of the HTML element <h1>
+        - Access the global constant "header"
+            - Chain the property ".style"
+            - Chain the CSS property ".color"
+            - Assign the value of "green"
+
+        - On a separate line, access the global constant "header"
+            - Chain the property ".style"
+            - Chain the CSS property ".fontSize"
+            - Assign the value of "3em"
+
+        - On a separate line, access the global constant "header"
+            - Chain the property ".style"
+            - Chain the CSS property ".border"
+            - Assign the value of "2px solid pink"
+
+
+    - Update the CSS styling of ALL HTML element <a>
+        - Use the "document" object method ".querySelectorAll()"
+            - Pass "a" as argument value
+            - Store the returned NodeList to the global constant "allLinks"
+
+        - Use a "for..of" loop
+            - Chain the property ".style"
+                - Chain the CSS property ".color"
+                - Assign the value of "rgb(0, 108, 134)"
+
+            - Chain the property ".style"
+                - Chain the CSS property ".textDecorationColor"
+                - Assign the value of "magenta"
+
+            - Chain the property ".style"
+                - Chain the CSS property ".textDecorationStyle"
+                - Assign the value of "wavy"
+    
+
+    - Save the changes
+        - Load / reload the browser
+        - Launch the browser's JavaScript console
+        - See implemented (Inline CSS) changes
