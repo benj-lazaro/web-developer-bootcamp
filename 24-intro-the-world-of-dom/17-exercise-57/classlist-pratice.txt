@@ -1,0 +1,8 @@
+Exercise 57: classList Practice
+-------------------------------
+- In the "index.html" file
+    - There are six (6) HTML element <li>
+    
+    - Iterate over all the HTML element <li>
+        - Toggle the class "highlight" on each one
+
