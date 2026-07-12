@@ -1,0 +1,78 @@
+ClassList
+---------
+- The property ".classList" offers an easy way to
+    - Retrieve the current values assigned to the HTML attribute "class" of an "element" object
+    - Manipulate (i.e. add, remove, toggle, ...) the assigned class(es) 
+
+    - It returns a "DOMTokenList" object that
+        - Represents the contents of the "element" object's HTML attribute "class"
+
+    - Grants access to built-in methods
+        - ".add()" & ".remove()
+            - Respectively adds & removes classes (separated by a comma) to the property ".classList"
+
+        - ".contains()"
+            - Checks if a class or classes passed as argument values exists on the property ".classList"
+            - Returns a boolean value of "true" or "false"
+
+        - ".toggle()"
+            - Activates / deactivates a class passed as an argument value on the property ".classList"
+
+    - Serves as a better alternative to
+        - The property ".style"
+        - The methods ".getAttribute()" & ".setAttribute()"
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
+
+
+Syntax:
+<selected_element>.classList;
+
+<selected_element>.classList.add("<class_name>", ..., "<class_name>");
+
+<selected_element>.classList.remove("<class_name>", ..., "<class_name>");
+
+<selected_element>.classList.contains("<class_name>", ..., "<class_name>");
+
+<selected_element>.classList.toggle("<class_name>");
+
+
+- On the practice code (app.js)
+    - Select the HTML element <h2>
+        - Using the "document" object method ".querySelector()"
+        - Passing "h2" as an argument value
+        - Store returned "element" object to the global constant "header2"
+
+
+    - Add the pre-defined CSS classes "purple" & "border"
+        - Access the global constant "header2"
+        - Chain the property ".classList"
+        - Chain the method ".add()"
+        - Pass "purple" & "border" (separated by a ",") as argument values
+
+
+    - Check the existence of the recently added classes
+        - Access the global constant "header2"
+        - Chain the property ".classList"
+        - Chain the method ".contains()"
+        - Pass "purple" & "border" (separated by a ",") as argument values
+        - Pass the statement as an argument value to "console.log()"
+
+
+    - Remove the pre-defined CSS class "border"
+        - Access the global constant "header2"
+        - Chain the property ".classList"
+        - Chain the method ".remove()"
+        - Pass "border" as an argument value
+
+
+    - Toggle the pre-defined CSS class "border"
+        - Access the global constant "header2"
+        - Chain the property ".classList"
+        - Chain the method ".toggle()"
+        - Pass "border" as an argument value
+
+
+    - Save changes
+        - Load / reload the browser
+        - Launch the browser's JavaScript console
