@@ -1,0 +1,49 @@
+Traversing Parent/Child/Sibling
+-------------------------------
+- The following properties allows to traverse from one (1) element to some relative
+    - Used for inserting or removing HTML elements
+        - Updating the UI after an action is performed
+
+- The READ-ONLY property ".parentElement"
+    - Returns the selected "element" object's parent HTML element
+    - Returns "null" if there isn't one
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Node/parentElement)
+
+
+- The READ-ONLY property ".children"
+    - Returns a live HTMLCollection w/c contains ALL child element of the selected "element" object
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/children)
+
+
+- The READ-ONLY property ".childElementCount"
+    - Returns the number of child elements of the selected "element" object
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/childElementCount)
+
+
+- The READ-ONLY property ".nextSibling"
+    - Returns the selected "element" object's immediate succeeding DOM Node
+    - Returns "null" if there isn't one
+    - NOTE: A DOM Node & an HTML Element are NOT the same
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling)
+
+
+- The READ-ONLY property ".nextElementSibling"
+    - Returns the selected "element" object's immediate succeeding HTML element
+    - Returns "null" if there isn't one
+    - NOTE: A DOM Node & an HTML Element are NOT the same
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/nextElementSibling)
+
+
+- The READ-ONLY property ".previousSibling"
+    - Returns the selected "element" object's immediate preceding DOM Node
+    - Returns "null" if there isn't one
+    - NOTE: A DOM Node & an HTML Element are NOT the same
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling)
+
+
+- The READ-ONLY property ".previousElementSibling"
+    - Returns the selected "element" object's immediate preceding HTML element
+    - Returns "null" if there isn't one
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/previousElementSibling)
+
+
