@@ -1,0 +1,35 @@
+removeChild & remove
+--------------------
+- The "node" object method ".removeChild()"
+    - Removes an element from the DOM
+    
+    - Requires selecting the element's parent first
+        - Using the property ".parentElement" or method ".querySelector()"
+        - BEFORE removing the (child) element
+
+    - Returns the removed node
+
+    - IMPORTANT: SUPPORTED on ALL browsers
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild)
+
+
+Syntax:
+<selected_element>.removeChild(<child_element>);
+
+
+- The "element" object method ".remove()"
+    - Removes an element from its parent node
+
+    - Simply require selecting the HTML element to be removed
+        - Then chain the method ".remove()"
+
+        - NO need to select the element's parent first
+
+    - IMPORTANT: NOT SUPPORTED on Internet Explorer
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/remove)
+
+
+Syntax:
+<selected_element>.remove();
