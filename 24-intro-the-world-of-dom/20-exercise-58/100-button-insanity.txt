@@ -1,0 +1,7 @@
+Exercise 58: 100 Button Insanity
+--------------------------------
+- Use JavaScript
+    - To create 100 new HTML element <button>
+    - Each button MUST have some text inside of it
+    - Each button MUST be appended inside the container <div>
+
