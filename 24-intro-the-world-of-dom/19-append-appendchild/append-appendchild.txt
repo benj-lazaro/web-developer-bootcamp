@@ -1,0 +1,112 @@
+Append & AppendChild
+--------------------
+- The "document" object method ".createElement()"
+    - Create a new HTML element based on the passed argument value (i.e. HTML tag name)
+
+    - It returns an "element" object
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
+
+
+Syntax:
+document.createElement("<html_element>");
+
+
+- The "node" object method ".appendChild()"
+    - Appends a "node" object at the end of the list of children of
+        - A specified parent "node" object
+
+    - It returns the appended "node" object
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
+
+
+Syntax:
+<parent_element>.appendChild(<node_object>);
+
+
+- The "element" object method ".append()"
+    - Appends more than one (1) "node" object or string
+        - As the last child (inside) of the selected "element" object
+
+    - It can also be used for creating a new HTML element
+
+    - Returns NO value
+
+    - IMPORTANT: NOT SUPPORTED by Internet Explorer
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/append)
+
+
+Syntax:
+<selected_element>.append(<node_object_or_string>, ...);
+
+
+- The "element" object method ".prepend()"
+    - Appends more than one (1) "node" object or string
+        - As the 1st child (inside) of the selected "element" object
+
+    - It can also be used for creating a new HTML element
+
+    - Returns NO value
+
+    - IMPORTANT: NOT SUPPORTED by Internet Explorer
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/prepend)
+
+
+Syntax:
+<selected_element>.prepend(<node_object_or_string>, ...);
+
+
+- The "element" object method ".insertAdjacentElement()"
+    - Inserts a "node" object as an adjacent sibling in the DOM tree at a specified position
+
+    - Position values are as follows:
+        - "beforebegin"
+            - Before the selected "element" object
+            - ONLY valid if the element is in the DOM tree & has a parent element
+
+        - "afterbegin"
+            - Inside the selected "element" object
+            - BEFORE its 1st child element
+
+        - "beforend"
+            - Inside the selected "element" object
+            - AFTER its last child
+
+        - "afterend"
+            - After the selected "element" object
+            - ONLY valid if the element is in the DOM tree & has a parent element
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML)
+
+
+Syntax:
+<selected_element>.insertAdjacentElement(<position>, <html_element>);
+
+
+- The "element" object method ".after()"
+    - Inserts a set of "node" objects or strings
+        - Just AFTER the selected "element" object
+
+    - IMPORTANT: NOT SUPPORTED by Internet Explorer    
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/after)
+
+
+Syntax:
+<selected_element>.after(<node1>, <node2>, ..., <nodeN>);
+
+
+- The "element" object method ".before()"
+    - Inserts a set of "node" objects or strings
+        - Just BEFORE the selected "element" object
+
+    - IMPORTANT: NOT SUPPORTED by Internet Explorer    
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/before)
+
+
+Syntax:
+<selected_element>.after(<node1>, <node2>, ..., <nodeN>);
