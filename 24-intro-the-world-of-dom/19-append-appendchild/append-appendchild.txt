@@ -33,7 +33,7 @@ Syntax:
 
     - Returns NO value
 
-    - IMPORTANT: NOT SUPPORTED by Internet Explorer
+    - IMPORTANT: NOT SUPPORTED in Internet Explorer
 
     - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/append)
 
@@ -50,7 +50,7 @@ Syntax:
 
     - Returns NO value
 
-    - IMPORTANT: NOT SUPPORTED by Internet Explorer
+    - IMPORTANT: NOT SUPPORTED in Internet Explorer
 
     - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/prepend)
 
@@ -103,7 +103,7 @@ Syntax:
     - Inserts a set of "node" objects or strings
         - Just BEFORE the selected "element" object
 
-    - IMPORTANT: NOT SUPPORTED by Internet Explorer    
+    - IMPORTANT: NOT SUPPORTED in Internet Explorer    
 
     - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/before)
 
