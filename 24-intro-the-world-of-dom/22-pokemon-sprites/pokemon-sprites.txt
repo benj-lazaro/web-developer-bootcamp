@@ -1,0 +1,4 @@
+Pokemon Sprites Demo
+--------------------
+- A quick demo based on the methods & properties previously learned
+    - A page containing 151 still images of Pokemon sprites
