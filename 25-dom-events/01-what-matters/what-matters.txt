@@ -1,0 +1,16 @@
+What Matters In This Section 
+----------------------------
+- Crucial
+    - Introducing Events
+    - .addEventListener()
+    - Form Events
+
+
+- Important
+    - Keyboard Events
+    - Input & Change Events
+    - Event Bubbling
+    - Event Delegation
+
+
+- Nice To Have
