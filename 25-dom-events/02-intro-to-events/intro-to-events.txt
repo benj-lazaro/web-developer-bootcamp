@@ -1,0 +1,10 @@
+Intro To Events
+---------------
+- DOM Events are the key for creating intractive websites
+    - Doing anything in response to what a user is doing
+    
+    - Events that can be listen for & react to using JavaScript
+        - From clicking, dragging, dropping, hovering, scrolling, submitting (a form),
+          moving a mouse wheel, pressing a key, copying & pasting to clipboard,
+          resizing the (browser) screen
+    
