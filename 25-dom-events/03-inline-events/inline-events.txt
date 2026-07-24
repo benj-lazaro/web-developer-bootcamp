@@ -1,0 +1,37 @@
+Inline Events
+-------------
+- To respond to user Events using inline HTML attributes
+    - Common HTML attribute is the "onclick"
+
+    - NOT recommended to use
+        - Makes the HTML mark-up longer
+        - Tedious to implement & maintain
+
+
+- On the practice code (index.html)
+    - Add a HTML element <button>
+        - Assign the content "Click Me!"
+        
+        - Implement the HTML attribute "onclick"
+            - Assign "alert('you clicked me!')" as value
+            - Followed by a ";"
+            - Assign "alert('stop clicking')" as the 2nd value
+
+
+    - Add another HTML element <button>
+        - Assign the content "Click Me Too!"
+
+        - Implement the HTML attribute "ondblick"
+            - Assign "alert('you clicked me twice!')" as value
+
+
+    - Save the changes
+        - Load / reload the browser
+
+        - Clicking the button "Click Me!"
+            - Launches an alert w/ the content "you clicked me!"
+            - Followed by another alert w/ the content "stop clicking"
+
+        - Double-clicking the button "Click Me Too!"
+            - Launches an alert w/ the content "you clicked me twice!"
+            - Otherwise, no alert will be displayed
