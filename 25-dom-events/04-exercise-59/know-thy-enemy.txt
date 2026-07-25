@@ -1,0 +1,11 @@
+Exercise 59: Know Thy Enemy
+---------------------------
+- Write Inline Event Handlers
+    - Add two (2) Inline Handlers for a "click" Event
+    
+    - On a HTML element <h1>
+        - Print "boo" when clicked
+
+    - On a HTML element <button>
+        - Print "clicked" when clicked
+
