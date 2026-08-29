@@ -1,0 +1,46 @@
+The onclick Property
+---------------------
+- The ".onclick" property calls the assigned function
+    - After an "onclick" Event is triggered
+        - By a user clicking the assigning HTML element
+
+    - The assigned function can be either:
+        - Inline function expression
+        - Normal function 
+
+    - IMPORTANT: When assigning an externally defined function
+        - Omit the pair of ( ) from the function
+        - Prevents the function from executing immediately
+
+
+Syntax:
+// Using an inline function expression
+<selected_html_element>.onclick = function () {
+    ...
+};
+
+// Using a defined function
+function <name>() {
+    ...
+}
+<selected_html_element>.onclick = <function_name>;
+
+
+- The ".mouseenter" property calls an assigned function
+    - After a "mouseenter" Event is triggered
+        - When the mouse pointer enters the associated HTML element's area
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseenter_event)
+
+
+Syntax:
+// Using an inline function expression
+<selected_html_element>.mouseenter = function () {
+    ...
+};
+
+// Using a defined function
+function <name>() {
+    ...
+}
+<selected_html_element>.mouseenter = <function_name>;
