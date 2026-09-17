@@ -1,0 +1,17 @@
+addEventListener
+----------------
+- The method ".addEventListener()" allows to specify the Event type & callback function to execute
+    - It offers more control & flexibility on how an Event listener works
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+
+    - List of Events
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Events)
+
+    - It has a companion method named ".removeEventListener()"
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener)
+
+
+Syntax:
+<selected_html_element>.addEventListener(<event_type>, <callback_function>);
+
+<selected_html_element>.addEventListener(<event_type>, <callback_function>, { <options> });
