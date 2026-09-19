@@ -1,0 +1,9 @@
+Exercise 60: Click Events
+-------------------------
+- Use the method ".addEventListener()"
+    - To catch the Event "click" on two (2) button w/
+        - The HTML attribute "id" of "hello" & "goodbye"
+
+    - Click the button
+        - Displays "hello" & "goodbye", respectively on the browser's JavaScript console
+
