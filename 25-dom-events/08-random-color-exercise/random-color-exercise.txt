@@ -1,0 +1,8 @@
+Random Color Exercise
+---------------------
+- A simple practice project that
+    - Captures DOM Events
+
+    - Listen for a "click" Event
+        - Change the web page's background w/ a random color
+        - Change the text of the HTML element <h1> w/ the color's RGB value
