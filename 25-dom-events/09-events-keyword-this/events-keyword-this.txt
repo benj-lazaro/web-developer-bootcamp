@@ -1,0 +1,6 @@
+Events & The Keyword "this"
+---------------------------
+- The keyword "this" inside an Event Handler callback that is triggered by an Event Handler
+    - It (i.e. "this") will refer to whatever "thing" the Event is triggered on
+    
+    - NOTE: The keyword "this" is dependent on the "Execution Context"
