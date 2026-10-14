@@ -1,0 +1,35 @@
+Keyboard Events & Event Objects
+-------------------------------
+- An Event object is automatically (implicitly) created & passed 
+    - To a Callback function as an argument value
+
+    - Accessed as (an implicit) parameter variable
+        - Common naming convention: "e", "evt" or "event"
+
+    - Contains information about the specific Event triggered
+
+
+- For Keyboard Events
+    - It specifically refers to "KeyboardEvent" object
+
+    - The KeyboardEvent "keydown" is triggered
+        - When pressing (or holding) a keyboard key down
+
+    - The Keyboard Event "keyup" is triggered
+        - When releasing a keyboard key
+
+
+- The "KeyboardEvent" property "code"
+    - Refers to the actual key in the keyboard that is pressed (down)
+        - Does NOT refer to the generated character of the key that is pressed
+        
+    - It is NOT DEPENDENT on the user's keyboard language settings
+
+    - Common use case:
+        - Keyboard controls of a game (e.g. W, A, S, D or arrow keys)
+        
+
+- The "KeyboardEvent" property "key" 
+    - Refers to the generated character of the key that is pressed (down)
+
+    - It is DEPENDENT on the user's keyboard language settings
