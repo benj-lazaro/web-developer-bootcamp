@@ -1,0 +1,15 @@
+Form Events & PreventDefault
+----------------------------
+- When a form data is sent, triggered by the Event "submit"
+    - The default behavior is to forward the form data to the URL (endpoint)
+        - Specified in the attribute "action" of the HTML element <form>
+        - Browser loads the associated HTML document of the endpoint (if there is one)
+
+    - In order to remain on the same form after submission
+        - Use the Event method ".preventDefault()"
+        - It explicitly prevents the default behavior of the form
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
+
+        - NOTE: Useful for single page (web) application
+
+    
